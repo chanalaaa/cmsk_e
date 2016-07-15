@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css?v=<?php echo date("Y-m-d-H-i-s"); ?>" />
 
 	<script src="js/jquery-1.11.1.min.js?v=<?php echo date("Y-m-d-H-i-s"); ?>"></script>
+	<script src="js/main.js"></script>
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->

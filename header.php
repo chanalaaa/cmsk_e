@@ -13,7 +13,7 @@
 				<li><p><a <?php if($page == "home") echo('class="active"'); ?> href="index.php">หน้าหลัก</a></p></li>
 				<li><p><a <?php if($page == "course") echo('class="active"'); ?> href="course.php">คอร์ส</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
-				<li><p><a href="#">ล็อคอิน</a></p></li>
+				<li><p><a id="tt" href="#">ล็อคอิน</a></p></li>
 				<li class="btn_regis"><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></li>
 			</ul>
 			</div>
