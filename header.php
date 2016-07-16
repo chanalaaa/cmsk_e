@@ -10,8 +10,11 @@
 		<nav>
 			<div class="btn_m_menu" id="mobile_menu">
 			<ul>
-				<li><p><a <?php if($page == "home") echo('class="active"'); ?> href="index.php">หน้าหลัก</a></p></li>
+				
 				<li><p><a <?php if($page == "course") echo('class="active"'); ?> href="course.php">คอร์ส</a></p></li>
+				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">วิทยากร</a></p></li>
+				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">ผลงานที่ผ่านมา</a></p></li>
+				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">บทความ</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
 				<li><p><a id="tt" href="#">ล็อคอิน</a></p></li>
 				<li class="btn_regis"><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></li>
@@ -27,8 +30,11 @@
 		<div class="mobile_menu_wrapper visible_mobile">
 			<ul>
 				<!--<li><p><a href="#">หน้าหลัก</a></p></li>-->
-				<li><p><a <?php if($page == "home") echo('class="active"'); ?> href="index.php">หน้าหลัก</a></p></li>
+				
 				<li><p><a <?php if($page == "course") echo('class="active"'); ?> href="course.php">คอร์ส</a></p></li>
+				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">วิทยากร</a></p></li>
+				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">ผลงานที่ผ่านมา</a></p></li>
+				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">บทความ</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
 				<li><p><a href="#">ล็อคอิน</a></p></li>
 				<li><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></li>

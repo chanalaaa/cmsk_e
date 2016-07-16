@@ -26,15 +26,15 @@ include('header.php');
                 <div class="cmsk_slide">
                     <ul class="bxslider">
                         <li>
-                            <img src="img/cmsk_slide.jpg" />
+                            <img src="http://placehold.it/1200x450" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href="#">
-                                    <span class="">Single License ALL-IN-ONE</span>
+                                    <span class="">FAST LANE Single License</span>
                                 </a>
                             </div>
                         </li>
                         <li>
-                            <img src="img/cmsk_slide.jpg" />
+                            <img src="http://placehold.it/1200x450" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href="#">
                                     <span class="">Test</span>
@@ -42,7 +42,7 @@ include('header.php');
                             </div>
                         </li>
                         <li>
-                            <img src="img/cmsk_slide.jpg" />
+                            <img src="http://placehold.it/1200x450" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href="#">
                                     <span class="">Single License ALL-IN-ONE</span>
@@ -50,7 +50,7 @@ include('header.php');
                             </div>
                         </li>
                         <li>
-                            <img src="img/cmsk_slide.jpg" />
+                            <img src="http://placehold.it/1200x450" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href="#">
                                     <span class="">Test</span>
@@ -83,9 +83,8 @@ include('header.php');
     <div class="cmsk_row bg_white">
         <!-- cmsk_row1_text -->
         <div class="cmsk_row1_text text_thaisans_neue">
-            <p class="">Single License ALL-IN-ONE</p>
-            <p class="text_green highlight">จบทุกองค์ความรู้</p>
-            <p>สู่เป้าหมายได้อย่างไร้ขีดจำกัด</p>
+            <p class="text_green highlight">FAST LANE Single License</p>
+            <p>คอร์สเดียวเน้นๆ ที่จะทำให้คุณสอบผ่าน</p>
         </div>
         <!-- end cmsk_row1_text -->
         <div class="circle_mobile visible_mobile"><img src="img/circle_mobile.png"></div>
@@ -98,11 +97,12 @@ include('header.php');
             <!-- cmsk_row2col_left -->
             <div class="cmsk_row2col_left bg_green1">
                 <div class="left_article">
-                    <p class="text_headline text_green">ALL-IN-ONE</p>
+                    <p class="text_headline text_green">INTENSIVE <br><span>เนื้อหาเข้มข้น ตรงประเด็น</span></p>
                     <ul class="bullet">
-                        <li>เนื้อหาครบถ้วนรวบรวมไว้ที่เดียว จากตำราและสื่อการสอนที่คุณ ไม่สามารถหาได้ที่ไหน</li>
-                        <li>ทำโจทย์ผ่านระบบที่จะช่วยเพิ่มโอกาสการสอบผ่านโดยการฝีกฝน</li>
-                        <li>สอบถามข้อสงสัยผ่านระบบถาม-ตอบ ได้ทุกที่ทุกเวลา</li>
+                        <li>ได้ความรู้แบบเน้นๆ ตรงประเด็นเข้าใจเนื้อหาสำคัญสำหรับสอบ ได้ภายใน15 ชม.</li>
+                        <li>เทคนิคการสอนที่เข้าใจง่ายและ มีเทคนิคเพิ่มในการช่วยจำ</li>
+                        <li>ตะลุยโจทย์ไปพร้อมเนื้อหาสำคัญ เพิ่มความเข้าใจได้มากขึ้น</li>
+                        <li>โจทย์มากมายหลากหลายให้ได้ฝึกฝน หลังเรียนจบก่อนเจอข้อสอบจริง</li>
                     </ul>
                 </div>
             </div>
@@ -110,11 +110,12 @@ include('header.php');
             <!-- cmsk_row2col_right -->
             <div class="cmsk_row2col_right bg_green2">
                 <div class="right_article">
-                    <p class="text_headline text_green">DR.JOB</p>
+                    <p class="text_headline text_green">ASSURE<br><span>เพิ่มความมั่นใจ ว่าคุณก็สอบผ่านได้เช่นกัน</span></p>
                     <ul class="bullet">
-                        <li>ทักษะการถ่ายทอดจากผู้สอนที่มีอัตราการสอบผ่านของนักเรียนสูงสุด</li>
-                        <li>ประสบการณ์การอบรมให้กับสถาบันการเงินชั้นนำของประเทศ</li>
-                        <li>ผู้บุกเบิกนวัตกรรมการสอนแบบ Adaptive Learning มาประยุกต์ใช้รายแรก</li>
+                        <li>ถอดสูตรความสำเร็จจากคอร์สหลัก ที่ผู้เรียนสอบผ่านกว่าหลายพันคน</li>
+                        <li>ด้วยประสบการณ์อันยาวนานของผู้สอน จึงเข้าใจว่าผู้เรียนต้องการอะไร </li>
+                        <li>ถ่ายทอดเนื้อหาออกมาให้เข้าใจได้ง่าย ไม่จำเป็นต้องมีพื้นฐานก็เรียนเข้าใจได้</li>
+                        <li>ใส่ใจติดตามการสอน พร้อมตอบทุกข้อสงสัยผ่านแอพพลิเคชั่น Line@ โดย TA ผู้เชี่ยวชาญ</li>
                     </ul>
                 </div>
             </div>
@@ -129,27 +130,28 @@ include('header.php');
     <div class="cmsk_row3col bg_green3">
         <!-- wrapper -->
         <div class="wrapper">
-            <p class="text_headline text_green">LIMITLESS</p>
+            <p class="text_headline text_green">FLEXIBLE <br><span>คล่องตัวสำหรับทุกไลฟ์สไตล์</span>  </p>
+
             <!-- cmsk_row3col_wrap -->
             <div class="cmsk_row3col_wrap">
                 <!-- cmsk_row3col_box -->
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
-                        <li>ไร้ข้อจำกัดของระดับความรู้ไม่ว่าคุณคือนักศึกษาจบใหม่หรือผู้เตรียมความพร้อมขั้นสุดท้าย</li>
+                        <li>เลือกเรียนได้ตามใจ เรียนได้สะดวกทุกที่ทุกเวลา </li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
                 <!-- cmsk_row3col_box -->
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
-                        <li>ไม่มีข้อจำกัดเรื่องเวลาให้คุณสามารถเรียนที่ไหน เมื่อไหร่ก็ได้บนอินเตอร์เน็ท</li>
+                        <li>หยุดเพื่อทำความเข้าใจเนื้อหาเพิ่มเติม ได้ตามต้องการ (ก่อนไปต่อที่ส่วนอื่น)</li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
                 <!-- cmsk_row3col_box -->
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
-                        <li>ทบทวนเนื้อหาได้อย่างไร้ขีดจำกัด สามารถเรียนซ้ำในส่วนที่คุณต้องการ </li>
+                        <li>ทบทวนเนื้อหาที่เรียนซ้ำได้ ตามความพอใจ</li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -167,21 +169,23 @@ include('header.php');
             <div class="cmsk_row1_4col_wrap">
                 <!-- cmsk_row1_4col_left -->
                 <div class="cmsk_row1_4col_left">
-                    <p class="text_subhead text_black">COURSE</p>
+                    <p class="text_subhead text_black">คอร์ส</p>
                 </div>
                 <!-- end cmsk_row1_4col_left -->
                 <!-- cmsk_row1_4col_right -->
                 <div class="cmsk_row1_4col_right">
                     <!-- text_description -->
                     <div class="text_description">
-                        <p class="course_head text_green">Single License ALL-IN-ONE</p>
+                        <p class="course_head text_green">FAST LANE Single License</p>
                         <p>หลักสูตรครอบคลุมเนื้อหาทั้งหมดสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือที่เรียกกันอย่างไม่เป็นทางการว่า Single License ซึ่งเป็นใบอนุญาตสำหรับผู้ประกอบวิชาชีพเกี่ยวกับการซื้อขายหลักทรัพย์ เช่น หุ้น ตราสารหนี้ กองทุนรวม</p>
+                        <br>
+                        <p>ด้วยเนื้อหาเข้มข้นและประสบการณ์ที่สั่งสมมาอย่างยาวนานของผู้สอน ให้คุณมั่นใจได้ว่าการสอบผ่าน Single License ไม่ใช่เรื่องยาก และยังสามารถเรียนได้อย่างสะดวก ทุกที่ทุกเวลา</p>
                     </div>
                     <!-- end text_description -->
                     <!-- button_wrap -->
                     <div class="button_wrap">
-                        <a class="btn btn_black" href="#"><span>ดูต่อทั้งหมด</span></a>
-                        <a class="btn btn_green_long btn_next" href="#"><span>ทดลองใช้</span></a>
+                       <!-- <a class="btn btn_black" href="#"><span>ดูต่อทั้งหมด</span></a> -->
+                        <a class="btn btn_green_long" href="#"><span>อ่านรายละเอียด</span></a>
                     </div>
                     <!-- end button_wrap -->
                 </div>

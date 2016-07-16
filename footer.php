@@ -15,6 +15,20 @@
             <!-- contact_info_wrap -->
             <div class="contact_info_wrap">
                 <ul class="contact_info">
+                         <li>
+                        <div class="contact_icon">
+                            <a class="icon_phone"></a>
+                        </div>
+                        <p>Facebook</p>
+                    </li>
+                    <li>
+                        <div class="contact_icon">
+                            <a class="icon_letter"></a>
+                        </div>
+                        <p>Line@ SingleLicense</p>
+                    </li>
+                </ul>
+                 <ul class="contact_info">
                     <li>
                         <div class="contact_icon">
                             <a class="icon_phone"></a>
