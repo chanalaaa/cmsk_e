@@ -1631,7 +1631,7 @@ footer .footer_wrap .copyright p {
 }
 
 .course_wrapper_in .course_left h1 {
-    font-size: 2.25em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -1641,14 +1641,14 @@ footer .footer_wrap .copyright p {
 }
 
 .course_wrapper_in .course_right {
-    width: 73%;
+    width: 60%;
     float: left;
 }
 
 .course_wrapper_in .course_right .course_intro_wrap {}
 
 .course_wrapper_in .course_right .course_intro_wrap p {
-    font-size: 1.9375em;
+    font-size: 1.7em;
 }
 
 .course_wrapper_in .course_right .cmsk_payment_text p {
@@ -1679,7 +1679,7 @@ footer .footer_wrap .copyright p {
 }
 
 .course_wrapper_in .course_right .module_section p.module_head {
-    font-size: 2.5em;
+    font-size: 2.1em;
 }
 
 .course_wrapper_in .course_right .module_section ul.module {}
@@ -1693,7 +1693,7 @@ ul.module {
 }
 
 ul.module li {
-    font-size: 1.76em;
+    font-size: 1.7em;
     background: url("../img/bullet.png") no-repeat left 7px;
     background-size: 14px;
     padding-left: 1em;
@@ -2289,4 +2289,8 @@ ul.progress_section li .progress_course_bar {
 
 .modal-body {
     padding: 2px 16px;
+}
+
+.flowplayer.is-mouseout .fp-timeline{
+    height: 0px !important;
 }

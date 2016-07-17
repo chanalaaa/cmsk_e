@@ -32,8 +32,9 @@ include('header.php');
 
 				<!-- course_left -->
 				<div class="course_left">
-					<h1 class="text_arial course_head text_green hidden_mobile">Single<br> License<br> ALL-IN-ONE</h1>
-					<h1 class="text_arial course_head text_green visible_mobile">Single License ALL-IN-ONE</h1>
+					<h1 class="course_head text_green hidden_mobile">FAST LANE<br>Single License<br>
+					</h1>
+					<h1 class="course_head text_green visible_mobile">FAST LANE Single License</h1>
 				</div>
 				<!-- end course_left -->
 
@@ -77,10 +78,19 @@ include('header.php');
 							<li>กองทุนรวม และหลักเกณฑ์การซื้อขายกองทุนรวม</li>
 						</ul>
 					</div>
+						<div class="module_section">
+						<br>
+						<p class="module_head text_green">ชมตัวอย่างการเรียน</p>
+						<div class="player">
+						   <video>
+						        <source type="video/webm"  src="//stream.flowplayer.org/bauhaus.webm">
+     							<source type="video/mp4"   src="//stream.flowplayer.org/bauhaus.mp4">
+						   </video>
+						</div>
+					</div>
 
 					<div class="button_wrap">
-						<a class="btn btn_green_long" href="trial_register.php"><span>ทดลองใช้</span></a>
-						<a class="btn btn_green_182 btn_next" href="course_practice.php"><span>ตัวอย่างแบบฝึกหัด</span></a>
+						<a class="btn btn_green_182" href="course_practice.php"><span>ตัวอย่างแบบฝึกหัด</span></a>
 					</div>
 
 				</div>
@@ -106,7 +116,12 @@ include('header.php');
 
 </div>
 <!-- end cmsk_main_content -->
+<script>
 
+$(function () {
+   $(".player").flowplayer();
+});
+</script>
 
 
 <?php include('footer.php'); ?>
