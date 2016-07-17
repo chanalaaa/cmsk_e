@@ -1828,6 +1828,8 @@ ul.question_list li p.active {
 }
 
 .cmsk_register_wrapper .cmsk_register_form input {
+    font-family: inherit;
+    font-size: 1.3em;
     width: 97%;
     height: 41px;
     background-color: #EDEDED;
@@ -1838,24 +1840,24 @@ ul.question_list li p.active {
 
 .cmsk_register_form input::-webkit-input-placeholder {
     /* WebKit browsers */
-    color: #000;
+    color: #999;
 }
 
 .cmsk_register_form input:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: #000;
+     color: #999;
     opacity: 1;
 }
 
 .cmsk_register_form input::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: #000;
+    color: #999;
     opacity: 1;
 }
 
 .cmsk_register_form input:-ms-input-placeholder {
     /* Internet Explorer 10+ */
-    color: #000;
+    color: #999;
 }
 
 .cmsk_register_form .cmsk_register_button {

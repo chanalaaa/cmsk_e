@@ -13,7 +13,7 @@ include('header.php');
 
 		<!-- wrapper -->
 		<div class="wrapper">
-			<p class="page_topic text_white">สมัครเรียน</p>
+			<p class="page_topic text_white">สมัครสมาชิก</p>
 		</div>
 		<!-- end wrapper -->
 
@@ -29,14 +29,13 @@ include('header.php');
 
 			<!-- cmsk_register_wrapper -->
 			<div class="cmsk_register_wrapper">
-				<p class="cmsk_register_head text_green">สมัครสมาชิก</p>
 				<form class="cmsk_register_form">
 					<input name="name" placeholder="ชื่อ - นามสกุล">
 					<input name="email" placeholder="อีเมล์">
 					<input name="password" placeholder="รหัสผ่าน">
 					<input name="comfirm_password" placeholder="ยืนยันรหัสผ่าน">
 					<div class="cmsk_register_button">
-						<a class="btn btn_green_long" href="payment.php"><span>ตกลง</span></a>
+						<a class="btn btn_green_long" href="payment.php"><span>สมัครสมาชิก</span></a>
 					</div>
 				</form>
 			</div>
