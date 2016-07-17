@@ -281,8 +281,7 @@ nav a.active {
 /*.btn_black:hover span{
     color: #000;
 }*/
-
-.btn_green_long {
+.btn_green_long,.btn_white_long {
     width: 122px;
     /*142*/
     height: 40px;
@@ -295,7 +294,9 @@ nav a.active {
     -moz-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
 }
-
+.btn_white_long {
+    border: 5px solid #fff;
+}
 .cmsk_row1_4col .btn_green_long {
     width: 170px;
 }
@@ -2246,6 +2247,14 @@ ul.progress_section li .progress_course_bar {
     animation-name: animatetop;
     animation-duration: 0.4s
 
+}
+
+#myModal_done{
+    text-align: center;
+}
+
+#myModal_done .btn{
+    margin-left: 15px;
 }
 
 
