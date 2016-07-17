@@ -1,14 +1,4 @@
 <?php include('meta.php'); ?>
-<div id="myModal" class="modal">
-    <!-- Modal content -->
-    <div class="modal-content">
-        <span class="modal-close">×</span>
-        <div class="modal-body">
-            <p>Some text in the Modal Body</p>
-            <p>Some other text...</p>
-        </div>
-    </div>
-</div>
 <?php 
 $page = "home";
 include('header.php'); 

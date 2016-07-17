@@ -2,15 +2,12 @@ window.onload = function() {
 
     // Get the modal
     var modal = document.getElementById('myModal');
-
-    // Get the button that opens the modal
-    var btn = document.getElementById("tt");
-
+    
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
 
     // When the user clicks the button, open the modal
-    $('#tt').click(function() {
+    $('#login_btn').click(function() {
         modal.style.display = "block";
     });
 

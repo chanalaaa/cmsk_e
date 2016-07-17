@@ -16,7 +16,7 @@
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">ผลงานที่ผ่านมา</a></p></li>
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">บทความ</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
-				<li><p><a id="tt" href="#">ล็อคอิน</a></p></li>
+				<li><p><a id="login_btn" href="#">ล็อคอิน</a></p></li>
 				<li class="btn_regis"><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></li>
 			</ul>
 			</div>
@@ -36,12 +36,11 @@
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">ผลงานที่ผ่านมา</a></p></li>
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">บทความ</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
-				<li><p><a href="#">ล็อคอิน</a></p></li>
+				<li><p><a id="login_btn" href="#">ล็อคอิน</a></p></li>
 				<li><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></li>
 			</ul>
 		</div>
-
-
+	
 		<script>
 			var click = 1;
 				$("#mobile_menu").click(function(){
@@ -64,3 +63,22 @@
 	<!-- end wrapper -->
 </header>
 <!-- end header -->
+
+	<div id="myModal" class="modal">
+		    <!-- Modal content -->
+		    <span class="modal-close">×</span>
+		    <div class="modal-content">
+		        <div class="modal-body">
+		            <p class="modal-text_title">เข้าสู่ระบบ</p>
+		            <input name="id" placeholder="ชื่อผู้ใช้">
+		            <input name="password"  type="password" placeholder="รหัสผ่าน">
+		            <a class="btn btn_green_long" href="#"><span>ล็อกอิน</span></a> <span>ท่านยังไม่ได้เป็นสมาชิก <a href="register.php" style="text-decoration:underline;" > สมัครสมาชิก</a></span>
+		            <br>
+		            <div class="line_white"></div>
+		              <br>
+		              <p class="modal-text_title">ลืมรหัสผ่าน</p>
+		           	 <input name="email" type="email" placeholder="อีเมล์">
+		             <a class="btn btn_green_long" href="#"><span>ล็อกอิน</span></a> 
+		        </div>
+		    </div>
+		</div>
