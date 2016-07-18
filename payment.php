@@ -79,11 +79,12 @@ include('header.php');
 	</div>
 	<!-- end course_wrapper -->
 
-
-
-
 	<!-- course_wrapper -->
-	<div class="course_wrapper bg_gray">
+	<div class="course_wrapper payment_wrapper bg_white">
+
+<br>
+<div class="line_gray"></div>
+
 		<!-- wrapper -->
 		<div class="wrapper">
 
@@ -92,7 +93,7 @@ include('header.php');
 
 				<!-- course_left -->
 				<div class="course_left">
-					<h1 class="course_head_payment text_white">จ่ายผ่านบัตรเครดิต</h1>
+					<h1 class="course_head_payment">จ่ายผ่านบัตรเครดิต</h1>
 					<div class="icon_image">
 						<img src="img/icon_creditcard.png">
 					</div>
@@ -104,7 +105,7 @@ include('header.php');
 					
 					<div class="course_intro_wrap">
 						<div class="creditcard_payment">
-							<a class="btn btn_green_182_2" href="trial_register.php"><span>จ่ายผ่านบัตรเครดิต</span></a>
+							<a class="btn btn_green_long" href="trial_register.php"><span>จ่ายผ่านบัตรเครดิต</span></a>
 						</div>
 					</div>
 

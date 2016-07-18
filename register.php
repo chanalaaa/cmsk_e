@@ -6,7 +6,7 @@
 		        <div class="modal-body">
 		            <p class="modal-text_title">ทำรายการเรียบร้อยแล้ว</p>     
 		             <a class="btn btn_green_long" href="#"><span>เสร็จสิ้น</span></a> 
-		              <a class="btn btn_white_long" href="#"><span>ชำระเงิน</span></a> 
+		              <a class="btn btn_white_long" href="payment.php"><span>ชำระเงิน</span></a> 
 		        </div>
 		    </div>
 		</div>

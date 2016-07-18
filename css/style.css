@@ -281,7 +281,9 @@ nav a.active {
 /*.btn_black:hover span{
     color: #000;
 }*/
-.btn_green_long,.btn_white_long {
+
+.btn_green_long,
+.btn_white_long {
     width: 122px;
     /*142*/
     height: 40px;
@@ -294,9 +296,11 @@ nav a.active {
     -moz-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
 }
+
 .btn_white_long {
     border: 5px solid #fff;
 }
+
 .cmsk_row1_4col .btn_green_long {
     width: 170px;
 }
@@ -1704,7 +1708,9 @@ ul.module li {
     padding-left: 1em;
     padding-bottom: 5px;
 }
-
+.creditcard_payment .btn_green_long{
+    width: 166px;
+}
 @media(max-width: 480px) {
     .course_wrapper_in .course_left {
         width: 100%;
@@ -1846,7 +1852,7 @@ ul.question_list li p.active {
 
 .cmsk_register_form input:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-     color: #999;
+    color: #999;
     opacity: 1;
 }
 
@@ -2246,14 +2252,13 @@ ul.progress_section li .progress_course_bar {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
-
 }
 
-#myModal_done{
+#myModal_done {
     text-align: center;
 }
 
-#myModal_done .btn{
+#myModal_done .btn {
     margin-left: 15px;
 }
 
@@ -2333,12 +2338,22 @@ ul.progress_section li .progress_course_bar {
     color: #888;
 }
 
-.line_white {
+.line_white,
+.line_gray {
     width: 100%;
     height: 1px;
     background-color: #fff;
     display: block;
-    margin: 30px 0;
+    margin: 30px auto;
+}
+
+.line_gray {
+    background-color: #cbcbcb;;
+}
+
+.payment_wrapper .line_gray {
+    width: 80%;
+    height: 2px;
 }
 
 .flowplayer.is-mouseout .fp-timeline {
