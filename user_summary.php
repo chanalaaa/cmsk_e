@@ -44,23 +44,27 @@ include('header.php');
 								<th>รายการวิชาเรียนที่จ่ายเงินแล้ว</th>
 								<th>วันเริ่มเรียน</th>
 								<th>วันหมดอายุ</th>
+								<th>รายการยืนยัน</th>
 							</tr>
 							</thead>
 							<tbody>
 							<tr>
-								<td class="text_arial text_green">1. Single License ALL-IN-ONE</td>
+								<td class="">1. SINGLE LICENSE ALL-IN-ONE</td>
 								<td>9 พ.ค. 2558</td>
 								<td class="text_orange">11 พ.ค. 2558</td>
+								<td>9</td>
 							</tr>
 							<tr>
-							  <td class="text_arial text_green">2. Single License ALL-IN-ONE</td>
+							  <td class="">2. SINGLE LICENSE ALL-IN-ONE</td>
 							  <td>10 พ.ค. 2558</td>
 							  <td class="text_orange">12 พ.ค. 2558</td>
+							  <td>9</td>
 							</tr>
 							<tr>
-							  <td class="text_arial text_green">3. Single License ALL-IN-ONE</td>
+							  <td class="">3. SINGLE LICENSE ALL-IN-ONE</td>
 							  <td>11 พ.ค. 2558</td>
 							  <td class="text_orange">13 พ.ค. 2558</td>
+							  <td>9</td>
 							</tr>
 							</tbody>
 						</table>
@@ -68,10 +72,10 @@ include('header.php');
 					<!-- end course_table -->
 				</div>
 				<!-- end current_course_wrapper -->
-
+<!-- 
 				<h1 class="text_green">ความก้าวหน้าของการเรียน</h1>
 
-				<!-- course_progress_wrapper -->
+				
 				<div class="course_progress_wrapper">
 					<ul class="progress_section">
 						<li>
@@ -100,107 +104,36 @@ include('header.php');
 						</li>
 					</ul>
 				</div>
-				<!-- end course_progress_wrapper -->
+			r -->
 
 
-				<h1 class="text_green">รายการคอร์สทั้งหมด</h1>
 
-				<!-- trial_course_list-->
-				<ul class="trial_course_list">
-
-					<li>
-						<!-- cmsk_course_intro -->
-						<div class="cmsk_course_intro">
-							<div class="cmsk_course_intro_in">
-								<p class="course_name text_arial text_green">Single License ALL-IN-ONE</p>
-								<p>หลักสูตรครอบคลุมเนื้อหาทั้งหมดสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือที่เรียกกันอย่างไม่เป็นทางการว่า Single License ซึ่งเป็นใบอนุญาตสำหรับผู้ประกอบวิชาชีพเกี่ยวกับการซื้อขายหลักทรัพย์ เช่น หุ้น ตราสารหนี้ กองทุนรวม</p>
-								<div class="cmsk_course_button hidden_mobile">
-									<a class="btn btn_green_long" href="trial_register.php"><span>ทดลองใช้</span></a>
-								</div>
-							</div>
-						</div>
-						<!-- end cmsk_course_intro -->
-
-						<!-- cmsk_course_instructor -->
-						<div class="cmsk_course_instructor">
-							<p class="instructor text_arial text_green">Instructor</p>
-							<div class="instructor_image">
-								<img src="img/chartchai2.jpg">
-							</div>
-							<p class="instructor_name">ดร. ชาติชาย มีสุขโข</p>
-							<p class="instructor_position">Securities Investment Consultant</p>
-
-							<div class="cmsk_course_button visible_mobile">
-								<a class="btn btn_green_long" href="trial_register.php"><span>ทดลองใช้</span></a>
-							</div>
-
-						</div>
-						<!-- end cmsk_course_instructor -->
-					</li>
-
-					<li>
-						<!-- cmsk_course_intro -->
-						<div class="cmsk_course_intro">
-							<div class="cmsk_course_intro_in">
-								<p class="course_name text_arial text_green">Single License ALL-IN-ONE</p>
-								<p>หลักสูตรครอบคลุมเนื้อหาทั้งหมดสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือที่เรียกกันอย่างไม่เป็นทางการว่า Single License ซึ่งเป็นใบอนุญาตสำหรับผู้ประกอบวิชาชีพเกี่ยวกับการซื้อขายหลักทรัพย์ เช่น หุ้น ตราสารหนี้ กองทุนรวม</p>
-								<div class="cmsk_course_button hidden_mobile">
-									<a class="btn btn_green_long" href="trial_register.php"><span>ทดลองใช้</span></a>
-								</div>
-							</div>
-						</div>
-						<!-- end cmsk_course_intro -->
-
-						<!-- cmsk_course_instructor -->
-						<div class="cmsk_course_instructor">
-							<p class="instructor text_arial text_green">Instructor</p>
-							<div class="instructor_image">
-								<img src="img/chartchai2.jpg">
-							</div>
-							<p class="instructor_name">ดร. ชาติชาย มีสุขโข</p>
-							<p class="instructor_position">Securities Investment Consultant</p>
-
-							<div class="cmsk_course_button visible_mobile">
-								<a class="btn btn_green_long" href="trial_register.php"><span>ทดลองใช้</span></a>
-							</div>
-
-						</div>
-						<!-- end cmsk_course_instructor -->
-					</li>
-
-					<li>
-						<!-- cmsk_course_intro -->
-						<div class="cmsk_course_intro">
-							<div class="cmsk_course_intro_in">
-								<p class="course_name text_arial text_green">Single License ALL-IN-ONE</p>
-								<p>หลักสูตรครอบคลุมเนื้อหาทั้งหมดสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือที่เรียกกันอย่างไม่เป็นทางการว่า Single License ซึ่งเป็นใบอนุญาตสำหรับผู้ประกอบวิชาชีพเกี่ยวกับการซื้อขายหลักทรัพย์ เช่น หุ้น ตราสารหนี้ กองทุนรวม</p>
-								<div class="cmsk_course_button hidden_mobile">
-									<a class="btn btn_green_long" href="trial_register.php"><span>ทดลองใช้</span></a>
-								</div>
-							</div>
-						</div>
-						<!-- end cmsk_course_intro -->
-
-						<!-- cmsk_course_instructor -->
-						<div class="cmsk_course_instructor">
-							<p class="instructor text_arial text_green">Instructor</p>
-							<div class="instructor_image">
-								<img src="img/chartchai2.jpg">
-							</div>
-							<p class="instructor_name">ดร. ชาติชาย มีสุขโข</p>
-							<p class="instructor_position">Securities Investment Consultant</p>
-
-							<div class="cmsk_course_button visible_mobile">
-								<a class="btn btn_green_long" href="trial_register.php"><span>ทดลองใช้</span></a>
-							</div>
-
-						</div>
-						<!-- end cmsk_course_instructor -->
-					</li>
-
-				</ul>
-				<!-- end trial_course_list -->
-
+				<div class="course_view_list">
+				<div class="course_view-title">
+					<h2>หมวดที่ 1 <span>(20 ตอน)</span></h2>
+					<i class="toggle_btn">+</i>
+				</div>
+					<ul class="course_view_sublist">
+						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+					</ul>
+				</div>
+					<!-- course_view_list -->
+			<div class="course_view_list">
+				<div class="course_view-title">
+					<h2>หมวดที่ 2 <span>(5 ตอน)</span></h2>
+					<i class="toggle_btn">+</i>
+				</div>
+					<ul class="course_view_sublist">
+						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+					</ul>
+				</div>
+			</div>
+			<!-- course_view_list -->
 			</div>
 			<!-- end cmsk_trial_course_wrap -->
 

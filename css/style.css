@@ -13,8 +13,9 @@ body {
 
 body {
     /*background: url('../img/cmsk_bg.jpg') repeat-x;
-    background-size: 100%;*/
-    background-color: #E4E4E4;
+    background-size: 100%;
+    background-color: #E4E4E4;*/
+    background-color: #fff;
     /*font-family: thaisans_neue_semi;*/
     font-family: thaisans_neue;
     color: #4D4D4D;
@@ -1708,9 +1709,11 @@ ul.module li {
     padding-left: 1em;
     padding-bottom: 5px;
 }
-.creditcard_payment .btn_green_long{
+
+.creditcard_payment .btn_green_long {
     width: 166px;
 }
+
 @media(max-width: 480px) {
     .course_wrapper_in .course_left {
         width: 100%;
@@ -2005,7 +2008,7 @@ ul.trial_course_list li .cmsk_course_instructor .instructor_image img {
 
 .current_course_wrapper .course_table {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 55px;
 }
 
 
@@ -2027,6 +2030,11 @@ tr {
     background: #EDEDED;
 }
 
+th:last-child {
+    width: 13%;
+    text-align: center;
+}
+
 th {
     background: #C7C7C7;
     color: #4D4D4D;
@@ -2036,6 +2044,7 @@ th {
 
 td:first-child {
     font-size: 1.125em;
+    font-weight: 600;
 }
 
 td,
@@ -2050,6 +2059,10 @@ td {
     font-size: 0.875em;
     padding: 10px;
     line-height: 1.2em;
+}
+
+td:last-child {
+    text-align: center;
 }
 
 @media(max-width: 480px) {
@@ -2348,7 +2361,8 @@ ul.progress_section li .progress_course_bar {
 }
 
 .line_gray {
-    background-color: #cbcbcb;;
+    background-color: #cbcbcb;
+    ;
 }
 
 .payment_wrapper .line_gray {
@@ -2358,4 +2372,50 @@ ul.progress_section li .progress_course_bar {
 
 .flowplayer.is-mouseout .fp-timeline {
     height: 0px !important;
+}
+
+.course_view_list {
+    font-size: 1.5em;
+    margin: 0px 0 20px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.course_view-title {
+    margin-bottom: 20px;
+}
+
+.course_view_list h2 {
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.course_view_list h2 span {
+    font-size: .8em;
+}
+
+.course_view_list i {
+    float: right;
+    padding: 5px 25px 0 0;
+}
+.course_view_list i:hover{
+    cursor: pointer;
+}
+.course_view_sublist{
+    display: block;
+    left:20px;
+}
+
+ul.course_view_sublist li i {
+    float: right;
+    padding: 0;
+}
+
+ul.course_view_sublist li {
+    background-color: gray;
+    padding: 15px 25px;
+    font-weight: 600;
+}
+
+ul.course_view_sublist li:nth-child(even) {
+    background-color: transparent;
 }
