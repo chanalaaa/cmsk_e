@@ -29,8 +29,12 @@ window.onload = function() {
     $('.toggle_btn').click(function() {
         var toggle_list = $(this).parents(".course_view_list");
         var toggle_target = toggle_list.find(".course_view_sublist");
-        var target_has_show = toggle_target.css("display");
-        console.log(target_has_show);
+        var target_has_show = toggle_target.hasClass("active");
+        if(target_has_show == 0){
+            toggle_target.addClass("active");
+        }else{
+            toggle_target.removeClass("active");
+        }
       
     });
 };
