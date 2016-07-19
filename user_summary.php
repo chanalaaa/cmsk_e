@@ -113,11 +113,27 @@ include('header.php');
 					<h2>หมวดที่ 1 <span>(20 ตอน)</span></h2>
 					<i class="toggle_btn">+</i>
 				</div>
-					<ul class="course_view_sublist">
+					<ul class="course_view_sublist" id="tt">
 						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
 						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
 						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
 						<li>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 13 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 14 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 15 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 16 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 17 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 18 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 19 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 20 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
 					</ul>
 				</div>
 					<!-- course_view_list -->
@@ -132,7 +148,27 @@ include('header.php');
 						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
 					</ul>
 				</div>
-			</div>
+			<!-- course_view_list -->
+			<div class="course_view_list">
+				<div class="course_view-title">
+					<h2>หมวดที่ 3 <span>(12 ตอน)</span></h2>
+					<i class="toggle_btn">+</i>
+				</div>
+					<ul class="course_view_sublist">
+						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+					</ul>
+				</div>
 			<!-- course_view_list -->
 			</div>
 			<!-- end cmsk_trial_course_wrap -->

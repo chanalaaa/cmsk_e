@@ -30,6 +30,11 @@ window.onload = function() {
         var toggle_list = $(this).parents(".course_view_list");
         var toggle_target = toggle_list.find(".course_view_sublist");
         var target_has_show = toggle_target.hasClass("active");
+        /*
+        toggle_target.toggleClass('active'); 
+        //jquery style OR
+        toggle_target.slideToggle();
+         */
         if(target_has_show == 0){
             toggle_target.addClass("active");
         }else{
