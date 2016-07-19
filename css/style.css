@@ -2396,16 +2396,25 @@ ul.progress_section li .progress_course_bar {
 .course_view_list i {
     float: right;
     padding: 5px 25px 0 0;
+    
 }
 .course_view_list i:hover{
     cursor: pointer;
 }
 .course_view_sublist{
-    display: none;
-    left:20px;
+    max-height: 0;
+    overflow-y: hidden;
+      -moz-transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
 }
 .course_view_sublist.active{
-    display: block;
+    max-height: 1500px;
+    -moz-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
 }
 
 ul.course_view_sublist li i {
