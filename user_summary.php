@@ -111,9 +111,9 @@ include('header.php');
 				<div class="course_view_list">
 				<div class="course_view-title">
 					<h2>หมวดที่ 1 <span>(20 ตอน)</span></h2>
-					<i class="toggle_btn">+</i>
+					<i class="toggle_btn"></i>
 				</div>
-					<ul class="course_view_sublist" id="tt">
+					<ul class="course_view_sublist">
 						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
 						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
 						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
@@ -140,7 +140,7 @@ include('header.php');
 			<div class="course_view_list">
 				<div class="course_view-title">
 					<h2>หมวดที่ 2 <span>(5 ตอน)</span></h2>
-					<i class="toggle_btn">+</i>
+					<i class="toggle_btn"></i>
 				</div>
 					<ul class="course_view_sublist">
 						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
@@ -152,7 +152,7 @@ include('header.php');
 			<div class="course_view_list">
 				<div class="course_view-title">
 					<h2>หมวดที่ 3 <span>(12 ตอน)</span></h2>
-					<i class="toggle_btn">+</i>
+					<i class="toggle_btn"></i>
 				</div>
 					<ul class="course_view_sublist">
 						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>

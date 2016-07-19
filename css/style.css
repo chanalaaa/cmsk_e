@@ -2431,3 +2431,11 @@ ul.course_view_sublist li {
 ul.course_view_sublist li:nth-child(even) {
     background-color: transparent;
 }
+
+.toggle_btn:before{
+    content: "+";
+}
+
+.toggle_btn.active:before{
+    content: "-";
+}

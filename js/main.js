@@ -36,8 +36,10 @@ window.onload = function() {
         toggle_target.slideToggle();
          */
         if(target_has_show == 0){
+            $(this).addClass("active");
             toggle_target.addClass("active");
         }else{
+            $(this).removeClass("active");
             toggle_target.removeClass("active");
         }
       
