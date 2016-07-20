@@ -8,6 +8,7 @@
 
 		<div class="logo"><a href="index.php"><img src="img/cmsk_logo.png"></a></div>
 		<nav>
+		<a class="btn btn_green btn_regismobile" href="register.php"><span>สมัครเรียน</span></a>
 			<div class="btn_m_menu" id="mobile_menu">
 			<ul>
 				
@@ -28,6 +29,7 @@
 
 		<!-- Mobile menu -->
 		<div class="mobile_menu_wrapper visible_mobile">
+		
 			<ul>
 				<!--<li><p><a href="#">หน้าหลัก</a></p></li>-->
 				
@@ -37,7 +39,7 @@
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">บทความ</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
 				<li><p><a id="login_btn" href="#">ล็อคอิน</a></p></li>
-				<li><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></li>
+				
 			</ul>
 		</div>
 	
@@ -64,9 +66,9 @@
 </header>
 <!-- end header -->
 
-	<div id="myModal" class="modal">
+	<div id="loginModal" class="modal">
 		    <!-- Modal content -->
-		    <span class="modal-close">×</span>
+		    <span id="modal-close">×</span>
 		    <div class="modal-content">
 		        <div class="modal-body">
 		            <p class="modal-text_title">เข้าสู่ระบบ</p>
@@ -78,7 +80,7 @@
 		              <br>
 		              <p class="modal-text_title">ลืมรหัสผ่าน</p>
 		           	 <input name="email" type="email" placeholder="อีเมล์">
-		             <a class="btn btn_green_long" href="#"><span>ล็อกอิน</span></a> 
+		             <a class="btn btn_green_long" href="#"><span>ส่ง</span></a> 
 		        </div>
 		    </div>
 		</div>

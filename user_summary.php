@@ -4,7 +4,21 @@ $page = " ";
 include('header.php'); 
 ?>
 
-
+<div id="viewCourseModal" class="modal">
+		    <!-- Modal content -->
+		    <span id="modal-close2">×</span>
+		    <div class="modal-content">
+		        <div class="modal-body">
+		            <p class="modal-text_title videoTitle">ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE</p>
+		            <div class="player">
+						   <video>
+						        <source type="video/webm"  src="//stream.flowplayer.org/bauhaus.webm">
+     							<source type="video/mp4"   src="//stream.flowplayer.org/bauhaus.mp4">
+						   </video>
+						</div> 
+		        </div>
+		    </div>
+		</div>
 <!-- cmsk_main_content -->
 <div class="cmsk_main_content">
 
@@ -114,26 +128,26 @@ include('header.php');
 					<i class="toggle_btn"></i>
 				</div>
 					<ul class="course_view_sublist">
-						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 13 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 14 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 15 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 16 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 17 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 18 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 19 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 20 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 13 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 14 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 15 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 16 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 17 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 18 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 19 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 20 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
 					</ul>
 				</div>
 					<!-- course_view_list -->
@@ -143,9 +157,9 @@ include('header.php');
 					<i class="toggle_btn"></i>
 				</div>
 					<ul class="course_view_sublist">
-						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
 					</ul>
 				</div>
 			<!-- course_view_list -->
@@ -155,18 +169,18 @@ include('header.php');
 					<i class="toggle_btn"></i>
 				</div>
 					<ul class="course_view_sublist">
-						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
-						<li>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE <i>></i></li>
+						<li>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
+						<li>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE <i class="play">></i></li>
 					</ul>
 				</div>
 			<!-- course_view_list -->

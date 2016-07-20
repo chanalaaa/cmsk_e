@@ -1,27 +1,50 @@
 window.onload = function() {
 
     /* modal  ***********************************/
-    var modal = document.getElementById('myModal');
-    var modal_done = document.getElementById('myModal_done');
-    var span = document.getElementsByClassName("close")[0];
+    var loginModal = document.getElementById('loginModal');
+    var closeBtn = document.getElementById('modal-close');
+    var closeBtn2 = document.getElementById('modal-close2');
+    var regisDoneModal = document.getElementById('regisModal_done');
+    var btnRegisModal_done = document.getElementById('btnRegisModal_done');
+    var courseViewModal = document.getElementById('viewCourseModal');
+    //var playCourseBtn = document.getElementById('play');
 
     $('#login_btn').click(function() {
-        modal.style.display = "block";
+        loginModal.style.display = "block";
+        $('body').css("overflow","hidden");
     });
-    $('#btn_done').click(function() {
-        modal_done.style.display = "block";
+    $('#btnRegis_done').click(function() {
+        regisDoneModal.style.display = "block";
+        $('body').css("overflow","hidden");
+    });
+    $('.play').click(function() {
+       var videotitle = $(this).parents('li').text();
+       $("p.modal-text_title.videoTitle").html(videotitle.slice(0,-1)); //change video title
+        // setTimeout(courseViewModal.style.display = "block", 1000);
+       courseViewModal.style.display = "block";
+        $('body').css("overflow","hidden");
+
     });
 
-
-    $('span').click(function() {
-        modal.style.display = "none";
-        modal_done.style.display = "none";
+    $(closeBtn).click(function() {
+        loginModal.style.display = "none";
+         $('body').css("overflow","auto");
+       
+    });
+    $(btnRegisModal_done).click(function() {
+        regisDoneModal.style.display = "none";
+        $('body').css("overflow","auto");
+    });
+    $(closeBtn2).click(function() {
+        courseViewModal.style.display = "none";
+        $('body').css("overflow","auto");
     });
 
     window.onclick = function(event) {
-        if (event.target == modal || event.target == modal_done) {
-            modal.style.display = "none";
-            modal_done.style.display = "none";
+        if (event.target == loginModal || event.target == regisDoneModal) {
+            loginModal.style.display = "none";
+            //regisDoneModal.style.display = "none";
+             $('body').css("overflow","auto");
         }
     }
 
@@ -35,13 +58,20 @@ window.onload = function() {
         //jquery style OR
         toggle_target.slideToggle();
          */
-        if(target_has_show == 0){
+        if (target_has_show == 0) {
             $(this).addClass("active");
             toggle_target.addClass("active");
-        }else{
+        } else {
             $(this).removeClass("active");
             toggle_target.removeClass("active");
         }
-      
+
     });
+
+
+    /* FLOW player ***********************************/
+    $(function() {
+        $(".player").flowplayer();
+    });
+
 };

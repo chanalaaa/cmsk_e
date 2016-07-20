@@ -117,12 +117,7 @@ include('header.php');
 
 </div>
 <!-- end cmsk_main_content -->
-<script>
 
-$(function () {
-   $(".player").flowplayer();
-});
-</script>
 
 
 <?php include('footer.php'); ?>
