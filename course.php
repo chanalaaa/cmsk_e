@@ -90,8 +90,8 @@ include('header.php');
 					</div>
 
 					<div class="button_wrap">
-						<a class="btn btn_green_182" href="course_practice.php"><span>
-						<a href="register.php">ตัวอย่างแบบฝึกหัด</a></span>
+						<a href="register.php" class="btn btn_green" href="course_practice.php">
+						<span>สมัครเรียน</span></a>
 					</div>
 
 				</div>

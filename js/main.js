@@ -41,7 +41,7 @@ window.onload = function() {
     });
 
     window.onclick = function(event) {
-        if (event.target == loginModal || event.target == regisDoneModal) {
+        if (event.target == loginModal) {
             loginModal.style.display = "none";
             //regisDoneModal.style.display = "none";
              $('body').css("overflow","auto");

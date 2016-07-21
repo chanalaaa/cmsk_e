@@ -13,7 +13,7 @@
 			<ul>
 				
 				<li><p><a <?php if($page == "course") echo('class="active"'); ?> href="course.php">คอร์ส</a></p></li>
-				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">วิทยากร</a></p></li>
+				<li><p><a <?php if($page == "trainer") echo('class="active"'); ?> href="trainer.php">วิทยากร</a></p></li>
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">ผลงานที่ผ่านมา</a></p></li>
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">บทความ</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
@@ -34,7 +34,7 @@
 				<!--<li><p><a href="#">หน้าหลัก</a></p></li>-->
 				
 				<li><p><a <?php if($page == "course") echo('class="active"'); ?> href="course.php">คอร์ส</a></p></li>
-				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">วิทยากร</a></p></li>
+				<li><p><a <?php if($page == "trainer") echo('class="active"'); ?> href="index.php">วิทยากร</a></p></li>
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">ผลงานที่ผ่านมา</a></p></li>
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">บทความ</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
