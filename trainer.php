@@ -14,18 +14,18 @@ include('header.php');
         <!-- end wrapper -->
     </div>
     <!-- end headpage_banner -->
-    <!-- course_wrapper -->
+    <!-- trainer_wrapper -->
     <div class="trainer_wrapper bg_white">
         <!-- wrapper -->
         <div class="wrapper">
-            <!-- course_wrapper -->
+            <!-- trainer_wrapper -->
             <div class="trainer_wrapper_in">
-                <!-- course_left -->
+                <!-- trainer_left -->
                 <div class="trainer_left">
                     <img src="http://placehold.it/600x600" alt="">
                 </div>
-                <!-- end course_left -->
-                <!-- course_right -->
+                <!-- end trainer_left -->
+                <!-- trainer_right -->
                 <div class="trainer_right">
                     <div class="trainer_content">
                         <h2 class="text_title">ดร.ชาติชาย มีสุขโข</h2>
@@ -34,7 +34,7 @@ include('header.php');
                         </p>
                     </div>
                 </div>
-                <!-- end course_right -->
+                <!-- end trainer_right -->
                 <div class="trainer_block">
                     <br>
                     <p class="text_title">ประวัติการศึกษา</p>
@@ -54,11 +54,11 @@ include('header.php');
                     </ul>
                 </div>
             </div>
-            <!-- end course_wrapper -->
+            <!-- end trainer_wrapper -->
         </div>
         <!-- end wrapper -->
     </div>
-    <!-- end course_wrapper -->
+    <!-- end trainer_wrapper -->
 </div>
 <!-- end cmsk_main_content -->
 <?php include('footer.php'); ?>

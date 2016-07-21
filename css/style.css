@@ -1918,6 +1918,56 @@ ul.text_list li {
     }
 }
 
+
+/* Impressions */
+
+.impressions_wrapper {
+    position: relative;
+}
+
+.impressions_wrapper_in {
+    clear: both;
+    width: 100%;
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+
+.impressions_block {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin: auto;
+}
+
+.impressions_block > li {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 33.3333%;
+}
+
+.impressions_item {
+    background-color: red;
+}
+
+@media(max-width: 920px) {
+    .impressions_block > li {
+        width: 49%;
+    }
+}
+
+@media(max-width: 650px) {
+    .impressions_block > li {
+        width: 100%;
+    }
+}
+
+
 /* Trial Register */
 
 .cmsk_register_wrapper {

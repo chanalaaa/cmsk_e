@@ -14,7 +14,7 @@
 				
 				<li><p><a <?php if($page == "course") echo('class="active"'); ?> href="course.php">คอร์ส</a></p></li>
 				<li><p><a <?php if($page == "trainer") echo('class="active"'); ?> href="trainer.php">วิทยากร</a></p></li>
-				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">ผลงานที่ผ่านมา</a></p></li>
+				<li><p><a <?php if($page == "impressions") echo('class="active"'); ?> href="impressions.php">ความประทับใจ</a></p></li>
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">บทความ</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
 				<li><p><a id="login_btn" href="#">ล็อคอิน</a></p></li>
