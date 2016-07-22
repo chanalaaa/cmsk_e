@@ -17,7 +17,7 @@
 				<li><p><a <?php if($page == "impressions") echo('class="active"'); ?> href="impressions.php">ความประทับใจ</a></p></li>
 				<li><p><a <?php if($page == "") echo('class="active"'); ?> href="index.php">บทความ</a></p></li>
 				<!--<li><p><a href="#">ติดต่อ</a></p></li>-->
-				<li><p><a id="login_btn" href="#">ล็อคอิน</a></p></li>
+				<li class="menuBtn_login"><p><a id="login_btn" href="#">ล็อคอิน</a></p></li>
 				<li class="btn_regis"><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></li>
 			</ul>
 			</div>
