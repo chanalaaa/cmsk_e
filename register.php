@@ -41,12 +41,13 @@ include('header.php');
 			<!-- cmsk_register_wrapper -->
 			<div class="cmsk_register_wrapper">
 				<form class="cmsk_register_form">
-					<input name="name" placeholder="ชื่อ - นามสกุล">
+					<input name="name" placeholder="ชื่อ">
+					<input name="lastname" placeholder="นามสกุล">
 					<input name="email" placeholder="อีเมล์">
 					<input name="password" placeholder="รหัสผ่าน">
 					<input name="comfirm_password" placeholder="ยืนยันรหัสผ่าน">
 					<div class="cmsk_register_button">
-						<a class="btn btn_green_long" id="btnRegis_done" href="#"><span>สมัครสมาชิก</span></a>
+						<a class="btn btn_green_long" id="btnRegis_done" href="#"><span>ดำเนินการต่อ</span></a>
 					</div>
 				</form>
 			</div>

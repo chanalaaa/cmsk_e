@@ -23,7 +23,54 @@ include('header.php');
 
 	<!-- course_wrapper -->
 	<div class="course_wrapper bg_white">
+<!-- wrapper -->
+		<div class="wrapper">
 
+			<!-- course_wrapper_in -->
+			<div class="course_wrapper_in payment_page info">
+
+				<!-- course_left -->
+				<div class="course_left">
+					<ul>
+						<li>ชื่อผู้สมัคร :</li>
+						<li>ชื่อคอร์ส :</li>
+						<li>Order ID :</li>
+						<li>วันหมดอายุ :</li>
+						<li>ราคารวม :</li>
+					</ul>
+				</div>
+				<!-- end course_left -->
+
+				<!-- course_right -->
+				<div class="course_right">
+			
+					<ul>
+						<li>คุณ JOHN DOE</li>
+						<li>FASTLANE Single License</li>
+						<li>FLS000001</li>
+						<li>11 ต.ค. 2559</li>
+						<li>3,500 บาท</li>
+					</ul>
+
+				</div>
+				<!-- end course_right -->
+
+			</div>
+			<!-- end course_wrapper_in -->
+
+
+
+		</div>
+		<!-- end wrapper -->
+
+	</div>
+	<!-- end course_wrapper -->
+
+	<!-- course_wrapper -->
+	<div class="course_wrapper payment_wrapper bg_white">
+
+<br>
+<div class="line_gray"></div>
 		<!-- wrapper -->
 		<div class="wrapper">
 
@@ -54,10 +101,14 @@ include('header.php');
 						</ul>
 					</div>
 
-					<div class="cmsk_payment_text">
-						<p>หลังจากบริษัทได้รับ E-mail หลักฐานการลงทะเบียนเเล้ว จะติดต่อกลับไปเพื่อยืนยันอีกทีค่ะ</p>
+					<div class="cmsk_payment_text ps">
+						<p>* หลังจากบริษัทได้รับ E-mail หลักฐานการลงทะเบียนเเล้ว จะติดต่อกลับไปเพื่อยืนยันอีกทีค่ะ</p>
 					</div>
-
+<div class="course_intro_wrap">
+						<div class="creditcard_payment">
+							<a class="btn btn_green_long" href="trial_register.php"><span>ยืนยัน</span></a>
+						</div>
+					</div>
 
 
 					<!-- <div class="button_wrap">
@@ -105,7 +156,7 @@ include('header.php');
 					
 					<div class="course_intro_wrap">
 						<div class="creditcard_payment">
-							<a class="btn btn_green_long" href="trial_register.php"><span>จ่ายผ่านบัตรเครดิต</span></a>
+							<a class="btn btn_green_long" href="trial_register.php"><span>ดำเนินการต่อ</span></a>
 						</div>
 					</div>
 
