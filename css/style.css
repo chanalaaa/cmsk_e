@@ -1963,23 +1963,25 @@ ul.text_list li {
     display: -ms-flexbox;
     display: flex;
     flex-direction: column;
+    padding-top: 15px;
 }
 
 .card-img {
     display: -webkit-flex;
     display: flex;
-    height: 190px;
+    max-height: 190px;
     padding: 15px;
     box-sizing: border-box;
-    background-color: darksalmon;
+    s
 }
 
 .card > .card-img img {
-    margin: auto;
-    width: 55%;
+    margin: 0 auto;
+    width: 60%;
     border-radius: 50%;
     border: 13px solid;
     box-sizing: border-box;
+    align-self: center;
 }
 
 .card_content {
@@ -2032,11 +2034,26 @@ ul.text_list li {
     .card_block .card_item {
         width: 49%;
     }
+    .card-img {
+        max-height: 225px;
+    }
 }
 
 @media(max-width: 650px) {
     .card_block .card_item {
         width: 100%;
+    }
+    .card-img {
+        max-height: 290px;
+    }
+}
+
+@media(max-width: 480px) {
+    .card-img {
+        max-height: 235px;
+    }
+    .card > .card-img img {
+        width: 65%;
     }
 }
 
