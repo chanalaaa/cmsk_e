@@ -451,6 +451,7 @@ header .header_in {
     width: 100%;
     height: 100px;
     background-color: #FFF;
+    border-bottom: 2px solid green;
 }
 
 header .header_in .logo {
@@ -1727,12 +1728,14 @@ footer .footer_wrap .copyright p {
     max-width: 445px;
     color: #AEAEAE;
 }
+
 .course_wrapper_in .course_right .cmsk_payment_text.ps p {
     font-size: 1.4em;
     margin: 10px 0 20px;
     max-width: 100%;
     color: #AEAEAE;
 }
+
 .payment_page.info li {
     font-size: 1.7em;
 }
@@ -2127,6 +2130,93 @@ ul.text_list li {
     }
     .card > .card-img img {
         width: 65%;
+    }
+}
+
+
+/* thankyou */
+
+.cmsk_thx_wrapper {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.cmsk_thx_wrapper .logo_img {
+    width: 40%;
+    min-width: 250px;
+    display: block;
+    margin: 0 auto 60px;
+}
+
+.cmsk_thx_wrapper img {
+    width: 100%;
+}
+
+.cmsk_thx_wrapper p {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.cmsk_thx_wrapper .text_storng {
+    font-weight: 600;
+}
+
+.cmsk_thx_wrapper .warp_detail {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px auto;
+    min-height: 50px;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+}
+
+.cmsk_thx_wrapper .warp_detail p {
+    font-size: 1.55em;
+    margin: auto;
+}
+
+.cmsk_thx_wrapper .warp_detail a.take_me_home {
+    font-size: inherit;
+    display: initial;
+}
+
+a.take_me_home {
+    padding-top: 15px;
+    font-size: 1.55em;
+    text-decoration: underline;
+    color: green;
+    text-align: center;
+    display: block;
+}
+
+@media(max-width: 850px) {
+    .cmsk_thx_wrapper {
+        max-width: 100%;
+        padding-top: 50px;
+    }
+    .cmsk_thx_wrapper .logo_img {
+        margin: 0 auto 30px;
+    }
+}
+
+@media(max-width: 500px) {
+    .cmsk_thx_wrapper p {
+        font-size: 1.6em;
+        text-align: center;
+    }
+    .cmsk_thx_wrapper .warp_detail p,
+    a.take_me_home {
+        font-size: 1.4em;
     }
 }
 

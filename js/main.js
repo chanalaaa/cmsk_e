@@ -13,6 +13,10 @@ window.onload = function() {
         loginModal.style.display = "block";
         $('body').css("overflow","hidden");
     });
+    $('#login_btn_text').click(function() {
+        loginModal.style.display = "block";
+        $('body').css("overflow","hidden");
+    });
     $('#btnRegis_done').click(function() {
         regisDoneModal.style.display = "block";
         $('body').css("overflow","hidden");
