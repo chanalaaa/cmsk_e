@@ -20,21 +20,76 @@ include('header.php');
         <div class="wrapper">
             <!-- impressions_wrapper -->
             <div class="impressions_wrapper_in">
-                <ul class="impressions_block">
-                    <li>
-                        <div class="impressions_item"> 1</div>
+                <ul class="card_block">
+                    <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/500x500" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-points">คะแนนสอบ: 150</p>
+                                <p class="card-detail">
+                                    แอ็คชั่นเซรามิกแตงกวากีวี แครอทมาร์เก็ต ไฮไลท์เคอร์ฟิวฟลุทมอนสเตอร์คอลัมนิสต์ จุ๊ย เป็นไงอินเตอร์ยอมรับ ซาฟารีเทรนด์ฮองเฮาโค้ก อลซ์พุดดิ้งวาซาบิคอนเทนเนอร์ผ้าห่ม ซิลเวอร์ เห็นด้วย ธรรมากฤษณ์รีสอร์ทแอ็กชั่น คอลเล็กชั่นบอยคอตป๋าวโรกาส 
+                                </p>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <div class="impressions_item"> 2</div>
+                   <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/500x500" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-points">คะแนนสอบ: 150</p>
+                                <p class="card-detail">
+                                    แอ็คชั่นเซรามิกแตงกวากีวี แครอทมาร์เก็ต ไฮไลท์เคอร์ฟิวฟลุทมอนสเตอร์คอลัมนิสต์ จุ๊ย เป็นไงอินเตอร์ยอมรับ ซาฟารีเทรนด์ฮองเฮาโค้ก 
+                                </p>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <div class="impressions_item"> 3</div>
+                     <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/500x500" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-points">คะแนนสอบ: 150</p>
+                                <p class="card-detail">
+                                    แครกเกอร์โบรกเกอร์เวิร์คกาญจน์ โบ้ยกราวนด์ คอมเมนท์ล้มเหลวเซ็กส์หลวงปู่ โพลล์ฟลุกบริกรโฟน แอคทีฟมายาคติฟินิกซ์เซฟตี้พลานุภาพ ก๊วนเอ๋อวโรกาส ฟลุคสแล็ก ฟอยล์มาร์ตแช่แข็ง มาร์จินซานตาคลอสโยเกิร์ต 
+                                </p>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <div class="impressions_item"> 4</div>
+                     <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/500x500" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-points">คะแนนสอบ: 150</p>
+                                <p class="card-detail">
+                                  แอปเปิ้ล เลคเชอร์ดีพาร์ทเมนต์เทควันโดแตงกวา ม้ง บูติกผลไม้ แอร์ดราม่าแซวสามแยกคัตเอาต์ ซินโดรมดีพาร์ทเมนต์โยเกิร์ตโชว์รูม ฮิปโปโก๊ะตรวจสอบ สมิติเวชฮิปโป เรตเมี่ยงคำเซ็กซ์ไบเบิล เทวามือถือสเตชั่นสเต็ป แช่แข็งลอจิสติกส์ อุปทานโมเต็ลสหัสวรรษ จิตพิสัยอันเดอร์ฟรุต 
+                                </p>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <div class="impressions_item"> 5</div>
+                     <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/500x500" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-points">คะแนนสอบ: 150</p>
+                                <p class="card-detail">
+                                   วิปเด้อยนตรกรรม เคสยอมรับวอล์คหมิง เอ๊าะพาเหรด เดบิต แครอทร็อคเลกเชอร์เวิร์กซูโม่ ก๊วนเลคเชอร์ ฟลอร์ฮิบรู สกายแจ๊กเก็ต พาร์ทเนอร์กลาสเบญจมบพิตรคอร์รัปชั่นกิฟท์ อวอร์ดเทคเซลส์แมนเดอะ เจี๊ยวมาร์กเฝอ
+                                </p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
