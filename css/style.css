@@ -2125,7 +2125,7 @@ ul.text_list li {
 @media(max-width: 800px) {
     .blog-content {
         display: -webkit-box;
-        display: -moz-box;
+        display: -moz-box !important;
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
