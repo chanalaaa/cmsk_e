@@ -2492,6 +2492,42 @@ td:last-child {
         position: relative;
         padding-left: 50%;
     }
+    .course_table td:first-child {
+        padding-left: 2%;
+        background-color: gray;
+    }
+    .course_table td:before {
+        font-family: "thaisans_neue";
+        width: initial;
+        font-size: 1.35em;
+    }
+    .course_table td {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+    /*
+    .course_table tr {
+        white-space: nowrap;
+    }
+   
+    .course_table td:nth-child(2) {
+        width: 23%;
+        display: inline-block;
+        padding-left: 24%;
+    }
+     .course_table td:nth-child(2):before {
+       left: 18px;
+    }
+    .course_table td:nth-child(3) {
+        width: 18%;
+        display: inline-block;
+        padding-left: 27%;
+        border-left: 2px solid #fff;
+    }
+    */
     td:before {
         /* Now like a table header */
         position: absolute;
@@ -2511,14 +2547,11 @@ td:last-child {
     /*
         Label the data
         */
-    td:nth-of-type(1):before {
-        content: "รายการวิชาเรียน";
-    }
     td:nth-of-type(2):before {
-        content: "วันเริ่มเรียน";
+        content: "วันหมดอายุ";
     }
     td:nth-of-type(3):before {
-        content: "วันหมดอายุ";
+        content: "รายการยืนยัน";
     }
 }
 

@@ -48,7 +48,6 @@ include('header.php');
 
 				<!-- current_course_wrapper -->
 				<div class="current_course_wrapper">
-					<p class="course_count">พบ 3 รายการ</p>
 
 					<!-- course_table -->
 					<div class="course_table">
@@ -56,7 +55,7 @@ include('header.php');
 							<thead>
 							<tr>
 								<th>รายการวิชาเรียนที่จ่ายเงินแล้ว</th>
-								<th>วันเริ่มเรียน</th>
+
 								<th>วันหมดอายุ</th>
 								<th>รายการยืนยัน</th>
 							</tr>
@@ -64,19 +63,19 @@ include('header.php');
 							<tbody>
 							<tr>
 								<td class="">1. SINGLE LICENSE ALL-IN-ONE</td>
-								<td>9 พ.ค. 2558</td>
+					
 								<td class="text_orange">11 พ.ค. 2558</td>
 								<td>x</td>
 							</tr>
 							<tr>
 							  <td class="">2. SINGLE LICENSE ALL-IN-ONE</td>
-							  <td>10 พ.ค. 2558</td>
+					
 							  <td class="text_orange">12 พ.ค. 2558</td>
 							  <td>x</td>
 							</tr>
 							<tr>
 							  <td class="">3. SINGLE LICENSE ALL-IN-ONE</td>
-							  <td>11 พ.ค. 2558</td>
+				
 							  <td class="text_orange">13 พ.ค. 2558</td>
 							  <td>x</td>
 							</tr>
