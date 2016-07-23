@@ -2089,15 +2089,15 @@ ul.text_list li {
     min-height: 260px;
 }
 
-.blog-title {
-    font-size: 1.7em !important;
-    font-weight: 600;
-}
-
 .blog-detail p,
 .blog-readmore {
     font-size: 1.5em;
     margin-bottom: 5px;
+}
+
+.blog-title {
+    font-size: 1.7em !important;
+    font-weight: 600;
 }
 
 .blog-date {
@@ -2146,6 +2146,108 @@ ul.text_list li {
 @media(max-width: 500px) {
     .blog-img {
         height: 195px;
+    }
+}
+
+.blog_single-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 315px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog_single-img img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blog_single-detail {
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.blog_single-detail p {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.blog_single-detail .blog-text {
+    margin: 25px 0 70px !important;
+}
+
+.blog-pagination {}
+
+.blog-pagination .back_to_blog {
+    text-decoration: underline;
+    font-size: 1.5em;
+    color: #bbb;
+}
+
+.blog-pagination .page_action {
+    float: right;
+}
+
+.blog-pagination .page_action li {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.blog-pagination .page_action li.prev {
+    padding-right: 20px;
+}
+
+.blog-pagination .page_action li.prev:before {
+    content: "<";
+    margin-right: 15px;
+}
+
+.blog-pagination .page_action li.next:after {
+    content: ">";
+    margin-left: 15px;
+}
+
+.blog_single-content .line_gray.desk {
+    display: block;
+}
+
+.blog_single-content .line_gray.res {
+    display: none;
+}
+
+@media(max-width: 500px) {
+    .blog_single-img {
+        min-height: 250px;
+    }
+    .blog_single-detail {
+        margin-top: 20px;
+    }
+    .blog_single-detail .blog-text {
+        margin: 30px 0 60px !important;
+    }
+    .blog-pagination .page_action {
+        float: none;
+    }
+    .blog-pagination .back_to_blog {
+        display: block;
+        text-align: center;
+    }
+    .blog-pagination .page_action li.next {
+        float: right;
+        margin-top: -1px;
+    }
+    .blog_single-content .line_gray.desk {
+        display: none;
+    }
+    .blog_single-content .line_gray.res {
+        margin: 15px auto;
+        display: block;
     }
 }
 
