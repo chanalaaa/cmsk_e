@@ -2019,6 +2019,137 @@ ul.text_list li {
 }
 
 
+/* Blog */
+
+.blog_wrapper {
+    position: relative;
+}
+
+.blog_wrapper_in {
+    clear: both;
+    width: 100%;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+
+.blog_list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.blog-content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.blog-img {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 1 20%;
+    padding-right: 20px;
+    max-height: 315px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-img img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blog-detail {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    padding-left: 15px;
+    overflow: hidden;
+    min-height: 260px;
+}
+
+.blog-title {
+    font-size: 1.7em !important;
+    font-weight: 600;
+}
+
+.blog-detail p,
+.blog-readmore {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.blog-date {
+    font-size: 1.3em;
+    color: #aaa;
+}
+
+.blog-text {
+    margin: 15px 0;
+}
+
+.blog-readmore {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.4em;
+    text-decoration: underline;
+    color: green !important;
+    flex: 1;
+}
+
+@media(max-width: 800px) {
+    .blog-content {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .blog-img {
+        padding-right: 0px;
+    }
+    .blog-detail {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .blog-img {
+        height: 250px;
+    }
+}
+
+@media(max-width: 500px) {
+    .blog-img {
+        height: 195px;
+    }
+}
+
+
 /* Impressions */
 
 .impressions_wrapper {
