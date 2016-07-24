@@ -154,15 +154,24 @@ nav a.active {
 
 /* button */
 
+.btn_regismobile {
+    display: none !important;
+}
+
+.btn_regismobile.main .btn span,
+.btn_regis.main .btn span {
+    margin-top: 12px;
+}
+
 .btn span {
     font-size: 1.5em;
     text-align: center;
     display: block;
-    margin-top: 9px;
+    margin-top: 8px;
 }
 
 .header_in .btn span {
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .btn_seemore_white {
@@ -255,9 +264,6 @@ nav a.active {
         width: 107px;
         height: 44px;
     }
-    .btn span {
-        margin-top: 10px;
-    }
 }
 
 .btn_green:hover {
@@ -307,7 +313,7 @@ nav a.active {
 .btn_white_long {
     width: 122px;
     /*142*/
-    height: 40px;
+    height: 38px;
     border: 5px solid #00A05E;
     background: transparent;
     border-radius: 10px;
@@ -436,6 +442,16 @@ nav a.active {
 @media(max-width: 800px) {
     .wrapper {
         width: 90%;
+    }
+}
+
+@media(max-width: 500px) {
+    .btn_green_long,
+    .btn_white_long {
+        height: 34px;
+    }
+    .cmsk_row1_4col .btn_green_long.btn span {
+        margin-top: 5px;
     }
 }
 
@@ -874,11 +890,11 @@ ul.bullet li {
 
 .cmsk_main_content .cmsk_row1_text p {
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
 .cmsk_main_content .cmsk_row1_text p.highlight {
-    font-size: 4.2em;
+    font-size: 3.5em;
 }
 
 .cmsk_main_content .cmsk_row2col {
@@ -1070,7 +1086,7 @@ ul.bullet li {
     }
     .cmsk_main_content .cmsk_row2col .cmsk_row2col_right .right_article p.text_headline,
     .cmsk_main_content .cmsk_row2col .cmsk_row2col_left .left_article p.text_headline {
-        font-size: 1.7em;
+        /*font-size: 1.7em;*/
     }
 }
 
@@ -1233,6 +1249,11 @@ ul.bullet li {
 .cmsk_row1_4col_right .button_wrap {
     margin-top: 15px;
     padding-bottom: 40px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
 .cmsk_row1_4col_right .text_slide {
@@ -1514,10 +1535,6 @@ footer .footer_wrap .copyright p {
 
 .mobile_menu_wrapper {
     /*display: none;*/
-}
-
-.btn_regismobile {
-    display: none !important;
 }
 
 
@@ -2146,6 +2163,9 @@ ul.text_list li {
 @media(max-width: 500px) {
     .blog-img {
         height: 195px;
+    }
+    .blog_wrapper_in {
+        padding-top: 20px;
     }
 }
 
@@ -2958,6 +2978,32 @@ ul.progress_section li .progress_course_bar {
     animation-duration: 0.4s
 }
 
+@media(max-width: 900px) {
+    .modal-content {
+        width: 80%;
+        padding: 0rem 0;
+    }
+}
+
+@media(max-width: 500px) {
+    .modal-content .btn_green_long,
+    .modal-content .btn_white_long {
+        width: 71px;
+    }
+    .modal {
+        padding-top: 50px;
+    }
+    .modal-content {
+        width: 100%;
+        padding: 0rem 0;
+    }
+    #modal-close,
+    #modal-close2 {
+        top: 25px !important;
+        right: 20px !important;
+    }
+}
+
 #viewCourseModal {
     padding-top: 40px;
 }
@@ -3113,6 +3159,15 @@ ul.progress_section li .progress_course_bar {
     -webkit-transition-duration: 0.1s;
     -o-transition-duration: 0.1s;
     transition-duration: 0.1s;
+}
+
+.course_view_sublist li span {
+    width: 80%;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
 }
 
 .course_view_sublist.active {

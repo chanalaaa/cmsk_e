@@ -1,5 +1,11 @@
 window.onload = function() {
 
+    /* FLOW player ***********************************/
+
+    $(".player").flowplayer();
+
+
+
     /* modal  ***********************************/
     var loginModal = document.getElementById('loginModal');
     var closeBtn = document.getElementById('modal-close');
@@ -11,44 +17,51 @@ window.onload = function() {
 
     $('#login_btn').click(function() {
         loginModal.style.display = "block";
-        $('body').css("overflow","hidden");
+        $('body').css("overflow", "hidden");
+    });
+    $('#login_btn1').click(function() {
+        loginModal.style.display = "block";
+        $('body').css("overflow", "hidden");
     });
     $('#login_btn_text').click(function() {
         loginModal.style.display = "block";
-        $('body').css("overflow","hidden");
+        $('body').css("overflow", "hidden");
     });
     $('#btnRegis_done').click(function() {
         regisDoneModal.style.display = "block";
-        $('body').css("overflow","hidden");
+        $('body').css("overflow", "hidden");
     });
     $('.play').click(function() {
-       var videotitle = $(this).parents('li').text();
-       $("p.modal-text_title.videoTitle").html(videotitle.slice(0,-1)); //change video title
+        var videotitle = $(this).parents('li').text();
+        $("p.modal-text_title.videoTitle").html(videotitle.slice(0, -1)); //change video title
         // setTimeout(courseViewModal.style.display = "block", 1000);
-       courseViewModal.style.display = "block";
-        $('body').css("overflow","hidden");
+        courseViewModal.style.display = "block";
+        $('body').css("overflow", "hidden");
 
     });
 
-    $(closeBtn).click(function() {
-        loginModal.style.display = "none";
-         $('body').css("overflow","auto");
-       
-    });
+
     $(btnRegisModal_done).click(function() {
         regisDoneModal.style.display = "none";
-        $('body').css("overflow","auto");
+        $('body').css("overflow", "auto");
+    });
+    $(closeBtn).click(function() {
+        loginModal.style.display = "none";
+        $('body').css("overflow", "auto");
+        flowplayer().stop();
+
     });
     $(closeBtn2).click(function() {
         courseViewModal.style.display = "none";
-        $('body').css("overflow","auto");
+        $('body').css("overflow", "auto");
+        flowplayer().stop();
     });
 
     window.onclick = function(event) {
         if (event.target == loginModal) {
             loginModal.style.display = "none";
             //regisDoneModal.style.display = "none";
-             $('body').css("overflow","auto");
+            $('body').css("overflow", "auto");
         }
     }
 
@@ -73,9 +86,5 @@ window.onload = function() {
     });
 
 
-    /* FLOW player ***********************************/
-    $(function() {
-        $(".player").flowplayer();
-    });
 
 };

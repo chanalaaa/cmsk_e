@@ -73,8 +73,8 @@ include('header.php');
     <div class="cmsk_row bg_white">
         <!-- cmsk_row1_text -->
         <div class="cmsk_row1_text text_thaisans_neue">
-            <p class="text_green highlight">FAST LANE Single License</p>
-            <p>คอร์สเดียวเน้นๆ ที่จะทำให้คุณสอบผ่าน</p>
+            <p class="text_green highlight">WHAT YOU GET</p>
+            <p>สิ่งที่คุณจะได้รับ</p>
         </div>
         <!-- end cmsk_row1_text -->
         <div class="circle_mobile visible_mobile"><img src="img/circle_mobile.png"></div>
@@ -134,7 +134,7 @@ include('header.php');
                 <!-- cmsk_row3col_box -->
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
-                        <li><p class="bullet_title">ีเวลาพักทำความเข้าใจ</p>หยุดเพื่อทำความเข้าใจเนื้อหาเพิ่มเติม ได้ตามต้องการ (ก่อนไปต่อที่ส่วนอื่น)</li>
+                        <li><p class="bullet_title">มีวลาพักทำความเข้าใจ</p>หยุดเพื่อทำความเข้าใจเนื้อหาเพิ่มเติม ได้ตามต้องการ (ก่อนไปต่อที่ส่วนอื่น)</li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -176,6 +176,7 @@ include('header.php');
                     <div class="button_wrap">
                        <!-- <a class="btn btn_black" href="#"><span>ดูต่อทั้งหมด</span></a> -->
                         <a class="btn btn_green_long" href="#"><span>อ่านรายละเอียด</span></a>
+                        <span class="btn_regis main btn_next"><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></span>
                     </div>
                     <!-- end button_wrap -->
                 </div>
