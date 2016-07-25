@@ -2119,7 +2119,7 @@ ul.text_list li {
 
 .blog-date {
     font-size: 1.3em;
-    color: #aaa;
+    color: #aaa !important;
 }
 
 .blog-text {
@@ -2233,12 +2233,22 @@ ul.text_list li {
     margin-left: 15px;
 }
 
-.blog_single-content .line_gray.desk {
+.blog_wrapper_in.single .line_gray.desk {
     display: block;
 }
 
-.blog_single-content .line_gray.res {
+.blog_wrapper_in.single .line_gray.res {
     display: none;
+}
+
+.social_share {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.social_share ul,
+.social_share ul li {
+    display: inline-block;
 }
 
 @media(max-width: 500px) {
@@ -2298,15 +2308,15 @@ ul.text_list li {
     margin: auto;
 }
 
-.card_block .card_item {
-    box-sizing: border-box;
-    padding: 15px;
+.card_item {
     width: 33.3333%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     flex-flow: row wrap;
+    box-sizing: border-box;
+    padding: 15px;
 }
 
 .card {
@@ -2325,7 +2335,6 @@ ul.text_list li {
     max-height: 190px;
     padding: 15px;
     box-sizing: border-box;
-    s
 }
 
 .card > .card-img img {
@@ -3199,4 +3208,56 @@ ul.course_view_sublist li:nth-child(even) {
 
 .toggle_btn.active:before {
     content: "-";
+}
+
+.section {
+    border-top: 2px solid #777;
+    position: relative;
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.card_wrapper_in {
+    clear: both;
+    width: 100%;
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+
+.blog_card .card {
+    padding: 0;
+}
+
+.blog_card .card-img {
+    display: -webkit-flex;
+    display: flex;
+    height: 190px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog_card .card > .card-img img {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    box-sizing: border-box;
+    align-self: flex-start;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blog_card .card-name,.blog_card .card-points,
+.blog_card .card-detail{
+    text-align: left;
+}
+.blog_card .card-detail:before,
+.blog_card .card-detail:after {
+    content: "";
+    display: none;
 }

@@ -59,10 +59,10 @@ include('header.php');
                     </script>
                 </div>
                 <!-- <div id="seemore">
-					<a class="btn btn_seemore_white" href="#">
-						<span class="">Single License ALL-IN-ONE</span>
-					</a>
-				</div> -->
+                    <a class="btn btn_seemore_white" href="#">
+                        <span class="">Single License ALL-IN-ONE</span>
+                    </a>
+                </div> -->
             </div>
             <!-- end banner_in -->
         </div>
@@ -87,12 +87,17 @@ include('header.php');
             <!-- cmsk_row2col_left -->
             <div class="cmsk_row2col_left bg_green1">
                 <div class="left_article">
-                    <p class="text_headline text_green">INTENSIVE <br><span>เนื้อหาเข้มข้น ตรงประเด็น</span></p>
+                    <p class="text_headline text_green">INTENSIVE
+                        <br><span>เนื้อหาเข้มข้น ตรงประเด็น</span></p>
                     <ul class="bullet">
-                        <li><p class="bullet_title">ตรงประเด็น</p>ได้ความรู้แบบเน้นๆ ตรงประเด็นเข้าใจเนื้อหาสำคัญสำหรับสอบ ได้ภายใน15 ชม.</li>
-                        <li><p class="bullet_title">มีเทคนิค</p>เทคนิคการสอนที่เข้าใจง่ายและ มีเทคนิคเพิ่มในการช่วยจำ</li>
-                        <li><p class="bullet_title">ตะลุยโจทย์พร้อมเนื้อหาสำคัญ</p>ตะลุยโจทย์ไปพร้อมเนื้อหาสำคัญ เพิ่มความเข้าใจได้มากขึ้น</li>
-                        <li><p class="bullet_title">โจทย์มากมายให้ฝึกฝน</p>โจทย์มากมายหลากหลายให้ได้ฝึกฝน หลังเรียนจบก่อนเจอข้อสอบจริง</li>
+                        <li>
+                            <p class="bullet_title">ตรงประเด็น</p>ได้ความรู้แบบเน้นๆ ตรงประเด็นเข้าใจเนื้อหาสำคัญสำหรับสอบ ได้ภายใน15 ชม.</li>
+                        <li>
+                            <p class="bullet_title">มีเทคนิค</p>เทคนิคการสอนที่เข้าใจง่ายและ มีเทคนิคเพิ่มในการช่วยจำ</li>
+                        <li>
+                            <p class="bullet_title">ตะลุยโจทย์พร้อมเนื้อหาสำคัญ</p>ตะลุยโจทย์ไปพร้อมเนื้อหาสำคัญ เพิ่มความเข้าใจได้มากขึ้น</li>
+                        <li>
+                            <p class="bullet_title">โจทย์มากมายให้ฝึกฝน</p>โจทย์มากมายหลากหลายให้ได้ฝึกฝน หลังเรียนจบก่อนเจอข้อสอบจริง</li>
                     </ul>
                 </div>
             </div>
@@ -100,12 +105,17 @@ include('header.php');
             <!-- cmsk_row2col_right -->
             <div class="cmsk_row2col_right bg_green2">
                 <div class="right_article">
-                    <p class="text_headline text_green">ASSURE<br><span>เพิ่มความมั่นใจ ว่าคุณก็สอบผ่านได้เช่นกัน</span></p>
+                    <p class="text_headline text_green">ASSURE
+                        <br><span>เพิ่มความมั่นใจ ว่าคุณก็สอบผ่านได้เช่นกัน</span></p>
                     <ul class="bullet">
-                        <li><p class="bullet_title">ถอดสูตรความสำเร็จจากคอร์สหลัก</p>ถอดสูตรความสำเร็จจากคอร์สหลัก ที่ผู้เรียนสอบผ่านกว่าหลายพันคน</li>
-                        <li><p class="bullet_title">ประสบการณ์อันยาวนาน</p>ด้วยประสบการณ์อันยาวนานของผู้สอน จึงเข้าใจว่าผู้เรียนต้องการอะไร </li>
-                        <li><p class="bullet_title">ถ่ายทอดเนื้อหาได้ดี</p>ถ่ายทอดเนื้อหาออกมาให้เข้าใจได้ง่าย ไม่จำเป็นต้องมีพื้นฐานก็เรียนเข้าใจได้</li>
-                        <li><p class="bullet_title">ใส่ใจติดตามการสอน</p>ใส่ใจติดตามการสอน พร้อมตอบทุกข้อสงสัยผ่านแอพพลิเคชั่น Line@ โดย TA ผู้เชี่ยวชาญ</li>
+                        <li>
+                            <p class="bullet_title">ถอดสูตรความสำเร็จจากคอร์สหลัก</p>ถอดสูตรความสำเร็จจากคอร์สหลัก ที่ผู้เรียนสอบผ่านกว่าหลายพันคน</li>
+                        <li>
+                            <p class="bullet_title">ประสบการณ์อันยาวนาน</p>ด้วยประสบการณ์อันยาวนานของผู้สอน จึงเข้าใจว่าผู้เรียนต้องการอะไร </li>
+                        <li>
+                            <p class="bullet_title">ถ่ายทอดเนื้อหาได้ดี</p>ถ่ายทอดเนื้อหาออกมาให้เข้าใจได้ง่าย ไม่จำเป็นต้องมีพื้นฐานก็เรียนเข้าใจได้</li>
+                        <li>
+                            <p class="bullet_title">ใส่ใจติดตามการสอน</p>ใส่ใจติดตามการสอน พร้อมตอบทุกข้อสงสัยผ่านแอพพลิเคชั่น Line@ โดย TA ผู้เชี่ยวชาญ</li>
                     </ul>
                 </div>
             </div>
@@ -120,28 +130,31 @@ include('header.php');
     <div class="cmsk_row3col bg_green3">
         <!-- wrapper -->
         <div class="wrapper">
-            <p class="text_headline text_green">FLEXIBLE <br><span>คล่องตัวสำหรับทุกไลฟ์สไตล์</span>  </p>
-
+            <p class="text_headline text_green">FLEXIBLE
+                <br><span>คล่องตัวสำหรับทุกไลฟ์สไตล์</span> </p>
             <!-- cmsk_row3col_wrap -->
             <div class="cmsk_row3col_wrap">
                 <!-- cmsk_row3col_box -->
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
-                        <li><p class="bullet_title">สะดวกมากขึ้น</p>เลือกเรียนได้ตามใจ เรียนได้สะดวกทุกที่ทุกเวลา </li>
+                        <li>
+                            <p class="bullet_title">สะดวกมากขึ้น</p>เลือกเรียนได้ตามใจ เรียนได้สะดวกทุกที่ทุกเวลา </li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
                 <!-- cmsk_row3col_box -->
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
-                        <li><p class="bullet_title">มีวลาพักทำความเข้าใจ</p>หยุดเพื่อทำความเข้าใจเนื้อหาเพิ่มเติม ได้ตามต้องการ (ก่อนไปต่อที่ส่วนอื่น)</li>
+                        <li>
+                            <p class="bullet_title">มีวลาพักทำความเข้าใจ</p>หยุดเพื่อทำความเข้าใจเนื้อหาเพิ่มเติม ได้ตามต้องการ (ก่อนไปต่อที่ส่วนอื่น)</li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
                 <!-- cmsk_row3col_box -->
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
-                        <li><p class="bullet_title">ทบทวนซ้ำได้</p>ทบทวนเนื้อหาที่เรียนซ้ำได้ ตามความพอใจ</li>
+                        <li>
+                            <p class="bullet_title">ทบทวนซ้ำได้</p>ทบทวนเนื้อหาที่เรียนซ้ำได้ ตามความพอใจ</li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -174,9 +187,10 @@ include('header.php');
                     <!-- end text_description -->
                     <!-- button_wrap -->
                     <div class="button_wrap">
-                       <!-- <a class="btn btn_black" href="#"><span>ดูต่อทั้งหมด</span></a> -->
+                        <!-- <a class="btn btn_black" href="#"><span>ดูต่อทั้งหมด</span></a> -->
                         <a class="btn btn_green_long" href="#"><span>อ่านรายละเอียด</span></a>
-                        <span class="btn_regis main btn_next"><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></span>
+                        <span class="btn_regis main btn_next"><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a>
+                        </span>
                     </div>
                     <!-- end button_wrap -->
                 </div>
@@ -187,6 +201,107 @@ include('header.php');
         <!-- end wrapper -->
     </div>
     <!-- end cmsk_row1_4col -->
+    <div class="section">
+        <div class="wrapper">
+            <div class="card_wrapper_in blog_card">
+                <ul class="card_block">
+                    <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/1200x850" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด</p>
+                                <p class="card-points blog-date">13 ส.ค. 2559</p>
+                                <p class="card-detail">
+                                   รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                      <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/1200x850" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK </p>
+                                <p class="card-points blog-date">13 ส.ค. 2559</p>
+                                <p class="card-detail">
+                                    มายองเนสเทป รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน จอหงวนสเตชั่นเปียโน 
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                      <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/1200x850" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">CEO นักวางแผนการเงิน</p>
+                                <p class="card-points blog-date">13 ส.ค. 2559</p>
+                                <p class="card-detail">
+                                    คอลเล็กชั่นบอยคอตป๋าวโรกาส รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป จิตเภทลิมูซีน
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="wrapper">
+            <div class="impressions_wrapper_in">
+                <ul class="card_block">
+                    <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/500x500" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-points">คะแนนสอบ: 150</p>
+                                <p class="card-detail">
+                                    แอ็คชั่นเซรามิกแตงกวากีวี แครอทมาร์เก็ต ไฮไลท์เคอร์ฟิวฟลุทมอนสเตอร์คอลัมนิสต์ จุ๊ย เป็นไงอินเตอร์ยอมรับ ซาฟารีเทรนด์ฮองเฮาโค้ก อลซ์พุดดิ้งวาซาบิคอนเทนเนอร์ผ้าห่ม ซิลเวอร์ เห็นด้วย ธรรมากฤษณ์รีสอร์ทแอ็กชั่น คอลเล็กชั่นบอยคอตป๋าวโรกาส
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/500x500" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-points">คะแนนสอบ: 150</p>
+                                <p class="card-detail">
+                                    แอ็คชั่นเซรามิกแตงกวากีวี แครอทมาร์เก็ต ไฮไลท์เคอร์ฟิวฟลุทมอนสเตอร์คอลัมนิสต์ จุ๊ย เป็นไงอินเตอร์ยอมรับ ซาฟารีเทรนด์ฮองเฮาโค้ก
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card_item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="http://placehold.it/500x500" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-points">คะแนนสอบ: 150</p>
+                                <p class="card-detail">
+                                    แครกเกอร์โบรกเกอร์เวิร์คกาญจน์ โบ้ยกราวนด์ คอมเมนท์ล้มเหลวเซ็กส์หลวงปู่ โพลล์ฟลุกบริกรโฟน แอคทีฟมายาคติฟินิกซ์เซฟตี้พลานุภาพ ก๊วนเอ๋อวโรกาส ฟลุคสแล็ก ฟอยล์มาร์ตแช่แข็ง มาร์จินซานตาคลอสโยเกิร์ต
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- end impressions_wrapper_in -->
+        </div>
+    </div>
     <!-- cmsk_row1_4col -->
     <div class="cmsk_row1_4col bg_gray text_white faq_wrap">
         <!-- wrapper -->

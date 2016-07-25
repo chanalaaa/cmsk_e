@@ -19,7 +19,7 @@ include('header.php');
         <!-- wrapper -->
         <div class="wrapper">
             <!-- blog_wrapper -->
-            <div class="blog_wrapper_in">
+            <div class="blog_wrapper_in single">
                 <div class="blog_single-content">
                     <div class="blog_single-img">
                         <img src="http://placehold.it/1200x850" alt="">
@@ -34,7 +34,14 @@ include('header.php');
                             <br>
                             <br> ชาร์ตโอวัลตินซีดาน เบบี้ มอบตัวฟลุกคอร์ปหลวงตาโพลารอยด์ เกสต์เฮาส์พาสต้าโบ้ย อิมพีเรียลโปร ก่อนหน้าแฟรี่อุรังคธาตุ ตุ๊ดคาปูชิโนเซ็นทรัล รีเสิร์ช หมิงชะโนดสุนทรีย์ แบล็ครามเทพ เลคเชอร์แชมพูโฮลวีต แฮปปี้เป็นไงแบคโฮแดรี่วอลล์ รีวิวมอยส์เจอไรเซอร์บัตเตอร์เยอบีร่าสเตเดียม</p>
                     </div>
-                    <div class="line_gray desk"></div>
+                    <div class="social_share">
+                        <span>Share: </span> <ul>
+                            <li>f</li>
+                            <li>t</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="line_gray desk"></div>
                     <div class="blog-pagination">
                         <ul class="page_action">
                             <li class="prev"><a href="#">ย้อนกลับ</a></li>
@@ -43,7 +50,6 @@ include('header.php');
                         <div class="line_gray res"></div>
                         <a href="blog.php" class="back_to_blog">กลับสู่บทความ</a>
                     </div>
-                </div>
             </div>
         </div>
     </div>

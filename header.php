@@ -21,7 +21,7 @@
                         <p><a <?php if($page=="impressions" ) echo( 'class="active"'); ?> href="impressions.php">ความประทับใจ</a></p>
                     </li>
                     <li>
-                        <p><a <?php if($page=="blog" ) echo( 'class="active"'); ?> href="index.php">บทความ</a></p>
+                        <p><a <?php if($page=="blog" ) echo( 'class="active"'); ?> href="blog.php">บทความ</a></p>
                     </li>
                     <!--<li><p><a href="#">ติดต่อ</a></p></li>-->
                     <li class="menuBtn_login">
@@ -52,7 +52,7 @@
                 <p><a <?php if($page=="impressions" ) echo( 'class="active"'); ?> href="index.php">ผลงานที่ผ่านมา</a></p>
             </li>
             <li>
-                <p><a <?php if($page=="blog" ) echo( 'class="active"'); ?> href="index.php">บทความ</a></p>
+                <p><a <?php if($page=="blog" ) echo( 'class="active"'); ?> href="blog.php">บทความ</a></p>
             </li>
             <!--<li><p><a href="#">ติดต่อ</a></p></li>-->
             <li>
