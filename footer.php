@@ -1,5 +1,5 @@
 <!-- footer_contact_section -->
-<div class="footer_contact_section bg_light_gray">
+<div class="footer_contact_section bg_blue">
     <!-- wrapper -->
     <div class="wrapper">
         <!-- footer_contact_wrap -->
