@@ -73,7 +73,7 @@ include('header.php');
     <div class="cmsk_row bg_white">
         <!-- cmsk_row1_text -->
         <div class="cmsk_row1_text text_thaisans_neue">
-            <p class="text_green highlight">WHAT YOU GET</p>
+            <p class="text_blue highlight">WHAT YOU GET</p>
             <p>สิ่งที่คุณจะได้รับ</p>
         </div>
         <!-- end cmsk_row1_text -->
@@ -87,7 +87,7 @@ include('header.php');
             <!-- cmsk_row2col_left -->
             <div class="cmsk_row2col_left bg_green1">
                 <div class="left_article">
-                    <p class="text_headline text_green">INTENSIVE
+                    <p class="text_headline text_white">INTENSIVE
                         <br><span>เนื้อหาเข้มข้น ตรงประเด็น</span></p>
                     <ul class="bullet">
                         <li>
@@ -105,7 +105,7 @@ include('header.php');
             <!-- cmsk_row2col_right -->
             <div class="cmsk_row2col_right bg_green2">
                 <div class="right_article">
-                    <p class="text_headline text_green">ASSURE
+                    <p class="text_headline text_white">ASSURE
                         <br><span>เพิ่มความมั่นใจ ว่าคุณก็สอบผ่านได้เช่นกัน</span></p>
                     <ul class="bullet">
                         <li>
@@ -130,7 +130,7 @@ include('header.php');
     <div class="cmsk_row3col bg_green3">
         <!-- wrapper -->
         <div class="wrapper">
-            <p class="text_headline text_green">FLEXIBLE
+            <p class="text_headline text_blue">FLEXIBLE
                 <br><span>คล่องตัวสำหรับทุกไลฟ์สไตล์</span> </p>
             <!-- cmsk_row3col_wrap -->
             <div class="cmsk_row3col_wrap">
@@ -179,7 +179,7 @@ include('header.php');
                 <div class="cmsk_row1_4col_right">
                     <!-- text_description -->
                     <div class="text_description">
-                        <p class="course_head text_green">FAST LANE Single License</p>
+                        <p class="course_head text_blue">FAST LANE Single License</p>
                         <p>หลักสูตรครอบคลุมเนื้อหาทั้งหมดสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือที่เรียกกันอย่างไม่เป็นทางการว่า Single License ซึ่งเป็นใบอนุญาตสำหรับผู้ประกอบวิชาชีพเกี่ยวกับการซื้อขายหลักทรัพย์ เช่น หุ้น ตราสารหนี้ กองทุนรวม</p>
                         <br>
                         <p>ด้วยเนื้อหาเข้มข้นและประสบการณ์ที่สั่งสมมาอย่างยาวนานของผู้สอน ให้คุณมั่นใจได้ว่าการสอบผ่าน Single License ไม่ใช่เรื่องยาก และยังสามารถเรียนได้อย่างสะดวก ทุกที่ทุกเวลา</p>
@@ -216,6 +216,7 @@ include('header.php');
                                 <p class="card-detail">
                                    รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี
                                 </p>
+                                 <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
                             </div>
                         </div>
                     </li>
@@ -230,6 +231,7 @@ include('header.php');
                                 <p class="card-detail">
                                     มายองเนสเทป รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน จอหงวนสเตชั่นเปียโน 
                                 </p>
+                                 <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
                             </div>
                         </div>
                     </li>
@@ -244,6 +246,7 @@ include('header.php');
                                 <p class="card-detail">
                                     คอลเล็กชั่นบอยคอตป๋าวโรกาส รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป จิตเภทลิมูซีน
                                 </p>
+                                 <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
                             </div>
                         </div>
                     </li>

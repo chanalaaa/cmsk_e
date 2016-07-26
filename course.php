@@ -32,9 +32,9 @@ include('header.php');
 
 				<!-- course_left -->
 				<div class="course_left">
-					<h1 class="course_head text_green hidden_mobile">FAST LANE<br>Single License<br>
+					<h1 class="course_head text_blue hidden_mobile">FAST LANE<br>Single License<br>
 					</h1>
-					<h1 class="course_head text_green visible_mobile">FAST LANE Single License</h1>
+					<h1 class="course_head text_blue visible_mobile">FAST LANE Single License</h1>
 				</div>
 				<!-- end course_left -->
 
@@ -46,7 +46,7 @@ include('header.php');
 					</div>
 
 					<div class="module_section">
-						<p class="module_head text_green">หมวดที่ 1 ความรู้พื้นฐาน</p>
+						<p class="module_head text_blue">หมวดที่ 1 ความรู้พื้นฐาน</p>
 						<ul class="module">
 							<li>ระบบการเงินและโครงสร้างตลาดการเงิน</li>
 							<li>ตลาดการเงินระหว่างประเทศ</li>
@@ -60,7 +60,7 @@ include('header.php');
 
 
 					<div class="module_section">
-						<p class="module_head text_green">หมวดที่ 2 กฎระเบียบและการแนะนำการลงทุนที่เหมาะสม</p>
+						<p class="module_head text_blue">หมวดที่ 2 กฎระเบียบและการแนะนำการลงทุนที่เหมาะสม</p>
 						<ul class="module">
 							<li>หลักเกณฑ์การปฏิบัติงานของบริษัทหลักทรัพย์และผู้แนะนำการลงทุน</li>
 							<li>กฎหมายเกี่ยวกับการซื้อขายหลักทรัพย์และฟอกเงิน</li>
@@ -71,7 +71,7 @@ include('header.php');
 
 
 					<div class="module_section">
-						<p class="module_head text_green">หมวดที่ 3 ความรู้เกี่ยวกับหลักทรัพย์</p>
+						<p class="module_head text_blue">หมวดที่ 3 ความรู้เกี่ยวกับหลักทรัพย์</p>
 						<ul class="module">
 							<li>ตราสารทุน ตลาดตราสารทุน และหลักเกณฑ์การซื้อขายตราสารทุน</li>
 							<li>ตราสารหนี้ ตลาดตราสารหนี้ และหลักเกณฑ์การซื้อขายตราสารหนี้</li>
@@ -80,7 +80,7 @@ include('header.php');
 					</div>
 						<div class="module_section">
 						<br>
-						<p class="module_head text_green">ชมตัวอย่างการเรียน</p>
+						<p class="module_head text_blue">ชมตัวอย่างการเรียน</p>
 						<div class="player">
 						   <video>
 						        <source type="video/webm"  src="//stream.flowplayer.org/bauhaus.webm">
@@ -90,7 +90,7 @@ include('header.php');
 					</div>
 
 					<div class="button_wrap">
-						<a href="register.php" class="btn btn_green" href="course_practice.php">
+						<a href="register.php" class="btn btn_green btn_regis" href="course_practice.php">
 						<span>สมัครเรียน</span></a>
 					</div>
 

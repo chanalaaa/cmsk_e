@@ -26,13 +26,13 @@
                     <!--<li><p><a href="#">ติดต่อ</a></p></li>-->
                     <li class="menuBtn_login">
                         <p>
-                            <a id="login_btn" href="#">
+                            <a id="login_btn" class="text_blue" href="#">
                                 <?php if($page == "dashboard") {echo('Logout');}else{
-					echo('Login');
-					} ?> </a>
+                    echo('Login');
+                    } ?> </a>
                         </p>
                     </li>
-                    <li class="btn_regis main"><a class="btn btn_green" href="register.php"><span>สมัครเรียน</span></a></li>
+                    <li class="btn_regis main"><a class="btn btn_green btn_regis" href="register.php"><span>สมัครเรียน</span></a></li>
                 </ul>
             </div>
         </nav>
@@ -40,6 +40,7 @@
     <!-- end header_in -->
     <!-- Mobile menu -->
     <div class="mobile_menu_wrapper visible_mobile">
+        <div id="modal-close3">x</div>
         <ul>
             <!--<li><p><a href="#">หน้าหลัก</a></p></li>-->
             <li>
@@ -56,24 +57,19 @@
             </li>
             <!--<li><p><a href="#">ติดต่อ</a></p></li>-->
             <li>
-                <p><a id="login_btn1" href="#">Login</a></p>
+                <p><a id="login_btn1" class="text_blue" href="#">Login</a></p>
             </li>
         </ul>
     </div>
     <script>
-    var click = 1;
+
     $("#mobile_menu").click(function() {
-
-        if (click == 0) {
-            $(".mobile_menu_wrapper").removeClass("active");
-            $("#menu_button").removeClass("active");
-            click = 1;
-        } else {
-            $(".mobile_menu_wrapper").addClass("active");
-            $("#menu_button").addClass("active");
-            click = 0;
-        }
-
+        $(".mobile_menu_wrapper").addClass("active");
+        $("#menu_button").addClass("active");
+    });
+    $("#modal-close3").click(function() {
+        $(".mobile_menu_wrapper").removeClass("active");
+        $("#menu_button").removeClass("active");
     });
     </script>
     <!-- </div> -->
