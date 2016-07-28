@@ -208,6 +208,16 @@ a.text_blue:hover {
 .btn_seemore_white:hover {
     opacity: .6;
 }
+@media(max-width: 700px) {
+    .btn_seemore_white {
+           width: 140px;
+    height: 38px;
+    }
+    .btn_seemore_white span {
+        font-size: 1.4em;
+        margin-top: 7px;
+    }
+}
 
 @media(max-width: 500px) {
     .btn_seemore_white {
@@ -222,37 +232,6 @@ a.text_blue:hover {
     }
 }
 
-@media(max-width: 375px) {
-    /*.btn_seemore_white{
-        width: 75px;
-        height: 30px;
-    }
-    .btn_seemore_white span{
-        font-size: 1em;
-        margin-top: 7px;
-    }*/
-    .btn_seemore_white {
-        width: 150px;
-        /*90*/
-        height: 30px;
-        /*35*/
-    }
-    .btn_seemore_white span {
-        font-size: 0.6em;
-        margin-top: 10px;
-    }
-}
-
-@media(max-width: 320px) {
-    /*.btn_seemore_white{
-        width: 65px;
-        height: 26px;
-    }
-    .btn_seemore_white span{
-        font-size: 0.9em;
-        margin-top: 6px;
-    }*/
-}
 
 .btn_green {
     width: 122px;
@@ -789,12 +768,22 @@ header .header_in nav ul li .btn_green span {
 }
 
 @media(max-width: 1280px) {
-    .banner {
+     .banner {
         height: auto;
     }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1050px) {
+   
+      .banner .banner_in #seemore {
+        right: 17%;
+    }
+}
+
+@media(max-width: 850px) {
+     .banner .banner_in #seemore {
+        right: 17%;
+    }
     .banner .banner_in #dr_image {
         width: 395px;
     }
@@ -804,6 +793,9 @@ header .header_in nav ul li .btn_green span {
 }
 
 @media(max-width: 768px) {
+    .banner .banner_in #seemore {
+        right: 14%;
+    }
     .banner .banner_in #dr_image {
         width: 360px;
     }
@@ -841,6 +833,7 @@ header .header_in nav ul li .btn_green span {
 }
 
 @media(max-width: 375px) {
+
     .banner .banner_in #m_dr_intro {
         width: 260px;
         position: absolute;
@@ -851,6 +844,9 @@ header .header_in nav ul li .btn_green span {
 }
 
 @media(max-width: 320px) {
+       .banner .banner_in #seemore{
+        right: 12%;
+    }
     .banner .banner_in #m_dr_intro {
         width: 260px;
         position: absolute;
@@ -3084,7 +3080,7 @@ ul.progress_section li .progress_course_bar {
     background: #B1D9E0!important
 }
 
-@media(max-width: 500px) {
+@media(max-width: 700px) {
     .bx-wrapper .bx-pager {
         bottom: -25px!important;
     }
