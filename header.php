@@ -43,14 +43,17 @@
         <div id="modal-close3">x</div>
         <ul>
             <!--<li><p><a href="#">หน้าหลัก</a></p></li>-->
+               <li>
+                <p><a <?php if($page=="home" ) echo( 'class="active"'); ?> href="index.php.php">หน้าแรก</a></p>
+            </li>
             <li>
-                <p><a <?php if($page=="course" ) echo( 'class="active"'); ?> href="course.php">คอร์ส</a></p>
+                <p><a <?php if($page=="course" ) echo( 'class="active"'); ?> href="course.php">รายละเอียดคอร์ส</a></p>
             </li>
             <li>
                 <p><a <?php if($page=="trainer" ) echo( 'class="active"'); ?> href="index.php">วิทยากร</a></p>
             </li>
             <li>
-                <p><a <?php if($page=="impressions" ) echo( 'class="active"'); ?> href="index.php">ผลงานที่ผ่านมา</a></p>
+                <p><a <?php if($page=="impressions" ) echo( 'class="active"'); ?> href="impressions.php">ความประทับใจ</a></p>
             </li>
             <li>
                 <p><a <?php if($page=="blog" ) echo( 'class="active"'); ?> href="blog.php">บทความ</a></p>

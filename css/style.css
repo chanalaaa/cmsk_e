@@ -1804,9 +1804,7 @@ footer .footer_wrap .copyright p {
     color: #008199 !important;
 }
 
-@media(max-width: 1280px) {
-
-}
+@media(max-width: 1280px) {}
 
 @media(max-width: 1024px) {
     .headpage_banner {
@@ -1822,24 +1820,23 @@ footer .footer_wrap .copyright p {
         min-height: 130px;
     }
     .headpage_banner p.page_topic {
-        padding-top: 40px;
+        padding-top: 30px;
+        font-size: 40px;
+        width: 50%;
+        padding-left: 0;
     }
 }
 
-@media(max-width: 480px) {
-
-}
+@media(max-width: 480px) {}
 
 @media(max-width: 375px) {
     .headpage_banner p.page_topic {
-        font-size: 2.3em;
+        font-size: 35px;
     }
 }
 
 @media(max-width: 320px) {
-    .headpage_banner {
-
-    }
+    .headpage_banner {}
 }
 
 .course_wrapper_in {

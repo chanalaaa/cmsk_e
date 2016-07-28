@@ -13,7 +13,7 @@ include('header.php');
 
 		<!-- wrapper -->
 		<div class="wrapper">
-			<p class="page_topic text_white">คอร์ส</p>
+			<p class="page_topic text_white">รายละเอียดคอร์ส</p>
 		</div>
 		<!-- end wrapper -->
 

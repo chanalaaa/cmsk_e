@@ -24,7 +24,7 @@ include('header.php');
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="http://placehold.it/500x500" alt="">
+                                <img src="img/p1.jpg" alt="">
                             </div>
                             <div class="card_content">
                                 <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
@@ -38,7 +38,7 @@ include('header.php');
                    <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="http://placehold.it/500x500" alt="">
+                                <img src="img/p2.jpg" alt="">
                             </div>
                             <div class="card_content">
                                 <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
@@ -52,7 +52,7 @@ include('header.php');
                      <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="http://placehold.it/500x500" alt="">
+                                <img src="img/p3.jpg" alt="">
                             </div>
                             <div class="card_content">
                                 <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
