@@ -92,6 +92,12 @@ include('header.php');
                         </div>
                     </li>
                 </ul>
+                    <div class="load_more">
+                    <a href="#">
+                        <p>Load More</p>
+                        <img src="img/ico_arrow.png" alt="" class="icon_circle">
+                    </a>
+                </div>
             </div>
             <!-- end impressions_wrapper_in -->
         </div>

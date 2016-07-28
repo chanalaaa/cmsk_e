@@ -9,7 +9,7 @@ include('header.php');
     <div class="headpage_banner">
         <!-- wrapper -->
         <div class="wrapper">
-            <p class="page_topic text_white">บทความ</p>
+            <p class="page_topic text_white">ความรู้ที่เกี่ยวข้อง</p>
         </div>
         <!-- end wrapper -->
     </div>
@@ -22,7 +22,7 @@ include('header.php');
             <div class="blog_wrapper_in">
                 <div class="blog_list">
                     <div class="blog-content">
-                        <div class="blog-img"><img src="http://placehold.it/1200x850" alt=""></div>
+                        <div class="blog-img"><img src="https://unsplash.it/1200/850?image=1" alt=""></div>
                         <div class="blog-detail">
                             <p class="blog-title">
                                 นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด
@@ -33,9 +33,9 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-                  <div class="blog_list">
+                <div class="blog_list">
                     <div class="blog-content">
-                        <div class="blog-img"><img src="http://placehold.it/1200x850" alt=""></div>
+                        <div class="blog-img"><img src="https://unsplash.it/1200/850?image=7" alt=""></div>
                         <div class="blog-detail">
                             <p class="blog-title">
                                 นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด
@@ -46,9 +46,9 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-                  <div class="blog_list">
+                <div class="blog_list">
                     <div class="blog-content">
-                        <div class="blog-img"><img src="http://placehold.it/1200x850" alt=""></div>
+                        <div class="blog-img"><img src="https://unsplash.it/1200/850?image=24" alt=""></div>
                         <div class="blog-detail">
                             <p class="blog-title">
                                 นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด
@@ -59,7 +59,7 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-                  <div class="blog_list">
+                <div class="blog_list">
                     <div class="blog-content">
                         <div class="blog-img"><img src="http://placehold.it/1200x850" alt=""></div>
                         <div class="blog-detail">
@@ -71,6 +71,12 @@ include('header.php');
                             <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
                         </div>
                     </div>
+                </div>
+                <div class="load_more">
+                    <a href="#">
+                        <p>Load More</p>
+                        <img src="img/ico_arrow.png" alt="" class="icon_circle">
+                    </a>
                 </div>
             </div>
             <!-- end blog_wrapper_in -->

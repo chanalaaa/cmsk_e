@@ -9,7 +9,7 @@ include('header.php');
     <div class="headpage_banner">
         <!-- wrapper -->
         <div class="wrapper">
-            <p class="page_topic text_white">บทความ</p>
+            <p class="page_topic text_white">ความรู้ที่เกี่ยวข้อง</p>
         </div>
         <!-- end wrapper -->
     </div>
@@ -22,7 +22,7 @@ include('header.php');
             <div class="blog_wrapper_in single">
                 <div class="blog_single-content">
                     <div class="blog_single-img">
-                        <img src="http://placehold.it/1200x850" alt="">
+                        <img src="https://unsplash.it/1200/850?image=1" alt="">
                     </div>
                     <div class="blog_single-detail">
                         <p class="blog-title">
@@ -35,21 +35,33 @@ include('header.php');
                             <br> ชาร์ตโอวัลตินซีดาน เบบี้ มอบตัวฟลุกคอร์ปหลวงตาโพลารอยด์ เกสต์เฮาส์พาสต้าโบ้ย อิมพีเรียลโปร ก่อนหน้าแฟรี่อุรังคธาตุ ตุ๊ดคาปูชิโนเซ็นทรัล รีเสิร์ช หมิงชะโนดสุนทรีย์ แบล็ครามเทพ เลคเชอร์แชมพูโฮลวีต แฮปปี้เป็นไงแบคโฮแดรี่วอลล์ รีวิวมอยส์เจอไรเซอร์บัตเตอร์เยอบีร่าสเตเดียม</p>
                     </div>
                     <div class="social_share">
-                        <span>Share: </span> <ul>
-                            <li>f</li>
-                            <li>t</li>
+                        <span>Share: </span>
+                        <ul>
+                            <li>
+                                <a href="#"><img src="img/ico_fb.png" alt="" class="icon_circle social"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/ico_tw.png" alt="" class="icon_circle social"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/ico_line.png" alt="" class="icon_circle social"></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="line_gray desk"></div>
-                    <div class="blog-pagination">
-                        <ul class="page_action">
-                            <li class="prev"><a href="#">ย้อนกลับ</a></li>
-                            <li class="next"><a href="#">ถัดไป</a></li>
-                        </ul>
-                        <div class="line_gray res"></div>
-                        <a href="blog.php" class="back_to_blog">กลับสู่บทความ</a>
-                    </div>
+                <div class="line_green desk"></div>
+                <div class="blog-pagination">
+                    <ul class="page_action">
+                        <li class="prev disable">
+                            <a href="#"><img src="img/ico_arrow.png" alt="" class="icon_circle"> ย้อนกลับ</a>
+                        </li>
+                        <li class="next">
+                            <a href="#">ถัดไป <img src="img/ico_arrow.png" alt="" class="icon_circle"></a>
+                        </li>
+                    </ul>
+                    <div class="line_green res"></div>
+                    <a href="blog.php" class="back_to_blog">กลับสู่บทความ</a>
+                </div>
             </div>
         </div>
     </div>
