@@ -16,34 +16,34 @@ include('header.php');
                 <div class="cmsk_slide">
                     <ul class="bxslider">
                         <li>
-                            <img src="http://placehold.it/1200x450" />
+                            <img src="img/Banner-01.jpg" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href="#">
-                                    <span class="">FAST LANE Single License</span>
+                                    <span class="">อ่านรายละเอียด</span>
                                 </a>
                             </div>
                         </li>
                         <li>
-                            <img src="http://placehold.it/1200x450" />
+                            <img src="img/Banner-02.jpg" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href="#">
-                                    <span class="">Test</span>
+                                    <span class="">อ่านรายละเอียด</span>
                                 </a>
                             </div>
                         </li>
                         <li>
-                            <img src="http://placehold.it/1200x450" />
+                            <img src="img/Banner-03.jpg" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href="#">
-                                    <span class="">Single License ALL-IN-ONE</span>
+                                    <span class="">อ่านรายละเอียด</span>
                                 </a>
                             </div>
                         </li>
                         <li>
-                            <img src="http://placehold.it/1200x450" />
+                            <img src="http://placehold.it/1280x495" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href="#">
-                                    <span class="">Test</span>
+                                    <span class="">อ่านรายละเอียด</span>
                                 </a>
                             </div>
                         </li>
@@ -77,15 +77,17 @@ include('header.php');
             <p>คอร์สเรียนผ่านวีดีโอออนไลน์</p>
         </div>
         <!-- end cmsk_row1_text -->
-        <div class="circle_mobile visible_mobile"><img src="img/circle_mobile.png"></div>
+       
     </div>
     <!-- end cmsk_row -->
     <!-- cmsk_row2col -->
     <div class="cmsk_row2col">
         <!-- cmsk_row2col_wrap -->
         <div class="cmsk_row2col_wrap">
+
             <!-- cmsk_row2col_left -->
             <div class="cmsk_row2col_left bg_green1">
+             <div class="circle_mobile visible_mobile"><img src="img/circle_mobile.png"></div>
                 <div class="left_article">
                     <p class="text_headline">เนื้อหาเข้มข้น
                         <br>
@@ -126,7 +128,7 @@ include('header.php');
         <!-- end cmsk_row2col_wrap -->
         <!--<div class="circle hidden_mobile"><img src="img/circle_desktop.png"></div>-->
         <div class="circle hidden_mobile"><img src="img/circle_desktop.png"></div>
-        <div class="line_circle"></div>
+        <div class="line_circle hidden_mobile"></div>
     </div>
     <!-- end cmsk_row2col -->
     <!-- cmsk_row3col -->
