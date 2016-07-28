@@ -8,7 +8,7 @@
             <a href="index.php"><img src="img/cmsk_logo.png"></a>
         </div>
         <nav>
-            <a class="btn btn_green btn_regismobile main" href="register.php"><span>สมัครเรียน</span></a>
+            <a class="btn btn_green btn_regismobile main btn_regis" href="register.php"><span>สมัครเรียน</span></a>
             <div class="btn_m_menu" id="mobile_menu">
                 <ul>
                     <li>

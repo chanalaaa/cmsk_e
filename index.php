@@ -73,8 +73,8 @@ include('header.php');
     <div class="cmsk_row bg_white">
         <!-- cmsk_row1_text -->
         <div class="cmsk_row1_text text_thaisans_neue">
-            <p class="text_blue highlight">WHAT YOU GET</p>
-            <p>สิ่งที่คุณจะได้รับ</p>
+            <p class="highlight">FASTLANE Single Licens</p>
+            <p>คอร์สเรียนผ่านวีดีโอออนไลน์</p>
         </div>
         <!-- end cmsk_row1_text -->
         <div class="circle_mobile visible_mobile"><img src="img/circle_mobile.png"></div>
@@ -87,8 +87,9 @@ include('header.php');
             <!-- cmsk_row2col_left -->
             <div class="cmsk_row2col_left bg_green1">
                 <div class="left_article">
-                    <p class="text_headline text_white">INTENSIVE
-                        <br><span>เนื้อหาเข้มข้น ตรงประเด็น</span></p>
+                    <p class="text_headline">เนื้อหาเข้มข้น
+                        <br>
+                    </p>
                     <ul class="bullet">
                         <li>
                             <p class="bullet_title">ตรงประเด็น</p>ได้ความรู้แบบเน้นๆ ตรงประเด็นเข้าใจเนื้อหาสำคัญสำหรับสอบ ได้ภายใน15 ชม.</li>
@@ -105,8 +106,9 @@ include('header.php');
             <!-- cmsk_row2col_right -->
             <div class="cmsk_row2col_right bg_green2">
                 <div class="right_article">
-                    <p class="text_headline text_white">ASSURE
-                        <br><span>เพิ่มความมั่นใจ ว่าคุณก็สอบผ่านได้เช่นกัน</span></p>
+                    <p class="text_headline text_white">เพิ่มความมั่นใจ
+                        <br>
+                    </p>
                     <ul class="bullet">
                         <li>
                             <p class="bullet_title">ถอดสูตรความสำเร็จจากคอร์สหลัก</p>ถอดสูตรความสำเร็จจากคอร์สหลัก ที่ผู้เรียนสอบผ่านกว่าหลายพันคน</li>
@@ -123,11 +125,13 @@ include('header.php');
         </div>
         <!-- end cmsk_row2col_wrap -->
         <!--<div class="circle hidden_mobile"><img src="img/circle_desktop.png"></div>-->
-        <div class="circle hidden_mobile"><img src="img/circle_mobile.png"></div>
+        <div class="circle hidden_mobile"><img src="img/circle_desktop.png"></div>
+        <div class="line_circle"></div>
     </div>
     <!-- end cmsk_row2col -->
     <!-- cmsk_row3col -->
     <div class="cmsk_row3col bg_green3">
+        <div class="circle hidden_mobile"><img src="img/line_circle_top.png"></div>
         <!-- wrapper -->
         <div class="wrapper">
             <p class="text_headline text_blue">FLEXIBLE
@@ -214,13 +218,13 @@ include('header.php');
                                 <p class="card-name">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด</p>
                                 <p class="card-points blog-date">13 ส.ค. 2559</p>
                                 <p class="card-detail">
-                                   รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี
+                                    รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี
                                 </p>
-                                 <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
+                                <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
                             </div>
                         </div>
                     </li>
-                      <li class="card_item">
+                    <li class="card_item">
                         <div class="card">
                             <div class="card-img">
                                 <img src="http://placehold.it/1200x850" alt="">
@@ -229,13 +233,13 @@ include('header.php');
                                 <p class="card-name">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK </p>
                                 <p class="card-points blog-date">13 ส.ค. 2559</p>
                                 <p class="card-detail">
-                                    มายองเนสเทป รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน จอหงวนสเตชั่นเปียโน 
+                                    มายองเนสเทป รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน จอหงวนสเตชั่นเปียโน
                                 </p>
-                                 <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
+                                <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
                             </div>
                         </div>
                     </li>
-                      <li class="card_item">
+                    <li class="card_item">
                         <div class="card">
                             <div class="card-img">
                                 <img src="http://placehold.it/1200x850" alt="">
@@ -246,7 +250,7 @@ include('header.php');
                                 <p class="card-detail">
                                     คอลเล็กชั่นบอยคอตป๋าวโรกาส รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป จิตเภทลิมูซีน
                                 </p>
-                                 <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
+                                <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
                             </div>
                         </div>
                     </li>
