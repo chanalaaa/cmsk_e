@@ -32,8 +32,11 @@ window.onload = function() {
         $('body').css("overflow", "hidden");
     });
     $('.play').click(function() {
+        //var videotitle_group = $(this).parents('.course_view-title h2').text();
+        var videotitle_group = $(this).parent().parent().parent().find('.course_view-title').text();
         var videotitle = $(this).parents('li').text();
-        $("p.modal-text_title.videoTitle").html(videotitle.slice(0, -1)); //change video title
+        $("span.modal-text_title.videotitle_group").html(videotitle_group); //change video title
+        $("span.modal-text_title.videoTitle").html(videotitle.slice(0, -1)); //change video title
         // setTimeout(courseViewModal.style.display = "block", 1000);
         courseViewModal.style.display = "block";
         $('body').css("overflow", "hidden");

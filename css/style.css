@@ -48,7 +48,9 @@ a {
 .text_center_desk {
     text-align: center !important;
 }
-
+.text_bold{
+    font-weight: bold !important; 
+}
 @media (max-width: 500px) {
     .text_center_desk {
         text-align: left;
@@ -2695,9 +2697,17 @@ a.take_me_home {
     padding-top: 15px;
     font-size: 1.55em;
     text-decoration: underline;
-    color: green;
     text-align: center;
     display: block;
+}
+
+a.take_me_home:hover,
+a.take_me_home:active {
+    opacity: .6;
+}
+
+#login_btn_text {
+    color: #008199;
 }
 
 @media(max-width: 850px) {
@@ -3304,8 +3314,8 @@ ul.progress_section li .progress_course_bar {
 }
 
 .modal-text_title {
-    font-size: 2.5em;
-    color: #fff;
+    font-size: 2.5em !important;
+    color: #fff!important;
 }
 
 .modal-body input {
@@ -3380,7 +3390,7 @@ ul.progress_section li .progress_course_bar {
 
 .course_view_list i {
     float: right;
-    padding: 5px 25px 0 0;
+    padding: 5px 35px 0 0;
 }
 
 .course_view_list i:hover {
@@ -3419,7 +3429,7 @@ ul.course_view_sublist li i {
 }
 
 ul.course_view_sublist li {
-    background-color: gray;
+    background-color: #CBE5EA;
     padding: 15px 25px;
     font-weight: 600;
 }
@@ -3430,10 +3440,23 @@ ul.course_view_sublist li:nth-child(even) {
 
 .toggle_btn:before {
     content: "+";
+    font-size: 30px;
+    font-family: "thaisans";
+    font-weight: 700;
+    color: #008199;
 }
 
 .toggle_btn.active:before {
-    content: "-";
+    content: "|";
+    font-size: 25px;
+    font-family: "thaisans";
+    font-weight: 700;
+    color: #008199;
+    padding-right: 5px;
+    display: block;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .section {
@@ -3503,6 +3526,10 @@ ul.course_view_sublist li:nth-child(even) {
 .icon_circle.social {
     width: 45px;
 }
+.icon_circle.status{
+     width: 25px;
+     height: 25px;
+}
 
 .icon_circle:hover,
 .icon_circle:active {
@@ -3525,6 +3552,19 @@ ul.course_view_sublist li:nth-child(even) {
 
 .load_more p {
     padding-bottom: 10px;
+}
+
+i.play {
+    width: 40px;
+    height: 40px;
+    background: url("../img/play.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: -7px;
+}
+
+i.play:hover,
+i.play:active {
+    opacity: .6;
 }
 
 @media(max-width: 800px) {

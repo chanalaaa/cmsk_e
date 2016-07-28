@@ -8,7 +8,7 @@ include('header.php');
     <span id="modal-close2">×</span>
     <div class="modal-content">
         <div class="modal-body">
-            <p class="modal-text_title videoTitle">ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE</p>
+            <span class="modal-text_title text_bold videotitle_group">หมวดที่ 1</span><span class="modal-text_title text_bold"> | </span><span class="modal-text_title videoTitle">ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE</span>
             <div class="player">
                 <video>
                     <source type="video/webm" src="//stream.flowplayer.org/bauhaus.webm">
@@ -52,17 +52,17 @@ include('header.php');
                                 <tr>
                                     <td class="">1. SINGLE LICENSE ALL-IN-ONE</td>
                                     <td class="text_orange">11 พ.ค. 2558</td>
-                                    <td>x</td>
+                                    <td><img src="img/ico_sussess.png" alt="" class="icon_circle status"></td>
                                 </tr>
                                 <tr>
                                     <td class="">2. SINGLE LICENSE ALL-IN-ONE</td>
                                     <td class="text_orange">12 พ.ค. 2558</td>
-                                    <td>x</td>
+                                    <td><img src="img/ico_sussess.png" alt="" class="icon_circle status"></td>
                                 </tr>
                                 <tr>
                                     <td class="">3. SINGLE LICENSE ALL-IN-ONE</td>
                                     <td class="text_orange">13 พ.ค. 2558</td>
-                                    <td>x</td>
+                                    <td><img src="img/ico_pending.png" alt="" class="icon_circle status"></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -109,26 +109,26 @@ include('header.php');
                         <i class="toggle_btn"></i>
                     </div>
                     <ul class="course_view_sublist">
-                        <li><span>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 13 : SINGLE LICENSE ALL-IN-ONE </span> <i class="play">></i></li>
-                        <li><span>ตอนที่ 14 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 15 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 16 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 17 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 18 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 19 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 20 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
+                        <li><span>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 13 : SINGLE LICENSE ALL-IN-ONE </span> <i class="play"></i></li>
+                        <li><span>ตอนที่ 14 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 15 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 16 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 17 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 18 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 19 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 20 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
                     </ul>
                 </div>
                 <!-- course_view_list -->
@@ -138,9 +138,9 @@ include('header.php');
                         <i class="toggle_btn"></i>
                     </div>
                     <ul class="course_view_sublist">
-                        <li><span>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
+                        <li><span>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
                     </ul>
                 </div>
                 <!-- course_view_list -->
@@ -150,18 +150,18 @@ include('header.php');
                         <i class="toggle_btn"></i>
                     </div>
                     <ul class="course_view_sublist">
-                        <li><span>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
-                        <li><span>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE </span><i class="play">></i></li>
+                        <li><span>ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 2 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 3 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 4 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 5 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 6 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 7 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 8 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 9 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 10 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 11 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
+                        <li><span>ตอนที่ 12 : SINGLE LICENSE ALL-IN-ONE </span><i class="play"></i></li>
                     </ul>
                 </div>
                 <!-- course_view_list -->

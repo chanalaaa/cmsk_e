@@ -22,7 +22,7 @@ include('header.php');
             <!-- cmsk_thx_wrapper -->
             <div class="cmsk_thx_wrapper">
                 <div class="logo_img">
-                    <img src="http://placehold.it/300x120" alt=""></div>
+                    <img src="img/fastlane_logo.jpg" alt=""></div>
                 <p><span class="text_storng">ขอบคุณที่ทำรายการสั่งซื้อคอร์ส FASTLANE Single License</span></p>
                 <p><span class="text_storng">Order ID:</span> FLS000001</p>
                 <p>ท่านทำรายการเมื่อ วันพฤหัสบดีที่ 21 กรกฏคม 2559</p>

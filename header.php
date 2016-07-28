@@ -87,7 +87,7 @@
             <p class="modal-text_title">เข้าสู่ระบบ</p>
             <input name="id" placeholder="ชื่อผู้ใช้">
             <input name="password" type="password" placeholder="รหัสผ่าน">
-            <a class="btn btn_green_long" href="user_summary.php"><span>Login</span></a> <span>ท่านยังไม่ได้เป็นสมาชิก <a href="register.php" style="text-decoration:underline;" > สมัครสมาชิก</a></span>
+            <a class="btn btn_green_long" href="dashboard.php"><span>Login</span></a> <span>ท่านยังไม่ได้เป็นสมาชิก <a href="register.php" style="text-decoration:underline;" > สมัครสมาชิก</a></span>
             <br>
             <div class="line_white"></div>
             <br>
