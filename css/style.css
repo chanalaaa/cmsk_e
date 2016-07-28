@@ -48,9 +48,11 @@ a {
 .text_center_desk {
     text-align: center !important;
 }
-.text_bold{
-    font-weight: bold !important; 
+
+.text_bold {
+    font-weight: bold !important;
 }
+
 @media (max-width: 500px) {
     .text_center_desk {
         text-align: left;
@@ -3526,9 +3528,15 @@ ul.course_view_sublist li:nth-child(even) {
 .icon_circle.social {
     width: 45px;
 }
-.icon_circle.status{
-     width: 25px;
-     height: 25px;
+
+.icon_circle.status {
+    width: 25px;
+    height: 25px;
+}
+
+.icon_circle.status:hover,
+.icon_circle.status:active {
+    opacity: 1;
 }
 
 .icon_circle:hover,
