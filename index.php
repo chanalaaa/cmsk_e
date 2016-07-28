@@ -6,7 +6,7 @@ include('header.php');
 <script src="js/jquery.bxslider.js?v=<?php echo date(" Y-m-d-H-i-s "); ?>"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css?v=<?php echo date(" Y-m-d-H-i-s "); ?>" />
 <!-- cmsk_main_content -->
-<div class="cmsk_main_content">
+<div class="cmsk_main_content index">
     <!-- banner -->
     <div class="banner">
         <!-- wrapper -->
@@ -77,30 +77,28 @@ include('header.php');
             <p>คอร์สเรียนผ่านวีดีโอออนไลน์</p>
         </div>
         <!-- end cmsk_row1_text -->
-       
     </div>
     <!-- end cmsk_row -->
     <!-- cmsk_row2col -->
     <div class="cmsk_row2col">
         <!-- cmsk_row2col_wrap -->
         <div class="cmsk_row2col_wrap">
-
             <!-- cmsk_row2col_left -->
             <div class="cmsk_row2col_left bg_green1">
-             <div class="circle_mobile visible_mobile"><img src="img/circle_mobile.png"></div>
+                <div class="circle_mobile visible_mobile"><img src="img/circle_mobile.png"></div>
                 <div class="left_article">
                     <p class="text_headline">เนื้อหาเข้มข้น
                         <br>
                     </p>
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">ตรงประเด็น</p>ได้ความรู้แบบเน้นๆ ตรงประเด็นเข้าใจเนื้อหาสำคัญสำหรับสอบ ได้ภายใน15 ชม.</li>
+                            <p class="bullet_title">ตรงประเด็น</p>เข้าใจเนื้อหาสำคัญ สำหรับสอบได้ภายใน 15 ชม.</li>
                         <li>
-                            <p class="bullet_title">มีเทคนิค</p>เทคนิคการสอนที่เข้าใจง่ายและ มีเทคนิคเพิ่มในการช่วยจำ</li>
+                            <p class="bullet_title">มีเทคนิคในการสอน</p>เข้าใจง่ายและมีเทคนิคช่วยจำ </li>
                         <li>
-                            <p class="bullet_title">ตะลุยโจทย์พร้อมเนื้อหาสำคัญ</p>ตะลุยโจทย์ไปพร้อมเนื้อหาสำคัญ เพิ่มความเข้าใจได้มากขึ้น</li>
+                            <p class="bullet_title">ตะลุยโจทย์พร้อมเนื้อหาสำคัญ</p>เข้าใจและทำได้มากขึ้น</li>
                         <li>
-                            <p class="bullet_title">โจทย์มากมายให้ฝึกฝน</p>โจทย์มากมายหลากหลายให้ได้ฝึกฝน หลังเรียนจบก่อนเจอข้อสอบจริง</li>
+                            <p class="bullet_title">โจทย์มากมายให้ฝึกฝน</p>เตรียมพร้อมก่อนสอบจริง</li>
                     </ul>
                 </div>
             </div>
@@ -113,13 +111,13 @@ include('header.php');
                     </p>
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">ถอดสูตรความสำเร็จจากคอร์สหลัก</p>ถอดสูตรความสำเร็จจากคอร์สหลัก ที่ผู้เรียนสอบผ่านกว่าหลายพันคน</li>
+                            <p class="bullet_title">ถอดสูตรความสำเร็จจากคอร์สหลัก</p>ที่สอบผ่านกว่าหลายพันคน</li>
                         <li>
-                            <p class="bullet_title">ประสบการณ์อันยาวนาน</p>ด้วยประสบการณ์อันยาวนานของผู้สอน จึงเข้าใจว่าผู้เรียนต้องการอะไร </li>
+                            <p class="bullet_title">ประสบการณ์อันยาวนาน</p>ผู้สอนเข้าใจว่าผู้เรียนต้องการอะไร </li>
                         <li>
-                            <p class="bullet_title">ถ่ายทอดเนื้อหาได้ดี</p>ถ่ายทอดเนื้อหาออกมาให้เข้าใจได้ง่าย ไม่จำเป็นต้องมีพื้นฐานก็เรียนเข้าใจได้</li>
+                            <p class="bullet_title">ถ่ายทอดเนื้อหาได้ดี</p>จึงเข้าใจได้โดยไม่ต้องมีพื้นฐาน</li>
                         <li>
-                            <p class="bullet_title">ใส่ใจติดตามการสอน</p>ใส่ใจติดตามการสอน พร้อมตอบทุกข้อสงสัยผ่านแอพพลิเคชั่น Line@ โดย TA ผู้เชี่ยวชาญ</li>
+                            <p class="bullet_title">ติดตามการสอน</p>พร้อมตอบทุกข้อสงสัย</li>
                     </ul>
                 </div>
             </div>
@@ -136,15 +134,15 @@ include('header.php');
         <div class="circle hidden_mobile"><img src="img/line_circle_top.png"></div>
         <!-- wrapper -->
         <div class="wrapper">
-            <p class="text_headline text_blue">FLEXIBLE
-                <br><span>คล่องตัวสำหรับทุกไลฟ์สไตล์</span> </p>
+            <p class="text_headline">
+                <br><span>คล่องตัวทุกไลฟ์สไตล์</span> </p>
             <!-- cmsk_row3col_wrap -->
             <div class="cmsk_row3col_wrap">
                 <!-- cmsk_row3col_box -->
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">สะดวกมากขึ้น</p>เลือกเรียนได้ตามใจ เรียนได้สะดวกทุกที่ทุกเวลา </li>
+                            <p class="bullet_title">สะดวกมากขึ้น</p>เรียนได้ทุกที่ ทุกเวลา </li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -152,7 +150,8 @@ include('header.php');
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">มีวลาพักทำความเข้าใจ</p>หยุดเพื่อทำความเข้าใจเนื้อหาเพิ่มเติม ได้ตามต้องการ (ก่อนไปต่อที่ส่วนอื่น)</li>
+                            <p class="bullet_title">มีวลาพักทำความเข้าใจ</p>สามารถหยุดเพื่อทำความเข้าใจ
+                            <br>เนื้อหาได้</li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -160,7 +159,7 @@ include('header.php');
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">ทบทวนซ้ำได้</p>ทบทวนเนื้อหาที่เรียนซ้ำได้ ตามความพอใจ</li>
+                            <p class="bullet_title">ทบทวนซ้ำได้</p>เมื่อเกิดข้อสงสัย </li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -178,17 +177,17 @@ include('header.php');
             <div class="cmsk_row1_4col_wrap">
                 <!-- cmsk_row1_4col_left -->
                 <div class="cmsk_row1_4col_left">
-                    <p class="text_subhead text_black">คอร์ส</p>
+                    <p class="text_subhead text_black">รายละเอียดคอร์ส</p>
                 </div>
                 <!-- end cmsk_row1_4col_left -->
                 <!-- cmsk_row1_4col_right -->
                 <div class="cmsk_row1_4col_right">
                     <!-- text_description -->
                     <div class="text_description">
-                        <p class="course_head text_blue">FAST LANE Single License</p>
+                       
                         <p>หลักสูตรครอบคลุมเนื้อหาทั้งหมดสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือที่เรียกกันอย่างไม่เป็นทางการว่า Single License ซึ่งเป็นใบอนุญาตสำหรับผู้ประกอบวิชาชีพเกี่ยวกับการซื้อขายหลักทรัพย์ เช่น หุ้น ตราสารหนี้ กองทุนรวม</p>
                         <br>
-                        <p>ด้วยเนื้อหาเข้มข้นและประสบการณ์ที่สั่งสมมาอย่างยาวนานของผู้สอน ให้คุณมั่นใจได้ว่าการสอบผ่าน Single License ไม่ใช่เรื่องยาก และยังสามารถเรียนได้อย่างสะดวก ทุกที่ทุกเวลา</p>
+                        <p>ด้วยเนื้อหาเข้มข้นและประสบการณ์ที่สั่งสมมาอย่างยาวนานของผู้สอน ให้คุณมั่นใจได้ว่าการสอบผ่าน Single License ไม่ใช่เรื่องยาก และยังสามารถเรียนได้อย่างสะดวก ทุกที่ ทุกเวลา</p>
                     </div>
                     <!-- end text_description -->
                     <!-- button_wrap -->
@@ -209,6 +208,8 @@ include('header.php');
     <!-- end cmsk_row1_4col -->
     <div class="section">
         <div class="wrapper">
+         <p class="text_headline text_center_desk">
+                <br><span>ความรู้ที่เกี่ยวข้อง</span> </p>
             <div class="card_wrapper_in blog_card">
                 <ul class="card_block">
                     <li class="card_item">
@@ -257,11 +258,14 @@ include('header.php');
                         </div>
                     </li>
                 </ul>
+                <a href="blog.php" class="blog-readmore all visble_mobile">ดูทั้งหมด</a>
             </div>
         </div>
     </div>
     <div class="section">
         <div class="wrapper">
+          <p class="text_headline text_center_desk">
+                <br><span>ความประทับใจ</span> </p>
             <div class="impressions_wrapper_in">
                 <ul class="card_block">
                     <li class="card_item">
@@ -307,6 +311,7 @@ include('header.php');
                         </div>
                     </li>
                 </ul>
+                 <a href="impressions.php" class="blog-readmore all visble_mobile">ดูทั้งหมด</a>
             </div>
             <!-- end impressions_wrapper_in -->
         </div>
