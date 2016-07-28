@@ -17,18 +17,19 @@
                 <ul class="contact_info">
                          <li>
                         <div class="contact_icon">
-                            <a class="icon_phone"></a>
+                            <a class="icon_fb"></a>
                         </div>
-                        <p>Facebook</p>
+                        <p><a href="#">Facebook</a></p>
                     </li>
                     <li>
                         <div class="contact_icon">
-                            <a class="icon_letter"></a>
+                            <a class="icon_line"></a>
                         </div>
-                        <p>Line@ SingleLicense</p>
+                        <p><a href="#">Line@ SingleLicense</a></p>
                     </li>
                 </ul>
                  <ul class="contact_info">
+
                     <li>
                         <div class="contact_icon">
                             <a class="icon_phone"></a>

@@ -184,7 +184,6 @@ include('header.php');
                 <div class="cmsk_row1_4col_right">
                     <!-- text_description -->
                     <div class="text_description">
-                       
                         <p>หลักสูตรครอบคลุมเนื้อหาทั้งหมดสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือที่เรียกกันอย่างไม่เป็นทางการว่า Single License ซึ่งเป็นใบอนุญาตสำหรับผู้ประกอบวิชาชีพเกี่ยวกับการซื้อขายหลักทรัพย์ เช่น หุ้น ตราสารหนี้ กองทุนรวม</p>
                         <br>
                         <p>ด้วยเนื้อหาเข้มข้นและประสบการณ์ที่สั่งสมมาอย่างยาวนานของผู้สอน ให้คุณมั่นใจได้ว่าการสอบผ่าน Single License ไม่ใช่เรื่องยาก และยังสามารถเรียนได้อย่างสะดวก ทุกที่ ทุกเวลา</p>
@@ -208,32 +207,34 @@ include('header.php');
     <!-- end cmsk_row1_4col -->
     <div class="section">
         <div class="wrapper">
-         <p class="text_headline text_center_desk">
+            <p class="text_headline text_center_desk">
                 <br><span>ความรู้ที่เกี่ยวข้อง</span> </p>
             <div class="card_wrapper_in blog_card">
                 <ul class="card_block">
                     <li class="card_item">
                         <div class="card">
-                            <div class="card-img">
-                                <img src="http://placehold.it/1200x850" alt="">
-                            </div>
-                            <div class="card_content">
-                                <p class="card-name">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด</p>
-                                <p class="card-points blog-date">13 ส.ค. 2559</p>
-                                <p class="card-detail">
-                                    รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี
-                                </p>
-                                <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
-                            </div>
+                         
+                                <div class="card-img">
+                                    <img src="https://unsplash.it/1200/850?image=1" alt="">
+                                </div>
+                                <div class="card_content">
+                                    <p class="card-name"><a href="#">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด </a></p>
+                                    <p class="card-points blog-date">13 ส.ค. 2559</p>
+                                    <p class="card-detail">
+                                        รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี
+                                    </p>
+                                    <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
+                                </div>
+                            </a>
                         </div>
                     </li>
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="http://placehold.it/1200x850" alt="">
+                                <img src="https://unsplash.it/1200/850?image=7" alt="">
                             </div>
                             <div class="card_content">
-                                <p class="card-name">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK </p>
+                                <p class="card-name"><a href="#">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK </a></p>
                                 <p class="card-points blog-date">13 ส.ค. 2559</p>
                                 <p class="card-detail">
                                     มายองเนสเทป รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน จอหงวนสเตชั่นเปียโน
@@ -245,10 +246,10 @@ include('header.php');
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="http://placehold.it/1200x850" alt="">
+                                <img src="https://unsplash.it/1200/850?image=24" alt="">
                             </div>
                             <div class="card_content">
-                                <p class="card-name">CEO นักวางแผนการเงิน</p>
+                                <p class="card-name"><a href="#">CEO นักวางแผนการเงิน</a></p>
                                 <p class="card-points blog-date">13 ส.ค. 2559</p>
                                 <p class="card-detail">
                                     คอลเล็กชั่นบอยคอตป๋าวโรกาส รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป จิตเภทลิมูซีน
@@ -264,14 +265,14 @@ include('header.php');
     </div>
     <div class="section">
         <div class="wrapper">
-          <p class="text_headline text_center_desk">
+            <p class="text_headline text_center_desk">
                 <br><span>ความประทับใจ</span> </p>
             <div class="impressions_wrapper_in">
                 <ul class="card_block">
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="http://placehold.it/500x500" alt="">
+                                <img src="img/p1.jpg" alt="">
                             </div>
                             <div class="card_content">
                                 <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
@@ -285,7 +286,7 @@ include('header.php');
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="http://placehold.it/500x500" alt="">
+                                <img src="img/p2.jpg" alt="">
                             </div>
                             <div class="card_content">
                                 <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
@@ -299,7 +300,7 @@ include('header.php');
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="http://placehold.it/500x500" alt="">
+                                <img src="img/p3.jpg" alt="">
                             </div>
                             <div class="card_content">
                                 <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
@@ -311,7 +312,7 @@ include('header.php');
                         </div>
                     </li>
                 </ul>
-                 <a href="impressions.php" class="blog-readmore all visble_mobile">ดูทั้งหมด</a>
+                <a href="impressions.php" class="blog-readmore all visble_mobile">ดูทั้งหมด</a>
             </div>
             <!-- end impressions_wrapper_in -->
         </div>

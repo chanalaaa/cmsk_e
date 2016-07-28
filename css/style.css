@@ -337,7 +337,7 @@ a.text_blue:hover {
 }
 
 .btn_green_long:hover {
-    background: #666;
+    opacity: .6;
 }
 
 .btn_green_182 {
@@ -1476,9 +1476,19 @@ ul.bullet li {
     }
     .cmsk_row1_4col_right .button_wrap {
         text-align: center;
+        justify-content: center;
     }
     .cmsk_row1_4col_right .text_slide {
         margin-top: 30px;
+    }
+}
+
+@media(max-width: 500px) {
+    .cmsk_row1_4col_right .text_slide p {
+        font-size: 1.5em;
+    }
+    .cmsk_row1_4col_right .text_slide p.faq_head {
+        font-size: 1.6em;
     }
 }
 
@@ -1563,6 +1573,22 @@ ul.bullet li {
     height: 25px;
     display: inline-block;
     background: url("../img/icon_pin.png") no-repeat;
+    background-size: 100%;
+}
+
+.contact_info_wrap ul.contact_info li a.icon_fb {
+    width: 23px;
+    height: 25px;
+    display: inline-block;
+    background: url("../img/icon_fb.png") no-repeat;
+    background-size: 100%;
+}
+
+.contact_info_wrap ul.contact_info li a.icon_line {
+    width: 23px;
+    height: 25px;
+    display: inline-block;
+    background: url("../img/icon_line.png") no-repeat;
     background-size: 100%;
 }
 
@@ -1992,6 +2018,12 @@ ul.module li {
     }
     .course_wrapper_in .course_left h1 {
         /*text-align: center;*/
+    }
+}
+
+@media(max-width: 500px) {
+    .btn_next {
+        margin-left: 10px;
     }
 }
 
@@ -2491,7 +2523,6 @@ ul.text_list li {
     margin: 0 auto;
     width: 60%;
     border-radius: 50%;
-    border: 13px solid;
     box-sizing: border-box;
     align-self: center;
 }
@@ -2510,6 +2541,9 @@ ul.text_list li {
     font-weight: 600;
     color: #4D4D4D;
     text-align: center;
+}
+.blog_card .card-name:hover{
+    opacity: .6;
 }
 
 .card-points,
@@ -2530,8 +2564,13 @@ ul.text_list li {
 
 .card-detail:before,
 .card-detail:after {
-    content: "\"";
+    content: " ";
+    background: url("../img/quote.png") no-repeat;
+    background-size: 100% 100%;
     display: block;
+    width: 17px;
+    height: 15px;
+    margin: 5px auto 10px;
 }
 
 .card-detail:before {
@@ -2539,7 +2578,10 @@ ul.text_list li {
 }
 
 .card-detail:after {
-    padding-top: 10px;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-top: 10px;
 }
 
 @media(max-width: 920px) {
