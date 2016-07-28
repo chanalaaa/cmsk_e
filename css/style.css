@@ -1773,11 +1773,11 @@ footer .footer_wrap .copyright p {
     min-height: 155px;
     background: url("../img/cmsk_headpage_banner.jpg") no-repeat;
     background-color: #00a05e;
-    background-size: 50% 100%;
+    background-size: cover;
     background-position: right top;
     /*background-attachment: fixed;*/
     position: relative;
-    background-color: #00a05e;
+    background-color: #E6E7E8;
 }
 
 .cmsk_headpage_banner {
@@ -1801,12 +1801,11 @@ footer .footer_wrap .copyright p {
     font-size: 3em;
     text-align: left;
     padding: 50px 20px 0px;
+    color: #008199 !important;
 }
 
 @media(max-width: 1280px) {
-    .headpage_banner {
-        background-size: 65% 100%;
-    }
+
 }
 
 @media(max-width: 1024px) {
@@ -1820,35 +1819,26 @@ footer .footer_wrap .copyright p {
 
 @media(max-width: 800px) {
     .headpage_banner {
-        min-height: 100px;
+        min-height: 130px;
     }
     .headpage_banner p.page_topic {
-        padding-top: 25px;
+        padding-top: 40px;
     }
 }
 
 @media(max-width: 480px) {
-    .headpage_banner {
-        min-height: 65px;
-        background-size: 80% 100%;
-    }
-    .headpage_banner p.page_topic {
-        padding-top: 8px;
-    }
+
 }
 
 @media(max-width: 375px) {
     .headpage_banner p.page_topic {
-        padding-top: 8px;
         font-size: 2.3em;
-        padding-top: 15px;
     }
 }
 
 @media(max-width: 320px) {
     .headpage_banner {
-        min-height: 65px;
-        background-size: 100% 100%;
+
     }
 }
 
@@ -2115,7 +2105,7 @@ ul.question_list li p.active {
 }
 
 .trainer_left {
-    width: 38%;
+    width: 35%;
     float: left;
     box-sizing: border-box;
     padding: 10px 20px 30px;
@@ -2124,6 +2114,7 @@ ul.question_list li p.active {
 
 .trainer_left img {
     width: 100%;
+    border-radius: 50%;
 }
 
 .trainer_right {
@@ -2542,7 +2533,8 @@ ul.text_list li {
     color: #4D4D4D;
     text-align: center;
 }
-.blog_card .card-name:hover{
+
+.blog_card .card-name:hover {
     opacity: .6;
 }
 

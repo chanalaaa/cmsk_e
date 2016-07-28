@@ -22,25 +22,25 @@ include('header.php');
             <div class="trainer_wrapper_in">
                 <!-- trainer_left -->
                 <div class="trainer_left">
-                    <img src="http://placehold.it/600x600" alt="">
+                    <img src="img/t1.jpg" alt="">
                 </div>
                 <!-- end trainer_left -->
                 <!-- trainer_right -->
                 <div class="trainer_right">
                     <div class="trainer_content">
-                        <h2 class="text_title">ดร.ชาติชาย มีสุขโข</h2>
+                        <h2 class="text_title text_blue">ดร.ชาติชาย มีสุขโข</h2>
                         <p class="text_desc">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด</p>
                         <p class="text_detail">จบปริญญาเอกด้านวิศวไฟฟ้า จาก University of Southern California (USC) แต่ด้วยความสนใจ ด้านการเงินส่วนบุคคลและการทำธุรกิจ ดร.ชาติชาย ผ่านการรับรอง Certified Financial Planner (CFP) ซึ่งเป็นประกาศนียบัตรสำหรับนักวางแผนการเงิน ระดับสากลที่ได้รับการเชื่อถือมากที่สุด รวมถึงก่อตั้ง บริษัท CMSK จำกัด โดยมีวัตถุประสงค์เพื่อพัฒนา เป็น World Class Wealth Management Firm ปัจจุบัน ดร.ชาติชาย เป็น CEO และ นักวางแผน การเงินของ CMSK และวิทยากรให้กับสถาบัน การเงินชั้นนำหลายแห่ง และอยากพัฒนาบริการ Wealth Management ให้มีประสิทธิภาพสูงสุด กับคนทุกระดับ
                         </p>
                         <div class="space_top"></div>
-                        <p class="text_title">ประวัติการศึกษา</p>
+                        <p class="text_title text_blue">ประวัติการศึกษา</p>
                         <ul class="text_list">
                             <li>ปริญญาตรี วิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย</li>
                             <li>ปริญญาโท Electrical Engineering, University of Southern California, USA</li>
                             <li>ปริญญาเอก Electrical Engineering, University of Southern California, USA</li>
                         </ul>
                        <div class="space_top"></div>
-                        <p class="text_title">ประสบการณ์การทำงาน</p>
+                        <p class="text_title text_blue">ประสบการณ์การทำงาน</p>
                         <ul class="text_list">
                             <li>Certified Financial Planner (CFP), บริษัท CMSK จำกัด</li>
                             <li>ตลาดการเงินระหว่างประเทศ</li>
