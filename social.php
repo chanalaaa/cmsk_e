@@ -55,7 +55,8 @@ twttr.widgets.createShareButton(
 $('#shareTW').click(function(event) {
     var blog_title = $(this).parents('.blog_single-content').find('.blog_single-detail .blog-title').text().trim();
     //trim() has remove whitespace from both sides of a string
-    $(this).attr("href", "http://twitter.com/share?text=" + blog_title); // Set tweet text by Blog Title
+    $(this).attr("href", "http://twitter.com/share?text=" + blog_title+"&url="+current_url); 
+    // Set tweet text & link  by Blog Title,url
 
     var width = 575,
         height = 400,
@@ -67,7 +68,6 @@ $('#shareTW').click(function(event) {
         ',height=' + height +
         ',top=' + top +
         ',left=' + left;
-
     window.open(url, 'twitter', opts);
 
     return false;
