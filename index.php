@@ -192,7 +192,7 @@ include('header.php');
                     <!-- button_wrap -->
                     <div class="button_wrap">
                         <!-- <a class="btn btn_black" href="#"><span>ดูต่อทั้งหมด</span></a> -->
-                        <a class="btn btn_green_long" href="#"><span>อ่านรายละเอียด</span></a>
+                        <a class="btn btn_green_long" href="course.php"><span>อ่านรายละเอียด</span></a>
                         <span class="btn_regis main btn_next"><a class="btn btn_green btn_regis" href="register.php"><span>สมัครเรียน</span></a>
                         </span>
                     </div>

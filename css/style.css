@@ -1632,9 +1632,15 @@ ul.bullet li {
         width: 100%;
         float: none;
     }
+    .footer_contact_wrap .contact_info_wrap ul.contact_info li {
+        padding-bottom: 5px;
+    }
     .footer_contact_wrap .contact_info_wrap ul.contact_info {
         max-width: 240px;
         float: none;
+        margin-top: 0px;
+    }
+    .footer_contact_wrap .contact_info_wrap ul.contact_info:first-child {
         margin-top: 30px;
     }
 }
@@ -1689,6 +1695,7 @@ footer .footer_wrap .copyright p {
     }
     footer .footer_wrap .copyright p {
         text-align: center;
+        padding-left: 0px;
     }
 }
 
@@ -3459,6 +3466,10 @@ ul.course_view_sublist li {
 
 ul.course_view_sublist li:nth-child(even) {
     background-color: transparent;
+}
+
+.toggle_btn {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .toggle_btn:before {

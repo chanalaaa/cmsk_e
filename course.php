@@ -84,7 +84,7 @@ include('header.php');
 						<div class="player">
 						   <video>
 						        <source type="video/webm"  src="//stream.flowplayer.org/bauhaus.webm">
-     							<source type="video/mp4"   src="//stream.flowplayer.org/bauhaus.mp4">
+     							<source type="video/mp4"   src="//www.sample-videos.com/video/mp4/480/big_buck_bunny_480p_1mb.mp4">
 						   </video>
 						</div>
 					</div>
