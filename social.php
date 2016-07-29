@@ -1,4 +1,5 @@
 <script>
+var current_url = document.URL;
 /* Facebook ***********************************/
 
 FB.init({
@@ -18,7 +19,7 @@ FB.init({
 }(document, 'script', 'facebook-jssdk'));
 
 document.getElementById('shareFB').onclick = function() {
-    var current_url = document.URL;
+
 
     //console.log(current_url);
     window.mobilecheck = function() {
@@ -54,7 +55,7 @@ twttr.widgets.createShareButton(
 $('#shareTW').click(function(event) {
     var blog_title = $(this).parents('.blog_single-content').find('.blog_single-detail .blog-title').text().trim();
     //trim() has remove whitespace from both sides of a string
-     $(this).attr("href", "http://twitter.com/share?text="+blog_title);  // Set tweet text by Blog Title
+    $(this).attr("href", "http://twitter.com/share?text=" + blog_title); // Set tweet text by Blog Title
 
     var width = 575,
         height = 400,
@@ -65,11 +66,15 @@ $('#shareTW').click(function(event) {
         ',width=' + width +
         ',height=' + height +
         ',top=' + top +
-           ',text=fe' 
         ',left=' + left;
 
-   window.open(url, 'twitter', opts);
+    window.open(url, 'twitter', opts);
 
     return false;
+});
+
+/* Line ***********************************/
+$('#shareLINE').click(function(event) {
+    $(this).attr("href", "http://line.me/R/msg/text/?" + current_url); // Set Link by Blog url
 });
 </script>
