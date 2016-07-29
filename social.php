@@ -18,6 +18,9 @@ FB.init({
 }(document, 'script', 'facebook-jssdk'));
 
 document.getElementById('shareFB').onclick = function() {
+    var current_url = document.URL;
+    
+    //console.log(current_url);
     window.mobilecheck = function() {
         var check = false;
         (function(a, b) {
@@ -26,13 +29,13 @@ document.getElementById('shareFB').onclick = function() {
         return check;
     }
     if (mobilecheck == true) {
-        shareurl = "https://www.facebook.com/dialog/share?app_id=YOUR_ID&display=popup&href=THE_URL_YOU_WANT_TO_SHARE&redirect_uri=THE_LANDING_URL_AFTER_SHARING";
+        shareurl = "https://www.facebook.com/dialog/share?app_id=749802425122299&display=popup&href="+current_url+"&redirect_uri="+current_url;
         window.open(shareurl);
     } else {
         FB.ui({
             method: 'share',
             display: 'popup',
-            href: 'https://developers.facebook.com/docs/',
+            href: current_url,
         }, function(response) {});
     }
 }

@@ -72,15 +72,4 @@ include('header.php');
 <!-- end blog_wrapper -->
 </div>
 <!-- end cmsk_main_content -->
-<script>
-
-
-document.getElementById('shareFB').onclick = function() {
-    FB.ui({
-        method: 'share',
-        display: 'popup',
-        href: 'https://developers.facebook.com/docs/',
-    }, function(response) {});
-}
-</script>
 <?php include('footer.php'); ?>
