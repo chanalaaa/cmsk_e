@@ -5,7 +5,7 @@ include('header.php');
 ?>
 <div id="viewCourseModal" class="modal">
     <!-- Modal content -->
-    <span id="modal-close2">×</span>
+    <span id="modal-close2"><img src="img/ico_close.png" alt="" class="icon_circle"></span>
     <div class="modal-content">
         <div class="modal-body">
             <span class="modal-text_title text_bold videotitle_group">หมวดที่ 1</span><span class="modal-text_title text_bold"> | </span><span class="modal-text_title videoTitle">ตอนที่ 1 : SINGLE LICENSE ALL-IN-ONE</span>

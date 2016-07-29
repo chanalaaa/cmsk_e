@@ -246,6 +246,9 @@ a.text_blue:hover {
         font-size: 1em;
         margin-top: 3px;
     }
+    .modal-content .btn span {
+        margin-top: 6px;
+    }
 }
 
 .btn_green {
@@ -3230,7 +3233,10 @@ ul.progress_section li .progress_course_bar {
     animation-name: animatetop;
     animation-duration: 0.4s
 }
+a.regis_text:hover,a.regis_text:active{
+    color: #00829a;
 
+}
 @media(max-width: 900px) {
     .modal-content {
         width: 80%;
@@ -3258,7 +3264,7 @@ ul.progress_section li .progress_course_bar {
 }
 
 #viewCourseModal {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 #viewCourseModal .modal-content {
@@ -3305,7 +3311,7 @@ ul.progress_section li .progress_course_bar {
 #modal-close,
 #modal-close2 {
     position: absolute;
-    top: 55px;
+    top: 40px;
     right: 75px;
     color: #fff;
     float: right;

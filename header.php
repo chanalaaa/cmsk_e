@@ -40,7 +40,7 @@
     <!-- end header_in -->
     <!-- Mobile menu -->
     <div class="mobile_menu_wrapper visible_mobile">
-        <div id="modal-close3">x</div>
+        <div id="modal-close3"><img src="img/ico_close.png" alt="" class="icon_circle"></div>
         <ul>
             <!--<li><p><a href="#">หน้าหลัก</a></p></li>-->
                <li>
@@ -81,13 +81,13 @@
 <!-- end header -->
 <div id="loginModal" class="modal">
     <!-- Modal content -->
-    <span id="modal-close">×</span>
+    <span id="modal-close"><img src="img/ico_close.png" alt="" class="icon_circle"></span>
     <div class="modal-content">
         <div class="modal-body">
             <p class="modal-text_title">เข้าสู่ระบบ</p>
             <input name="id" placeholder="ชื่อผู้ใช้">
             <input name="password" type="password" placeholder="รหัสผ่าน">
-            <a class="btn btn_green_long" href="dashboard.php"><span>Login</span></a> <span>ท่านยังไม่ได้เป็นสมาชิก <a href="register.php" style="text-decoration:underline;" > สมัครสมาชิก</a></span>
+            <a class="btn btn_green_long" href="dashboard.php"><span>Login</span></a> <span>ท่านยังไม่ได้เป็นสมาชิก <a href="register.php" class="regis_text" style="text-decoration:underline;" > สมัครสมาชิก</a></span>
             <br>
             <div class="line_white"></div>
             <br>

@@ -17,6 +17,8 @@
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
     <script src="//releases.flowplayer.org/6.0.5/flowplayer.min.js"></script>
+    <script src="http://connect.facebook.net/en_US/all.js" type="text/javascript" charset="utf-8"></script>
+
 	</head>
 	<body>
 

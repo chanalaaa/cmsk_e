@@ -38,7 +38,7 @@ include('header.php');
                         <span>Share: </span>
                         <ul>
                             <li>
-                                <a href="#"><img src="img/ico_fb.png" alt="" class="icon_circle social"></a>
+                                <a href="javascript:;" id="shareFB"><img src="img/ico_fb.png" alt="" class="icon_circle social"></a>
                             </li>
                             <li>
                                 <a href="#"><img src="img/ico_tw.png" alt="" class="icon_circle social"></a>
@@ -72,4 +72,15 @@ include('header.php');
 <!-- end blog_wrapper -->
 </div>
 <!-- end cmsk_main_content -->
+<script>
+
+
+document.getElementById('shareFB').onclick = function() {
+    FB.ui({
+        method: 'share',
+        display: 'popup',
+        href: 'https://developers.facebook.com/docs/',
+    }, function(response) {});
+}
+</script>
 <?php include('footer.php'); ?>

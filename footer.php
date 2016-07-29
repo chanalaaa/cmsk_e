@@ -1,3 +1,4 @@
+<?php include('social.php'); ?>
 <!-- footer_contact_section -->
 <div class="footer_contact_section bg_blue">
     <!-- wrapper -->
