@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>CMSK</title>
+	<title><?php if($title) echo($title); else echo('CMSK');?></title>
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css?v=<?php echo date("Y-m-d-H-i-s"); ?>" />
 	<link rel="stylesheet" type="text/css" href="css/fonts.css?v=<?php echo date("Y-m-d-H-i-s"); ?>" />

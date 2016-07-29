@@ -1,4 +1,6 @@
-<?php include('meta.php'); ?>
+<?php 
+$title = "blog single";
+include('meta.php'); ?>
 <?php 
 $page = "blog";
 include('header.php'); 
@@ -41,7 +43,8 @@ include('header.php');
                                 <a href="javascript:;" id="shareFB"><img src="img/ico_fb.png" alt="" class="icon_circle social"></a>
                             </li>
                             <li>
-                                <a href="#"><img src="img/ico_tw.png" alt="" class="icon_circle social"></a>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="cmsk" data-show-count="false"><img src="img/ico_tw.png" alt="" class="icon_circle social"></a>
+                                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </li>
                             <li>
                                 <a href="#"><img src="img/ico_line.png" alt="" class="icon_circle social"></a>
