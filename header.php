@@ -39,18 +39,18 @@
     </div>
     <!-- end header_in -->
     <!-- Mobile menu -->
-    <div class="mobile_menu_wrapper visible_mobile">
+    <div class="mobile_menu_wrapper">
         <div id="modal-close3"><img src="img/ico_close.png" alt="" class="icon_circle"></div>
         <ul>
             <!--<li><p><a href="#">หน้าหลัก</a></p></li>-->
-               <li>
-                <p><a <?php if($page=="home" ) echo( 'class="active"'); ?> href="index.php.php">หน้าแรก</a></p>
+            <li>
+                <p><a <?php if($page=="home" ) echo( 'class="active"'); ?> href="index.php">หน้าแรก</a></p>
             </li>
             <li>
                 <p><a <?php if($page=="course" ) echo( 'class="active"'); ?> href="course.php">รายละเอียดคอร์ส</a></p>
             </li>
             <li>
-                <p><a <?php if($page=="trainer" ) echo( 'class="active"'); ?> href="index.php">วิทยากร</a></p>
+                <p><a <?php if($page=="trainer" ) echo( 'class="active"'); ?> href="trainer.php">วิทยากร</a></p>
             </li>
             <li>
                 <p><a <?php if($page=="impressions" ) echo( 'class="active"'); ?> href="impressions.php">ความประทับใจ</a></p>
@@ -65,7 +65,6 @@
         </ul>
     </div>
     <script>
-
     $("#mobile_menu").click(function() {
         $(".mobile_menu_wrapper").addClass("active");
         $("#menu_button").addClass("active");

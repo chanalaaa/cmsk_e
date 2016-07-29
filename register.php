@@ -1,15 +1,4 @@
 <?php include('meta.php'); ?>
-	<div id="regisModal_done" class="modal">
-		    <!-- Modal content -->
-		    <div class="modal-content">
-		        <div class="modal-body">
-		            <p class="modal-text_title">ทำรายการเรียบร้อยแล้ว</p>     
-		             <a class="btn btn_green_long" id="btnRegisModal_done" href="#"><span>เสร็จสิ้น</span></a> 
-		              <a class="btn btn_white_long" href="payment.php"><span>ชำระเงิน</span></a> 
-		        </div>
-		    </div>
-		</div>
-
 <?php 
 $page = " ";
 include('header.php'); 
@@ -47,7 +36,7 @@ include('header.php');
 					<input name="password" placeholder="รหัสผ่าน">
 					<input name="comfirm_password" placeholder="ยืนยันรหัสผ่าน">
 					<div class="cmsk_register_button">
-						<a class="btn btn_green_long" id="btnRegis_done" href="#"><span>ดำเนินการต่อ</span></a>
+						<a class="btn btn_green_long" id="btnRegis_done" href="payment.php"><span>ดำเนินการต่อ</span></a>
 					</div>
 				</form>
 			</div>

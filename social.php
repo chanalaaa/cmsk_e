@@ -19,8 +19,6 @@ FB.init({
 }(document, 'script', 'facebook-jssdk'));
 
 document.getElementById('shareFB').onclick = function() {
-
-
     //console.log(current_url);
     window.mobilecheck = function() {
         var check = false;
@@ -55,7 +53,7 @@ twttr.widgets.createShareButton(
 $('#shareTW').click(function(event) {
     var blog_title = $(this).parents('.blog_single-content').find('.blog_single-detail .blog-title').text().trim();
     //trim() has remove whitespace from both sides of a string
-    $(this).attr("href", "http://twitter.com/share?text=" + blog_title+"&url="+current_url); 
+    $(this).attr("href", "http://twitter.com/share?text=" + blog_title + "&url=" + current_url);
     // Set tweet text & link  by Blog Title,url
 
     var width = 575,

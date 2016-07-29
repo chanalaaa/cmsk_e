@@ -10,7 +10,7 @@ window.onload = function() {
     var loginModal = document.getElementById('loginModal');
     var closeBtn = document.getElementById('modal-close');
     var closeBtn2 = document.getElementById('modal-close2');
-    var regisDoneModal = document.getElementById('regisModal_done');
+    //var regisDoneModal = document.getElementById('regisModal_done');
     var btnRegisModal_done = document.getElementById('btnRegisModal_done');
     var courseViewModal = document.getElementById('viewCourseModal');
     //var playCourseBtn = document.getElementById('play');
@@ -28,7 +28,6 @@ window.onload = function() {
         $('body').css("overflow", "hidden");
     });
     $('#btnRegis_done').click(function() {
-        regisDoneModal.style.display = "block";
         $('body').css("overflow", "hidden");
     });
     $('.play').click(function() {
@@ -45,7 +44,6 @@ window.onload = function() {
 
 
     $(btnRegisModal_done).click(function() {
-        regisDoneModal.style.display = "none";
         $('body').css("overflow", "auto");
     });
     $(closeBtn).click(function() {

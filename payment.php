@@ -81,7 +81,7 @@ include('header.php');
                     </div>
                     <div class="course_intro_wrap">
                         <div class="creditcard_payment">
-                            <a class="btn btn_green_long" href="trial_register.php"><span>ยืนยัน</span></a>
+                            <a class="btn btn_green_long" href="thankyou_pay.php"><span>ยืนยัน</span></a>
                         </div>
                     </div>
                     <!-- <div class="button_wrap">
@@ -120,7 +120,7 @@ include('header.php');
                                 <p>ทำรายการชำระเงินผ่านบัตรเครดิต</p>
                             </div>
                             <br>
-                            <a class="btn btn_green_long" href="trial_register.php"><span>ดำเนินการต่อ</span></a>
+                            <a class="btn btn_green_long" href="thankyou_card.php"><span>ดำเนินการต่อ</span></a>
                         </div>
                     </div>
                 </div>

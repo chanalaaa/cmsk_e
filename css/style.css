@@ -1698,8 +1698,8 @@ footer .footer_wrap .copyright p {
     }
 }
 
-.mobile_menu_wrapper.active {
-    /*display: none;*/
+.mobile_menu_wrapper {
+    display: none;
 }
 
 .btn.btn_regis {
@@ -1747,7 +1747,7 @@ footer .footer_wrap .copyright p {
     }
     #modal-close3 {
         top: 30px !important;
-        right: 34px !important;
+        right: 25px !important;
         position: absolute;
         color: #fff;
         font-size: 2em;
@@ -1758,7 +1758,7 @@ footer .footer_wrap .copyright p {
         background: rgba(0, 0, 0, 0.9);
         z-index: 5;
         visibility: visible;
-        /*display: block;*/
+        display: block;
     }
     .mobile_menu_wrapper ul {
         margin-top: 80px;
@@ -2246,7 +2246,7 @@ ul.text_list li {
 
 .blog-content {
     display: -webkit-box;
-    display: -moz-box;
+    display: -moz-box !important;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -2328,16 +2328,18 @@ ul.text_list li {
 @media(max-width: 800px) {
     .blog-content {
         display: -webkit-box;
-        display: -moz-box !important;
+        display: -moz-box;
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
         flex-flow: column wrap;
     }
     .blog-img {
+        flex: 1 0 auto;
         padding-right: 0px;
     }
     .blog-detail {
+        flex: 1 0 auto;
         padding-top: 20px;
         padding-left: 0px;
     }
@@ -3229,9 +3231,9 @@ ul.progress_section li .progress_course_bar {
     width: 35%;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
+    -webkit-animation-duration: 0.3s;
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.3s
 }
 
 a.regis_text:hover,
