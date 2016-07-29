@@ -18,6 +18,7 @@
 	<![endif]-->
     <script src="//releases.flowplayer.org/6.0.5/flowplayer.min.js"></script>
     <script src="http://connect.facebook.net/en_US/all.js" type="text/javascript" charset="utf-8"></script>
+     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 	</head>
 	<body>

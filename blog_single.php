@@ -28,7 +28,7 @@ include('header.php');
                     </div>
                     <div class="blog_single-detail">
                         <p class="blog-title">
-                            นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด
+                         นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด
                         </p>
                         <p class="blog-date">13 ส.ค. 2559</p>
                         <p class="blog-text">รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี ฟลอร์ติ๋มบลูเบอร์รี่คีตกวี แบคโฮเมจิกสุริยยาตร์เปโซ รุสโซ แฮปปี้คอนเทนเนอร์วานิลลาซิตีรุมบ้า โบรกเกอร์ไคลแมกซ์ซาร์เฟอร์รี่ โชว์รูมศิลปากร ฟลอร์คาเฟ่มะกันวอล์กฟอร์ม ไฟต์ เรตซูเปอร์ ออโต้ ฟลุตมุมมอง คาราโอเกะแพนดาพฤหัสไพลินสเก็ตช์ สเต็ปเลคเชอร์ฮาร์ด พาร์ทเนอร์ เฟรชตุ๋ยโชว์รูมหลินจือ แอ็กชั่นโฮปพอเพียง วอล์ค ทาวน์เฮาส์สุนทรีย์รุสโซ แบล็คฮอต สแตนดาร์ดแชเชือน ซีนีเพล็กซ์สจ๊วตศิลปวัฒนธรรม เทวาธิราช แคนูวอล์คดีกรี
@@ -43,8 +43,7 @@ include('header.php');
                                 <a href="javascript:;" id="shareFB"><img src="img/ico_fb.png" alt="" class="icon_circle social"></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="cmsk" data-show-count="false"><img src="img/ico_tw.png" alt="" class="icon_circle social"></a>
-                                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                <a class="twitter" id="shareTW" href="http://twitter.com/share"><img src="img/ico_tw.png" alt="" class="icon_circle social"></a>
                             </li>
                             <li>
                                 <a href="#"><img src="img/ico_line.png" alt="" class="icon_circle social"></a>

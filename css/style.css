@@ -3233,10 +3233,12 @@ ul.progress_section li .progress_course_bar {
     animation-name: animatetop;
     animation-duration: 0.4s
 }
-a.regis_text:hover,a.regis_text:active{
-    color: #00829a;
 
+a.regis_text:hover,
+a.regis_text:active {
+    color: #00829a;
 }
+
 @media(max-width: 900px) {
     .modal-content {
         width: 80%;
@@ -3590,6 +3592,18 @@ i.play {
 i.play:hover,
 i.play:active {
     opacity: .6;
+}
+
+#custom-tweet-button iframe {
+    width: 45px !important;
+    height: 45px !important;
+    vertical-align: middle;
+    background: url(../img/ico_tw.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#custom-tweet-button .btn {
+    background-color: red !important;
 }
 
 @media(max-width: 800px) {

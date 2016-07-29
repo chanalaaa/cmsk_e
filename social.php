@@ -19,7 +19,7 @@ FB.init({
 
 document.getElementById('shareFB').onclick = function() {
     var current_url = document.URL;
-    
+
     //console.log(current_url);
     window.mobilecheck = function() {
         var check = false;
@@ -29,7 +29,7 @@ document.getElementById('shareFB').onclick = function() {
         return check;
     }
     if (mobilecheck == true) {
-        shareurl = "https://www.facebook.com/dialog/share?app_id=749802425122299&display=popup&href="+current_url+"&redirect_uri="+current_url;
+        shareurl = "https://www.facebook.com/dialog/share?app_id=749802425122299&display=popup&href=" + current_url + "&redirect_uri=" + current_url;
         window.open(shareurl);
     } else {
         FB.ui({
@@ -39,4 +39,37 @@ document.getElementById('shareFB').onclick = function() {
         }, function(response) {});
     }
 }
+
+/* Twitter ***********************************/
+/*
+twttr.widgets.createShareButton(
+    "https:\/\/dev.twitter.com\/web\/tweet-button",
+    document.getElementById("shareTW_dummy"), {
+        related: "twitterapi,twitter",
+        hashtags: "example,demo"
+    }
+);
+*/
+
+$('#shareTW').click(function(event) {
+    var blog_title = $(this).parents('.blog_single-content').find('.blog_single-detail .blog-title').text().trim();
+    //trim() has remove whitespace from both sides of a string
+     $(this).attr("href", "http://twitter.com/share?text="+blog_title);  // Set tweet text by Blog Title
+
+    var width = 575,
+        height = 400,
+        left = ($(window).width() - width) / 2,
+        top = ($(window).height() - height) / 2,
+        url = this.href,
+        opts = 'status=1' +
+        ',width=' + width +
+        ',height=' + height +
+        ',top=' + top +
+           ',text=fe' 
+        ',left=' + left;
+
+   window.open(url, 'twitter', opts);
+
+    return false;
+});
 </script>
