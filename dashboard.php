@@ -1,4 +1,6 @@
-<?php include('meta.php'); ?>
+<?php 
+$title = "Dashboard | CMSK E-Learning";
+include('meta.php'); ?>
 <?php 
 $page = "dashboard";
 include('header.php'); 

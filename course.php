@@ -1,4 +1,6 @@
-<?php include('meta.php'); ?>
+<?php 
+$title = "Course | CMSK";
+include('meta.php'); ?>
 <?php 
 $page = "course";
 include('header.php'); 

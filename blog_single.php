@@ -1,5 +1,5 @@
 <?php 
-$title = "blog single";
+$title = "Blog | CMSK E-Learning";
 include('meta.php'); ?>
 <?php 
 $page = "blog";
