@@ -3498,7 +3498,7 @@ ul.course_view_sublist li:nth-child(even) {
 .section {
     border-top: 5px solid #DFF3E9;
     position: relative;
-    padding: 30px 0;
+    padding: 10px 0;
     background-color: #fff;
 }
 

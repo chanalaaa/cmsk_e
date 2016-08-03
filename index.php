@@ -43,11 +43,6 @@ include('header.php');
                         </li>
                         <li>
                             <img src="http://placehold.it/1280x495" />
-                            <div id="seemore">
-                                <a class="btn btn_seemore_white" href="#">
-                                    <span class="">อ่านรายละเอียด</span>
-                                </a>
-                            </div>
                         </li>
                     </ul>
                     <script type="text/javascript">
