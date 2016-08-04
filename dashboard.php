@@ -73,38 +73,38 @@ include('header.php');
                 </div>
                 <!-- end current_course_wrapper -->
                 <!-- 
-				<h1 class="text_green">ความก้าวหน้าของการเรียน</h1>
+                <h1 class="text_green">ความก้าวหน้าของการเรียน</h1>
 
-				
-				<div class="course_progress_wrapper">
-					<ul class="progress_section">
-						<li>
-							<div class="progress_course_name">Single License ALL-IN-ONE</div>
-							<div class="progress_course_bar">
-								<div class="meter">
-									<span style="width: 25%;"><label>25%</label></span>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="progress_course_name">Single License ALL-IN-ONE</div>
-							<div class="progress_course_bar">
-								<div class="meter">
-									<span style="width: 66%;"><label>66%</label></span>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="progress_course_name">Single License ALL-IN-ONE</div>
-							<div class="progress_course_bar">
-								<div class="meter">
-									<span style="width: 89%;"><label>89%</label></span>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			r -->
+                
+                <div class="course_progress_wrapper">
+                    <ul class="progress_section">
+                        <li>
+                            <div class="progress_course_name">Single License ALL-IN-ONE</div>
+                            <div class="progress_course_bar">
+                                <div class="meter">
+                                    <span style="width: 25%;"><label>25%</label></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress_course_name">Single License ALL-IN-ONE</div>
+                            <div class="progress_course_bar">
+                                <div class="meter">
+                                    <span style="width: 66%;"><label>66%</label></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress_course_name">Single License ALL-IN-ONE</div>
+                            <div class="progress_course_bar">
+                                <div class="meter">
+                                    <span style="width: 89%;"><label>89%</label></span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            r -->
                 <div class="course_view_list">
                     <div class="course_view-title">
                         <h2>หมวดที่ 1 <span>(20 ตอน)</span></h2>
@@ -167,6 +167,20 @@ include('header.php');
                     </ul>
                 </div>
                 <!-- course_view_list -->
+                <br>
+                <h1 class="text_green">ทดลองทำข้อสอบจริง</h1>
+                <br>
+                <div class="practice_section">
+                    <a class="btn btn_seemore_white" href="#">
+                        <span class="">ข้อสอบชุดที่ 1</span>
+                    </a>
+                    <a class="btn btn_seemore_white" href="#">
+                        <span class="">ข้อสอบชุดที่ 2</span>
+                    </a>
+                    <a class="btn btn_seemore_white" href="#">
+                        <span class="">ข้อสอบชุดที่ 3</span>
+                    </a>
+                </div>
             </div>
             <!-- end cmsk_trial_course_wrap -->
         </div>

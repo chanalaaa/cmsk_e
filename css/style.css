@@ -501,7 +501,6 @@ header .header_in nav {
     overflow: hidden;
     position: relative;
     text-align: right;
-
 }
 
 header .header_in nav ul {
@@ -3453,6 +3452,14 @@ a.regis_text:active {
     -webkit-transition-duration: 0.2s;
     -o-transition-duration: 0.2s;
     transition-duration: 0.2s;
+}
+
+.practice_section {
+    margin: 10px 0 20px;
+}
+.practice_section .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 ul.course_view_sublist li i {
