@@ -25,8 +25,20 @@ body {
 a {
     text-decoration: none;
 }
-
-
+.bx-wrapper .bx-prev{
+    right: 10px;
+    transform: rotate(-180deg);
+    background: url(../img/controls.png) no-repeat !important;
+    background-size: 100% 100%;
+}
+.bx-wrapper .bx-next {
+    right: 10px;
+    background: url(../img/controls.png) no-repeat !important;
+    background-size: 100% 100%;
+}
+.bx-wrapper .bx-next:hover,.bx-wrapper .bx-prev:hover{
+    opacity: .7;
+}
 /* Font */
 
 .text_arial {
@@ -67,8 +79,12 @@ a {
     color: #fff;
 }
 
+.banner {
+    
+}
+
 .banner .banner_in .cmsk_slide {
-    max-height: 500px;
+
 }
 
 nav a {
@@ -440,8 +456,7 @@ a.text_blue:hover {
 }
 
 .wrapper.index {
-    max-width: 1100px;
-    width: initial;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -655,7 +670,7 @@ header .header_in nav ul li .btn_green span {
     /*
     background-color: #00A05E;
     max-height: 500px;*/
-    height: 501px;
+
 }
 
 .banner .wrapper {
@@ -664,7 +679,7 @@ header .header_in nav ul li .btn_green span {
 
 .banner .banner_in {
     width: 100%;
-    max-height: 500px;
+
     position: relative;
     /*overflow: hidden;*/
 }
@@ -893,7 +908,9 @@ ul.bullet {}
 
 ul.bullet li {
     font-size: 1.65em;
+    /*
     background: url("../img/bullet.png") no-repeat left 7px;
+     */
     background-size: 14px;
     padding-left: 1em;
     /*1.3em*/
@@ -910,7 +927,9 @@ ul.bullet li {
 
 .cmsk_row2col_right ul.bullet li {
     font-size: 1.65em;
+     /*
     background: url("../img/bullet_w.png") no-repeat left 7px;
+    */
     background-size: 14px;
     padding-left: 1em;
     /*1.3em*/
@@ -950,7 +969,7 @@ ul.bullet li {
 }
 
 .cmsk_main_content .cmsk_row2col {
-    min-height: 350px;
+    min-height: 400px;
     /*360*/
     position: relative;
     line-height: 0;
@@ -3457,6 +3476,7 @@ a.regis_text:active {
 .practice_section {
     margin: 10px 0 20px;
 }
+
 .practice_section .btn {
     margin-right: 10px;
     margin-bottom: 10px;

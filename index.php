@@ -5,8 +5,6 @@ include('meta.php'); ?>
 $page = "home";
 include('header.php'); 
 ?>
-<script src="js/jquery.bxslider.js?v=<?php echo date(" Y-m-d-H-i-s "); ?>"></script>
-<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css?v=<?php echo date(" Y-m-d-H-i-s "); ?>" />
 <!-- cmsk_main_content -->
 <div class="cmsk_main_content index">
     <!-- banner -->
@@ -40,9 +38,6 @@ include('header.php');
                                     <span class="">อ่านรายละเอียด</span>
                                 </a>
                             </div>
-                        </li>
-                        <li>
-                            <img src="http://placehold.it/1280x495" />
                         </li>
                     </ul>
                     <script type="text/javascript">
@@ -89,13 +84,17 @@ include('header.php');
                     </p>
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">ตรงประเด็น</p>เข้าใจเนื้อหาสำคัญ สำหรับสอบได้ภายใน 15 ชม.</li>
+                            <p class="bullet_title">ตรงประเด็น ใช้เวลาน้อย</p>
+                        </li>
                         <li>
-                            <p class="bullet_title">มีเทคนิคในการสอน</p>เข้าใจง่ายและมีเทคนิคช่วยจำ </li>
+                            <p class="bullet_title">เทคนิคการสอนมากมาย เข้าใจง่าย</p>
+                        </li>
                         <li>
-                            <p class="bullet_title">ตะลุยโจทย์พร้อมเนื้อหาสำคัญ</p>เข้าใจและทำได้มากขึ้น</li>
+                            <p class="bullet_title">ตะลุยโจทย์พร้อมเนื้อหาสำคัญ</p>
+                        </li>
                         <li>
-                            <p class="bullet_title">โจทย์มากมายให้ฝึกฝน</p>เตรียมพร้อมก่อนสอบจริง</li>
+                            <p class="bullet_title">ฝึกฝนจากแนวข้อสอบจริง</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -108,13 +107,17 @@ include('header.php');
                     </p>
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">ถอดสูตรความสำเร็จจากคอร์สหลัก</p>ที่สอบผ่านกว่าหลายพันคน</li>
+                            <p class="bullet_title">สอบผ่านมาแล้วหลายพันคน</p>
+                        </li>
                         <li>
-                            <p class="bullet_title">ประสบการณ์อันยาวนาน</p>ผู้สอนเข้าใจว่าผู้เรียนต้องการอะไร </li>
+                            <p class="bullet_title">วิทยากรชั้นนำ ประสบการณ์สูง</p>
+                        </li>
                         <li>
-                            <p class="bullet_title">ถ่ายทอดเนื้อหาได้ดี</p>จึงเข้าใจได้โดยไม่ต้องมีพื้นฐาน</li>
+                            <p class="bullet_title">ไม่มีพื้นฐานก็เรียนได้</p>
+                        </li>
                         <li>
-                            <p class="bullet_title">ติดตามการสอน</p>พร้อมตอบทุกข้อสงสัย</li>
+                            <p class="bullet_title">มีระบบตอบคำถามทุกข้อสงสัย</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -139,7 +142,7 @@ include('header.php');
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">สะดวกมากขึ้น</p>เรียนได้ทุกที่ ทุกเวลา </li>
+                            <p class="bullet_title">เรียนได้ทุกที่ทุกเวลา</p></li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -147,8 +150,8 @@ include('header.php');
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">มีวลาพักทำความเข้าใจ</p>สามารถหยุดเพื่อทำความเข้าใจ
-                            <br>เนื้อหาได้</li>
+                            <p class="bullet_title">ใช้ได้กับทุกอุปกรณ์</p>
+                            <br></li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -156,7 +159,8 @@ include('header.php');
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">ทบทวนซ้ำได้</p>เมื่อเกิดข้อสงสัย </li>
+                            <p class="bullet_title">หยุดพักและทบทวนซ้ำได้</p>
+                        </li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -210,18 +214,17 @@ include('header.php');
                 <ul class="card_block">
                     <li class="card_item">
                         <div class="card">
-                         
-                                <div class="card-img">
-                                    <img src="https://unsplash.it/1200/850?image=1" alt="">
-                                </div>
-                                <div class="card_content">
-                                    <p class="card-name"><a href="#">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด </a></p>
-                                    <p class="card-points blog-date">13 ส.ค. 2559</p>
-                                    <p class="card-detail">
-                                        รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี
-                                    </p>
-                                    <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
-                                </div>
+                            <div class="card-img">
+                                <img src="https://unsplash.it/1200/850?image=1" alt="">
+                            </div>
+                            <div class="card_content">
+                                <p class="card-name"><a href="#">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด </a></p>
+                                <p class="card-points blog-date">13 ส.ค. 2559</p>
+                                <p class="card-detail">
+                                    รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี
+                                </p>
+                                <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
+                            </div>
                             </a>
                         </div>
                     </li>
@@ -359,6 +362,37 @@ include('header.php');
                             </li>
                             <li class="answer">
                                 <p>แน่นอน</p>
+                            </li>
+                            <li class="question">
+                                <p class="faq_head">ระบบการเรียน (Single License FASTLANE) เป็นอย่างไร?</p>
+                            </li>
+                            <li class="answer">
+                                <p>ผู้เรียนสามารถดูวีดีโอผ่านระบบออนไลน์ประกอบกับเอกสารที่จัดส่งไปให้ เนื้อหาประกอบไปด้วยแนวข้อสอบพร้อมคำอธิบาย และได้ทำข้อสอบจำลอง (FSIM) แบบครบถ้วน อีกเป็นจำนวน 3 ชุด</p>
+                            </li>
+                            <li class="question">
+                                <p class="faq_head">ข้อสอบจำลอง (FSIM) เป็นอย่างไร?</p>
+                            </li>
+                            <li class="answer">
+                                <p>ผู้เรียนสามารถทดสอบความพร้อมก่อนไปสอบจริง ด้วยการทำแบบทดสอบที่มีโครงสร้างเหมือนข้อสอบจริงผ่านระบบออนไลน์ มีการจับเวลาตามที่กำหนดจริง ตรวจนับคะแนนให้ทราบว่าสอบผ่านหรือไม่ พร้อมทั้งมีเฉลยให้ดูอย่างละเอียดทุกข้อ</p>
+                            </li>
+                            <li class="question">
+                                <p class="faq_head">เมื่อสมัครแล้วจะสามารถใช้ระบบได้เมื่อไหร่และเป็นเวลานานแค่ไหน?</p>
+                            </li>
+                            <li class="answer">
+                                <p>ใช้ได้ทันทีที่ชำระค่าเรียนเรียบร้อย เลือกดูวีดีโอตอนใดก็ได้ ย้อนกลับไปดูได้ ตลอดระยะเวลา 6 เดือน นับตั้งแต่วันที่ชำระค่าเรียน</p>
+                            </li>
+                            <li class="question">
+                                <p class="faq_head">ถ้ามีคำถามระหว่างการเรียนจะทำอย่างไร?</p>
+                            </li>
+                            <li class="answer">
+                                <p>สอบถามได้ทาง Line และ Facebook ที่มีวิทยากร และ ผู้ช่วยสอนคอยตอบคำถามให้ </p>
+                            </li>
+                            <li class="question">
+                                <p class="faq_head">เนื้อหาและโจทย์แบบฝึกหัดที่เรียนเพียงพอสำหรับการสอบผ่านหรือไม่?</p>
+                            </li>
+                            <li class="answer">
+                                <p>แน่นอน
+                                </p>
                             </li>
                         </ul>
                     </div>
