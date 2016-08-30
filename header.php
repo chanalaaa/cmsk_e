@@ -11,6 +11,9 @@
             <a class="btn btn_green btn_regismobile main btn_regis" href="register.php"><span>สมัครเรียน</span></a>
             <div class="btn_m_menu" id="mobile_menu">
                 <ul>
+                 <li>
+                        <p><a <?php if($page=="home" ) echo( 'class="active"'); ?> href="index.php">หน้าแรก</a></p>
+                    </li>
                     <li>
                         <p><a <?php if($page=="course" ) echo( 'class="active"'); ?> href="course.php">คอร์ส</a></p>
                     </li>

@@ -65,8 +65,8 @@ include('header.php');
     <div class="cmsk_row bg_white">
         <!-- cmsk_row1_text -->
         <div class="cmsk_row1_text text_thaisans_neue">
-            <p class="highlight">FASTLANE Single Licens</p>
-            <p>คอร์สเรียนผ่านวีดีโอออนไลน์</p>
+            <p class="highlight"><img src="img/fastlane_logo.png" alt=""></p>
+            <p>คอร์สเดียวเน้น ๆ ที่จะทำให้คุณสอบผ่าน</p>
         </div>
         <!-- end cmsk_row1_text -->
     </div>
@@ -142,7 +142,8 @@ include('header.php');
                 <div class="cmsk_row3col_box">
                     <ul class="bullet">
                         <li>
-                            <p class="bullet_title">เรียนได้ทุกที่ทุกเวลา</p></li>
+                            <p class="bullet_title">เรียนได้ทุกที่ทุกเวลา</p>
+                        </li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -151,7 +152,8 @@ include('header.php');
                     <ul class="bullet">
                         <li>
                             <p class="bullet_title">ใช้ได้กับทุกอุปกรณ์</p>
-                            <br></li>
+                            <br>
+                        </li>
                     </ul>
                 </div>
                 <!-- end cmsk_row3col_box -->
@@ -170,41 +172,45 @@ include('header.php');
         <!-- end wrapper -->
     </div>
     <!-- end cmsk_row3col -->
-    <!-- cmsk_row1_4col -->
-    <div class="cmsk_row1_4col bg_white">
-        <!-- wrapper -->
-        <div class="wrapper">
-            <!-- cmsk_row1_4col_wrap -->
-            <div class="cmsk_row1_4col_wrap">
-                <!-- cmsk_row1_4col_left -->
-                <div class="cmsk_row1_4col_left">
-                    <p class="text_subhead text_black">รายละเอียดคอร์ส</p>
+    <div class="cmsk_row bg_white cmsk_row_re">
+        <!-- cmsk_row1_text -->
+        <div class="cmsk_main_content">
+            <div class="cmsk_row1_text text_thaisans_neue">
+                <p class="highlight">รายละเอียดคอร์ส</p>
+                <p class="text_description">หลักสูตรสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือ Single License</p>
+                <br>
+                <br>
+                <ul class="list_cmsk_row_re">
+                    <li><img src="img/ico_01.png" alt="">
+                        <p>วิดีโอบรรยายโดย วิทยากร Dr.Job</p>
+                    </li>
+                    <li><img src="img/ico_02.png" alt="">
+                        <p>หนังสือประกอบการเรียน ที่มีโจทย์และเนื้อหาที่สำคัญ
+                        </p>
+                    </li>
+                    <li><img src="img/ico_03.png" alt="">
+                        <p>ข้อสอบจำลอง FSIM</p>
+                    </li>
+                    <li><img src="img/ico_04.png" alt="">
+                        <p>ระบบตอบข้อซักถาม</p>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                <p class="text_description">ให้คุณมั่นใจได้ว่าการสอบผ่าน Single license ไม่ใช่เรื่องยาก</p>
+                <br>
+                <div class="button_wrap">
+                    <!-- <a class="btn btn_black" href="#"><span>ดูต่อทั้งหมด</span></a> -->
+                    <a class="btn btn_green_long" href="course.php"><span>อ่านรายละเอียด</span></a>
+                    <span class="btn_regis main btn_next"><a class="btn btn_green btn_regis" href="register.php"><span>สมัครเรียน</span></a>
+                    </span>
                 </div>
-                <!-- end cmsk_row1_4col_left -->
-                <!-- cmsk_row1_4col_right -->
-                <div class="cmsk_row1_4col_right">
-                    <!-- text_description -->
-                    <div class="text_description">
-                        <p>หลักสูตรครอบคลุมเนื้อหาทั้งหมดสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือที่เรียกกันอย่างไม่เป็นทางการว่า Single License ซึ่งเป็นใบอนุญาตสำหรับผู้ประกอบวิชาชีพเกี่ยวกับการซื้อขายหลักทรัพย์ เช่น หุ้น ตราสารหนี้ กองทุนรวม</p>
-                        <br>
-                        <p>ด้วยเนื้อหาเข้มข้นและประสบการณ์ที่สั่งสมมาอย่างยาวนานของผู้สอน ให้คุณมั่นใจได้ว่าการสอบผ่าน Single License ไม่ใช่เรื่องยาก และยังสามารถเรียนได้อย่างสะดวก ทุกที่ ทุกเวลา</p>
-                    </div>
-                    <!-- end text_description -->
-                    <!-- button_wrap -->
-                    <div class="button_wrap">
-                        <!-- <a class="btn btn_black" href="#"><span>ดูต่อทั้งหมด</span></a> -->
-                        <a class="btn btn_green_long" href="course.php"><span>อ่านรายละเอียด</span></a>
-                        <span class="btn_regis main btn_next"><a class="btn btn_green btn_regis" href="register.php"><span>สมัครเรียน</span></a>
-                        </span>
-                    </div>
-                    <!-- end button_wrap -->
-                </div>
-                <!-- end cmsk_row1_4col_right -->
             </div>
-            <!-- end cmsk_row1_4col_wrap -->
+            <!-- end cmsk_row1_text -->
         </div>
-        <!-- end wrapper -->
     </div>
+    <!-- cmsk_row1_4col -->
+
     <!-- end cmsk_row1_4col -->
     <div class="section">
         <div class="wrapper">
