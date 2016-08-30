@@ -505,7 +505,7 @@ header .header_in .logo {
 }
 
 header .header_in .logo img {
-    width: 55%;
+    width: 85%;
     max-width: 200px;
     padding-top: 10px;
 }
@@ -790,8 +790,8 @@ header .header_in nav ul li .btn_green span {
     /*width: 125px;*/
     position: absolute;
     z-index: 2;
-    top: 68%;
-    right: 19%;
+    top: 63%;
+    right: 20%;
 }
 
 .banner .banner_in #m_seemore {
@@ -818,7 +818,7 @@ header .header_in nav ul li .btn_green span {
 
 @media(max-width: 850px) {
     .banner .banner_in #seemore {
-        right: 17%;
+        right: 14%;
     }
     .banner .banner_in #dr_image {
         width: 395px;
@@ -839,7 +839,7 @@ header .header_in nav ul li .btn_green span {
 
 @media(max-width: 500px) {
     .banner .banner_in #seemore {
-        top: 73%;
+        top: 65%;
         right: 16%;
         border-radius: 6px;
     }
@@ -869,6 +869,11 @@ header .header_in nav ul li .btn_green span {
 }
 
 @media(max-width: 375px) {
+    .banner .banner_in #seemore {
+        top: 65%;
+        right: 14%;
+        border-radius: 6px;
+    }
     .banner .banner_in #m_dr_intro {
         width: 260px;
         position: absolute;
@@ -880,7 +885,9 @@ header .header_in nav ul li .btn_green span {
 
 @media(max-width: 320px) {
     .banner .banner_in #seemore {
+        top: 65%;
         right: 12%;
+        border-radius: 6px;
     }
     .banner .banner_in #m_dr_intro {
         width: 260px;
@@ -895,9 +902,6 @@ header .header_in nav ul li .btn_green span {
     }
     .banner .banner_in #m_dr_intro p.text_eng {
         font-size: 2em;
-    }
-    .banner .banner_in #seemore {
-        top: 70%;
     }
 }
 
@@ -965,7 +969,7 @@ ul.bullet li {
 }
 
 .cmsk_main_content .cmsk_row1_text p.highlight img {
-    width: 25%;
+    width: 35%;
 }
 
 .cmsk_main_content .cmsk_row2col {
@@ -1383,7 +1387,9 @@ ul.list_cmsk_row_re li {
     padding: 15px;
     vertical-align: top;
 }
-ul.list_cmsk_row_re li .imglist_cmsk_row_re{}
+
+ul.list_cmsk_row_re li .imglist_cmsk_row_re {}
+
 ul.list_cmsk_row_re li img {
     padding: 20px;
     border: 2px solid #A5D3DB;
@@ -1417,7 +1423,7 @@ ul.list_cmsk_row_re li p {
     ul.list_cmsk_row_re li {
         width: 80%;
     }
-     ul.list_cmsk_row_re li img {
+    ul.list_cmsk_row_re li img {
         width: 25%;
     }
 }
@@ -2675,6 +2681,10 @@ ul.text_list li {
     font-weight: 600;
     color: #4D4D4D;
     text-align: center;
+}
+
+.card-name p {
+    color: #4D4D4D;
 }
 
 .blog_card .card-name:hover {

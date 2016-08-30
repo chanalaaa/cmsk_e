@@ -5,7 +5,7 @@
     <!-- header_in -->
     <div class="header_in">
         <div class="logo">
-            <a href="index.php"><img src="img/cmsk_logo.png"></a>
+            <a href="index.php"><img src="img/fastlane_logo.png"></a>
         </div>
         <nav>
             <a class="btn btn_green btn_regismobile main btn_regis" href="register.php"><span>สมัครเรียน</span></a>
