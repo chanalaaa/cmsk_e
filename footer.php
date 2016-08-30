@@ -8,7 +8,7 @@
             <!-- address_wrap -->
             <div class="address_wrap">
                 <address>
-                    <h1 class="">บริษัท CMSK จำกัด</h1>
+                    <h1 class=""><img class="cmsk_white_logo" src="img/cmsk_white_logo.png" alt=""></h1>
                     <p>126/103 ชั้น 26 อาคารไทยศรี ถนนกรุงธนบุรี แขวงบางลำภูล่างเขตคลองสาน กรุงเทพ 10600 (สถานีรถไฟฟ้ากรุงธนบุรีทางออกที่ 2)</p>
                 </address>
             </div>
@@ -69,12 +69,14 @@
             </div>
             <div class="copyright">
                 <p class="text_arial">Copyright ©
-                    <?php echo date('Y'); ?> <span class="">CMSK Co., Ltd.</span> All Rights Reserved.</p>
+                    <?php echo date('Y'); ?> <span class="">CMSK Co., Ltd.</span> All Rights Reserved. Powered by CMSK Academy.</p>
             </div>
         </div>
         <!-- end footer_wrap -->
     </div>
     <!-- end wrapper -->
+    <br>
+    <br>
 </footer>
 <!-- end footer -->
 <script>

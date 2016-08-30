@@ -505,7 +505,7 @@ header .header_in .logo {
 }
 
 header .header_in .logo img {
-    width: 85%;
+    width: 100%;
     max-width: 200px;
     padding-top: 10px;
 }
@@ -1747,14 +1747,14 @@ footer .footer_wrap {
 }
 
 footer .footer_wrap .copyright {
-    width: 50%;
+    width: 54%;
     float: right;
     padding-top: 40px;
     text-align: right;
 }
 
 footer .footer_wrap .right_part {
-    width: 44%;
+    width: 40%;
     float: left;
     padding-top: 30px;
 }
@@ -3762,5 +3762,16 @@ i.play:active {
     }
     .cmsk_main_content.index .blog-readmore.visble_mobile {
         display: block;
+    }
+}
+
+.cmsk_white_logo {
+    width: 25%;
+    padding: 5px 0;
+}
+
+@media(max-width: 500px) {
+    .cmsk_white_logo {
+        width: 35%;
     }
 }
