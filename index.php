@@ -152,7 +152,7 @@ include('header.php');
                     <ul class="bullet">
                         <li>
                             <p class="bullet_title">ใช้ได้กับทุกอุปกรณ์</p>
-                            <br>
+
                         </li>
                     </ul>
                 </div>
@@ -176,12 +176,12 @@ include('header.php');
         <!-- cmsk_row1_text -->
         <div class="cmsk_main_content">
             <div class="cmsk_row1_text text_thaisans_neue">
-                <p class="highlight">รายละเอียดคอร์ส</p>
+                <p class="highlight">รายละเอียดคอร์ส</p><br>
                 <p class="text_description">หลักสูตรสำหรับการเตรียมสอบใบอนุญาตผู้แนะนำการลงทุนด้านหลักทรัพย์ (Securities Investment Consultant, SIC) หรือ Single License</p>
                 <br>
                 <br>
                 <ul class="list_cmsk_row_re">
-                    <li><img src="img/ico_01.png" alt="">
+                    <li><div class="imglist_cmsk_row_re"><img src="img/ico_01.png" alt=""></div>
                         <p>วิดีโอบรรยายโดย วิทยากร Dr.Job</p>
                     </li>
                     <li><img src="img/ico_02.png" alt="">

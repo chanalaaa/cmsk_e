@@ -790,7 +790,7 @@ header .header_in nav ul li .btn_green span {
     /*width: 125px;*/
     position: absolute;
     z-index: 2;
-    top: 72%;
+    top: 68%;
     right: 19%;
 }
 
@@ -1383,7 +1383,7 @@ ul.list_cmsk_row_re li {
     padding: 15px;
     vertical-align: top;
 }
-
+ul.list_cmsk_row_re li .imglist_cmsk_row_re{}
 ul.list_cmsk_row_re li img {
     padding: 20px;
     border: 2px solid #A5D3DB;
