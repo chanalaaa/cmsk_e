@@ -340,36 +340,6 @@ include('header.php');
                     <div class="text_slide">
                         <ul class="faq">
                             <li class="question">
-                                <p class="faq_head">ทำไมถึงควรเรียนเป็นแบบ E-Learning</p>
-                            </li>
-                            <li class="answer">
-                                <p>เพราะเป็นระบบที่มีประสิทธิภาพที่สุดในปัจจุบันปราศจากข้อจำกัดต่างๆ</p>
-                            </li>
-                            <li class="question">
-                                <p class="faq_head">ระบบการเรียนเป็นอย่างไร?</p>
-                            </li>
-                            <li class="answer">
-                                <p>ผู้เรียนจะสามารถดู Video ผ่านระบบ Online ซึ่งจะมี Power Point Presentation ประกอบกับคำบรรยายของวิทยากร จะมี Quiz ให้ฝึกทำสำหรับทุกตอน พร้อมเฉลยโดยละเอียด</p>
-                            </li>
-                            <li class="question">
-                                <p class="faq_head">สามารถดู Video ได้เมื่อไหร่ และเป็นเวลานานแค่ไหน</p>
-                            </li>
-                            <li class="answer">
-                                <p>ดูได้ตลอดเวลา เลือกดูตอนใดก็ได้ ย้อนกลับไปดูได้ เป็นเวลา 6 เดือน นับตั้งแต่วันที่ชำระค่าเรียน</p>
-                            </li>
-                            <li class="question">
-                                <p class="faq_head">ถ้ามีคำถามระหว่างการเรียนจะทำอย่างไร</p>
-                            </li>
-                            <li class="answer">
-                                <p>สามารถเขียนคำถามไว้ที่ Forum และจะได้คำตอบภายใน 24 ชั่วโมง</p>
-                            </li>
-                            <li class="question">
-                                <p class="faq_head">เนื้อหาและแบบฝึกหัดที่เรียน เพียงพอสำหรับการสอบผ่านใบอนุญาต</p>
-                            </li>
-                            <li class="answer">
-                                <p>แน่นอน</p>
-                            </li>
-                            <li class="question">
                                 <p class="faq_head">ระบบการเรียน (Single License FASTLANE) เป็นอย่างไร?</p>
                             </li>
                             <li class="answer">

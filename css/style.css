@@ -2064,7 +2064,8 @@ footer .footer_wrap .copyright p {
 .course_wrapper_in .course_right .module_section ul.module {}
 
 .course_wrapper_in .course_right .button_wrap {
-    margin-top: 35px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 ul.module {
@@ -2863,6 +2864,13 @@ a.take_me_home:active {
 
 .cmsk_register_wrapper p.cmsk_register_head {
     font-size: 2.5em;
+    color: #00829A;
+    font-weight: bold;
+}
+
+.cmsk_register_wrapper p.cmsk_register_head span {
+    font-weight: 200 !important;
+    font-size: .6em;
 }
 
 .cmsk_register_wrapper .cmsk_register_form {
@@ -3773,5 +3781,34 @@ i.play:active {
 @media(max-width: 500px) {
     .cmsk_white_logo {
         width: 35%;
+    }
+}
+
+.price_box {
+    font-size: 1.8em;
+    color: #00829A;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgba(0, 130, 154, .1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.price_box span {
+    font-weight: 200;
+}
+
+@media(max-width: 800px) {
+    .price_box {
+        font-size: 1.6em;
+    }
+}
+
+@media(max-width: 500px) {
+    .price_box {
+        font-size: 1.45em;
+    }
+    .cmsk_register_wrapper p.cmsk_register_head {
+        font-size: 2.3em;
     }
 }

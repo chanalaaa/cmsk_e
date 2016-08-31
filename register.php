@@ -13,7 +13,7 @@ include('header.php');
 
 		<!-- wrapper -->
 		<div class="wrapper">
-			<p class="page_topic text_white">สมัครสมาชิก</p>
+			<p class="page_topic text_white">สมัครเรียน</p>
 		</div>
 		<!-- end wrapper -->
 
@@ -29,6 +29,9 @@ include('header.php');
 
 			<!-- cmsk_register_wrapper -->
 			<div class="cmsk_register_wrapper">
+			<p class="cmsk_register_head "> <span>หลักสูตร <br></span>Fast Lane Single License (2 วัน)
+ราคา 1,990 บาท</p>
+
 				<form class="cmsk_register_form">
 					<input name="name" placeholder="ชื่อ">
 					<input name="lastname" placeholder="นามสกุล">
