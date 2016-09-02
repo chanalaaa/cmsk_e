@@ -41,7 +41,7 @@
                         <div class="contact_icon">
                             <a class="icon_letter"></a>
                         </div>
-                        <p>Email: training@cmsk.co.th</p>
+                        <p>Email: <a href="mailto:training@cmsk.co.th">training@cmsk.co.th</a></p>
                     </li>
                     <li>
                         <div class="contact_icon">

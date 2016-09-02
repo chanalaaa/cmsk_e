@@ -29,7 +29,7 @@ include('header.php');
                         <li>ชื่อคอร์ส :</li>
                         <li>Order ID :</li>
                         <li>วันหมดอายุ :</li>
-                        <li>ราคารวม :</li>
+                        <li class="text_blue">ราคา :</li>
                     </ul>
                 </div>
                 <!-- end course_left -->
@@ -40,7 +40,7 @@ include('header.php');
                         <li>FASTLANE Single License</li>
                         <li>FLS000001</li>
                         <li>11 ต.ค. 2559</li>
-                        <li>3,500 บาท</li>
+                        <li class="text_blue">1,990 บาท</li>
                     </ul>
                 </div>
                 <!-- end course_right -->
@@ -69,13 +69,13 @@ include('header.php');
                 <!-- course_right -->
                 <div class="course_right">
                     <div class="course_intro_wrap">
-                        <p>วิธีการสมัคร Single License (IC) 2 วัน</p>
+                        <p>วิธีการสมัคร Fast Lane Single License (ติวสอบ 15 ชม.)</p>
                     </div>
                     <div class="module_section payment_process">
                         <ul class="module">
                             <li>กรอกข้อมูลลงในใบสมัคร (download)</li>
                             <li>โอนเงินเข้าบัญชี : บริษัท ซีเอ็มเอสเค จำกัดธนาคารไทยพาณิชย์ สาขาถนนตากสิน ประเภทบัญชีออมทรัพย์ เลขที่บัญชี 055-2-50698-4</li>
-                            <li>ถ่ายรูปหรือสแกนใบสมัคร หลักฐานการโอนเงิน และสำเนาบัตรประชาชนมาที่ E-mail: training@cmsk.co.th เพื่อยืนยันการลงทะเบียน</li>
+                            <li>ถ่ายรูปหรือสแกนใบสมัคร หลักฐานการโอนเงิน และสำเนาบัตรประชาชนมาที่ E-mail: <a href="mailto:training@cmsk.co.th">training@cmsk.co.th</a> เพื่อยืนยันการลงทะเบียน</li>
                         </ul>
                     </div>
                     <div class="cmsk_payment_text ps">

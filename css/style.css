@@ -2065,7 +2065,7 @@ footer .footer_wrap .copyright p {
 
 .course_wrapper_in .course_right .button_wrap {
     margin-top: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 ul.module {
@@ -2079,18 +2079,24 @@ ul.module li {
     padding-left: 1em;
     padding-bottom: 5px;
 }
-
+.payment_wrapper ul.module li a{
+    color: #4d4d4d;
+}
 .creditcard_payment .btn_green_long {
     width: 166px;
 }
 
 @media(max-width: 480px) {
+    .payment_page.info li {
+    font-size: 1.5em;
+}
+
     .payment_page.info.course_wrapper_in .course_left {
-        width: 40%;
+        width: 36%;
         float: left;
     }
     .payment_page.info.course_wrapper_in .course_right {
-        width: 55%;
+        width: 63%;
         float: left;
     }
     .course_wrapper_in .course_left {
@@ -3806,9 +3812,14 @@ i.play:active {
 
 @media(max-width: 500px) {
     .price_box {
-        font-size: 1.45em;
+        font-size: 1.6em;
     }
     .cmsk_register_wrapper p.cmsk_register_head {
         font-size: 2.3em;
     }
+    .course_wrapper_in .course_right .button_wrap,.cmsk_register_button {
+
+    text-align: center;
+}
+
 }

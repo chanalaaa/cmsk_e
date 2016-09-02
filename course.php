@@ -64,8 +64,9 @@ include('header.php');
                         </ul>
                     </div>
                     <div class="module_section">
-                        <br>
+                     
                         <p class="module_head text_blue">ชมตัวอย่างการเรียน</p>
+                        <br>
                         <div class="player">
                             <video>
                                 <source type="video/webm" src="//stream.flowplayer.org/bauhaus.webm">
@@ -75,7 +76,7 @@ include('header.php');
                     </div>
                     <br>
                    <br>
-                    <p class="price_box"><span>หลักสูตร </span>Fast Lane Single License (2 วัน) ราคา 1,990 บาท</p>
+                    <p class="price_box"><span>หลักสูตร </span>Fast Lane Single License (ติวสอบ 15 ชม.) ราคา 1,990 บาท</p>
                     <div class="button_wrap">
                         <a href="register.php" class="btn btn_green btn_regis" href="course_practice.php">
                             <span>สมัครเรียน</span></a>

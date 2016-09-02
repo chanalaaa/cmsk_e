@@ -29,7 +29,7 @@ include('header.php');
 
 			<!-- cmsk_register_wrapper -->
 			<div class="cmsk_register_wrapper">
-			<p class="cmsk_register_head "> <span>หลักสูตร <br></span>Fast Lane Single License (2 วัน)
+			<p class="cmsk_register_head "> <span>หลักสูตร <br></span>Fast Lane Single License (ติวสอบ 15 ชม.)
 ราคา 1,990 บาท</p>
 
 				<form class="cmsk_register_form">
