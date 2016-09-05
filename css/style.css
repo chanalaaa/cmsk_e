@@ -2050,7 +2050,7 @@ footer .footer_wrap .copyright p {
 }
 
 .course_wrapper_in .course_right .module_section {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .course_wrapper_in .course_right .module_section.payment_process {
@@ -2373,11 +2373,13 @@ ul.text_list li {
     overflow: hidden;
 }
 
+
 /*
 .blog-img:hover {
     opacity: .8;
 }
 */
+
 .blog-img img {
     width: 100%;
     position: absolute;
@@ -2403,6 +2405,10 @@ ul.text_list li {
 .blog-readmore {
     font-size: 1.5em;
     margin-bottom: 5px;
+}
+
+.blog-readmore {
+    font-weight: bold;
 }
 
 .blog-title {
@@ -2671,6 +2677,7 @@ ul.text_list li {
     padding: 15px;
     box-sizing: border-box;
 }
+
 
 /*
 .card-img:hover {
@@ -3812,7 +3819,7 @@ i.play:active {
     font-size: 1.8em;
     color: #00829A;
     font-weight: bold;
-    padding: 20px;
+    padding: 20px 10px;
     background-color: rgba(0, 130, 154, .1);
     border-radius: 10px;
     text-align: center;
@@ -3839,4 +3846,48 @@ i.play:active {
     .cmsk_register_button {
         text-align: center;
     }
+}
+
+.course_wrapper_in .course_right .course_intro_wrap p.course_ps {
+    color: #cbcbcb;
+    font-size: 1.5em;
+}
+
+.course_wrapper_in .course_right .course_intro_wrap p.course_ps a {
+    color: #cbcbcb;
+    text-decoration: underline;
+}
+
+.course_wrapper_in .course_right .course_intro_wrap p.course_ps a:hover {
+    opacity: .7;
+}
+
+.course_bookImg {
+    width: 40%;
+    max-width: 500px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+ol.module {
+    list-style: inherit;
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+ol.module li {
+    font-size: 1.7em;
+    background-size: 14px;
+    padding-bottom: 5px;
+
+}
+
+.course_intro_wrap a{
+    
+    color: #cbcbcb;
+}
+.course_intro_wrap a:hover{
+   opacity: .8;
 }

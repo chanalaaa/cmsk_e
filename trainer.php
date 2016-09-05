@@ -30,23 +30,23 @@ include('header.php');
                 <!-- trainer_right -->
                 <div class="trainer_right">
                     <div class="trainer_content">
-                        <h2 class="text_title text_blue">ดร.ชาติชาย มีสุขโข</h2>
+                        <h2 class="text_title text_blue">ดร. ชาติชาย มีสุขโข CFP <span style="font-size:0.5em;vertical-align: top;margin-left: -8px;"> ®</span>   </h2>
                         <p class="text_desc">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด</p>
-                        <p class="text_detail">จบปริญญาเอกด้านวิศวไฟฟ้า จาก University of Southern California (USC) แต่ด้วยความสนใจ ด้านการเงินส่วนบุคคลและการทำธุรกิจ ดร.ชาติชาย ผ่านการรับรอง Certified Financial Planner (CFP) ซึ่งเป็นประกาศนียบัตรสำหรับนักวางแผนการเงิน ระดับสากลที่ได้รับการเชื่อถือมากที่สุด รวมถึงก่อตั้ง บริษัท CMSK จำกัด โดยมีวัตถุประสงค์เพื่อพัฒนา เป็น World Class Wealth Management Firm ปัจจุบัน ดร.ชาติชาย เป็น CEO และ นักวางแผน การเงินของ CMSK และวิทยากรให้กับสถาบัน การเงินชั้นนำหลายแห่ง และอยากพัฒนาบริการ Wealth Management ให้มีประสิทธิภาพสูงสุด กับคนทุกระดับ
+                        <p class="text_detail" style="text-indent: 30px;">จบปริญญาตรีด้านวิศวกรรมไฟฟ้าจากจุฬาลงกรณ์มหาวิทยาลัยและปริญญาโท-เอกด้านวิศวกรรมไฟฟ้าจาก University of Southern California (USC) หลักสูตรที่ได้รับการยอมรับเป็นอันดับต้นๆในประเทศอเมริกา ด้วยความสนใจด้านการเงินส่วนบุคคล ดร.ชาติชาย สอบผ่านการรับรองเป็น Certified Financial Planner (CFP) ซึ่งเป็นประกาศนียบัตรสำหรับนักวางแผนการเงินระดับสากลที่ได้รับการเชื่อถือมากที่สุด และก่อตั้งบริษัท CMSK จำกัดโดยมีวัตถุประสงค์เพื่อพัฒนาเป็น World Class Wealth Management Firm ด้วยประสบการณ์ในด้าน Wealth Management กว่า 8 ปี</p> <br> <p class="text_detail" style="text-indent: 30px;"> ปัจจุบัน ดร.ชาติชาย เป็น CEO และ นักวางแผนการเงินของ บริษัท CMSK รวมถึงเป็นวิทยากรให้กับสถาบันการเงินชั้นนำหลายแห่ง มีความสนใจเป็นพิเศษเกี่ยวกับการพัฒนาบริการ Wealth Management ให้มีประสิทธิภาพสูงสุดกับคนทุกระดับอย่างยั่งยืน
                         </p>
                         <div class="space_top"></div>
                         <p class="text_title text_blue">ประวัติการศึกษา</p>
                         <ul class="text_list">
-                            <li>ปริญญาตรี วิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย</li>
-                            <li>ปริญญาโท Electrical Engineering, University of Southern California, USA</li>
-                            <li>ปริญญาเอก Electrical Engineering, University of Southern California, USA</li>
+                            <li>ปริญญาโท - เอก วิศวกรรมไฟฟ้า University of Southern California, USA</li>
+                            <li>ปริญญาตรี วิศวกรรมไฟฟ้า จุฬาลงกรณ์ มหาวิทยาลัย</li>
+                         
                         </ul>
-                       <div class="space_top"></div>
+                        <div class="space_top"></div>
                         <p class="text_title text_blue">ประสบการณ์การทำงาน</p>
                         <ul class="text_list">
-                            <li>Certified Financial Planner (CFP), บริษัท CMSK จำกัด</li>
-                            <li>ตลาดการเงินระหว่างประเทศ</li>
-                            <li>วิทยากร สมาคมบริษัทจัดการลงทุน (AIMC) หลักสูตรผู้แนะนำการลงทุนด้านหลักทรัพย์ (Investor Contact) และ Financial Planning</li>
+                            <li>Certified Financial Planner, CEO, ผู้ก่อตั้งบริษัท CMSK จำกัด</li>
+                            <li>วิทยากร สมาคมบริษัทจัดการลงทุน (AIMC) และ สถาบันฝึกอบรม สมาคมบริษัทหลักทรัพย์ (ATI)</li>
+                            <li>วิทยากรฝึกอบรมให้กับพนักงานสถาบันการเงินต่างๆ เช่น ธนาคารกรุงเทพ, ธนาคารกสิกรไทย, ธนาคารไทยพาณิชย์, ธนาคารกรุงศรี, ธนาคารกรุงไทย, ธนาคารออมสิน, ธนาคารธนชาต, ธนาคารยูโอบี, ธนาคารซีไอเอ็มบีไทย, ธนาคารทิสโก้, ธนาคารสแตนดาร์ดชาร์เตอร์, บลจ. วรรณ, บลจ. กรุงศรี ฯลฯ </li>
                         </ul>
                     </div>
                 </div>
