@@ -24,7 +24,7 @@ include('header.php');
             <div class="blog_wrapper_in">
                 <div class="blog_list">
                     <div class="blog-content">
-                        <div class="blog-img"><img src="https://unsplash.it/1200/850?image=1" alt=""></div>
+                        <div class="blog-img"><a href="./blog_single.php"><img src="https://unsplash.it/1200/850?image=1" alt=""></a></div>
                         <div class="blog-detail">
                             <p class="blog-title">
                                 นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด
@@ -37,7 +37,7 @@ include('header.php');
                 </div>
                 <div class="blog_list">
                     <div class="blog-content">
-                        <div class="blog-img"><img src="https://unsplash.it/1200/850?image=7" alt=""></div>
+                        <div class="blog-img"><a href="./blog_single.php"><img src="https://unsplash.it/1200/850?image=7" alt=""></a></div>
                         <div class="blog-detail">
                             <p class="blog-title">
                                 นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด
@@ -50,7 +50,7 @@ include('header.php');
                 </div>
                 <div class="blog_list">
                     <div class="blog-content">
-                        <div class="blog-img"><img src="https://unsplash.it/1200/850?image=24" alt=""></div>
+                        <div class="blog-img"><a href="./blog_single.php"><img src="https://unsplash.it/1200/850?image=24" alt=""></a></div>
                         <div class="blog-detail">
                             <p class="blog-title">
                                 นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด
@@ -63,7 +63,7 @@ include('header.php');
                 </div>
                 <div class="blog_list">
                     <div class="blog-content">
-                        <div class="blog-img"><img src="http://placehold.it/1200x850" alt=""></div>
+                        <div class="blog-img"><a href="./blog_single.php"><img src="http://placehold.it/1200x850" alt=""></a></div>
                         <div class="blog-detail">
                             <p class="blog-title">
                                 นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด

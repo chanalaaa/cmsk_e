@@ -2079,18 +2079,19 @@ ul.module li {
     padding-left: 1em;
     padding-bottom: 5px;
 }
-.payment_wrapper ul.module li a{
+
+.payment_wrapper ul.module li a {
     color: #4d4d4d;
 }
+
 .creditcard_payment .btn_green_long {
     width: 166px;
 }
 
 @media(max-width: 480px) {
     .payment_page.info li {
-    font-size: 1.5em;
-}
-
+        font-size: 1.5em;
+    }
     .payment_page.info.course_wrapper_in .course_left {
         width: 36%;
         float: left;
@@ -2372,6 +2373,11 @@ ul.text_list li {
     overflow: hidden;
 }
 
+/*
+.blog-img:hover {
+    opacity: .8;
+}
+*/
 .blog-img img {
     width: 100%;
     position: absolute;
@@ -2666,6 +2672,12 @@ ul.text_list li {
     box-sizing: border-box;
 }
 
+/*
+.card-img:hover {
+    opacity: .8;
+}
+*/
+
 .card > .card-img img {
     margin: 0 auto;
     width: 60%;
@@ -2883,7 +2895,8 @@ a.take_me_home:active {
     margin-top: 10px;
 }
 
-.cmsk_register_wrapper .cmsk_register_form input {
+.cmsk_register_wrapper .cmsk_register_form input,
+.cmsk_register_wrapper .cmsk_register_form textarea {
     font-family: inherit;
     font-size: 1.3em;
     width: 97%;
@@ -2892,6 +2905,11 @@ a.take_me_home:active {
     border: none;
     padding-left: 3%;
     margin-top: 10px;
+}
+
+.cmsk_register_wrapper .cmsk_register_form textarea {
+    max-width: 97%;
+    min-height: 100px;
 }
 
 .cmsk_register_form input::-webkit-input-placeholder {
@@ -3817,9 +3835,8 @@ i.play:active {
     .cmsk_register_wrapper p.cmsk_register_head {
         font-size: 2.3em;
     }
-    .course_wrapper_in .course_right .button_wrap,.cmsk_register_button {
-
-    text-align: center;
-}
-
+    .course_wrapper_in .course_right .button_wrap,
+    .cmsk_register_button {
+        text-align: center;
+    }
 }

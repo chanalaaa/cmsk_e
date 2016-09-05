@@ -29,8 +29,7 @@ include('header.php');
 
 			<!-- cmsk_register_wrapper -->
 			<div class="cmsk_register_wrapper">
-			<p class="cmsk_register_head "> <span>หลักสูตร <br></span>Fast Lane Single License (ติวสอบ 15 ชม.)
-ราคา 1,990 บาท</p>
+			<p class="cmsk_register_head "> <span>หลักสูตร <br></span>FASTLANE Single License</p>
 
 				<form class="cmsk_register_form">
 					<input name="name" placeholder="ชื่อ">
@@ -38,6 +37,8 @@ include('header.php');
 					<input name="email" placeholder="อีเมล์">
 					<input name="password" placeholder="รหัสผ่าน">
 					<input name="comfirm_password" placeholder="ยืนยันรหัสผ่าน">
+					<input name="tel" placeholder="เบอร์โทรศัพท์">
+					<textarea name="adds" placeholder="ที่อยู่"></textarea>
 					<div class="cmsk_register_button">
 						<a class="btn btn_green_long" id="btnRegis_done" href="payment.php"><span>ดำเนินการต่อ</span></a>
 					</div>

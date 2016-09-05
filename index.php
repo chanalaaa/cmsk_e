@@ -18,7 +18,7 @@ include('header.php');
                         <li>
                             <img src="img/Banner-01.jpg" />
                             <div id="seemore">
-                                <a class="btn btn_seemore_white" href="#">
+                                <a class="btn btn_seemore_white" href="./course.php">
                                     <span class="">อ่านรายละเอียด</span>
                                 </a>
                             </div>
@@ -26,7 +26,7 @@ include('header.php');
                         <li>
                             <img src="img/Banner-02.jpg" />
                             <div id="seemore">
-                                <a class="btn btn_seemore_white" href="#">
+                                <a class="btn btn_seemore_white" href=" ./register.php">
                                     <span class="">อ่านรายละเอียด</span>
                                 </a>
                             </div>
@@ -34,7 +34,7 @@ include('header.php');
                         <li>
                             <img src="img/Banner-03.jpg" />
                             <div id="seemore">
-                                <a class="btn btn_seemore_white" href="#">
+                                <a class="btn btn_seemore_white" href=" ./register.php">
                                     <span class="">อ่านรายละเอียด</span>
                                 </a>
                             </div>
@@ -221,7 +221,7 @@ include('header.php');
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="https://unsplash.it/1200/850?image=1" alt="">
+                                   <a href="./blog_single.php"><img src="https://unsplash.it/1200/850?image=1" alt=""></a>
                             </div>
                             <div class="card_content">
                                 <p class="card-name"><a href="#">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด </a></p>
@@ -237,7 +237,7 @@ include('header.php');
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="https://unsplash.it/1200/850?image=7" alt="">
+                                  <a href="./blog_single.php"><img src="https://unsplash.it/1200/850?image=7" alt=""></a>
                             </div>
                             <div class="card_content">
                                 <p class="card-name"><a href="#">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK </a></p>
@@ -252,7 +252,7 @@ include('header.php');
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                <img src="https://unsplash.it/1200/850?image=24" alt="">
+                                <a href="./blog_single.php"><img src="https://unsplash.it/1200/850?image=24" alt=""></a>
                             </div>
                             <div class="card_content">
                                 <p class="card-name"><a href="#">CEO นักวางแผนการเงิน</a></p>
@@ -340,7 +340,7 @@ include('header.php');
                     <div class="text_slide">
                         <ul class="faq">
                             <li class="question">
-                                <p class="faq_head">ระบบการเรียน (Single License FASTLANE) เป็นอย่างไร?</p>
+                                <p class="faq_head">ระบบการเรียน (FASTLANE Single License) เป็นอย่างไร?</p>
                             </li>
                             <li class="answer">
                                 <p>ผู้เรียนสามารถดูวีดีโอผ่านระบบออนไลน์ประกอบกับเอกสารที่จัดส่งไปให้ เนื้อหาประกอบไปด้วยแนวข้อสอบพร้อมคำอธิบาย และได้ทำข้อสอบจำลอง (FSIM) แบบครบถ้วน อีกเป็นจำนวน 3 ชุด</p>

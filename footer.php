@@ -18,9 +18,9 @@
                 <ul class="contact_info">
                          <li>
                         <div class="contact_icon">
-                            <a class="icon_fb"></a>
+                            <a href="https://www.facebook.com/cmsktraining/" class="icon_fb"></a>
                         </div>
-                        <p><a href="#">Facebook</a></p>
+                        <p><a href="https://www.facebook.com/cmsktraining/">Facebook</a></p>
                     </li>
                     <li>
                         <div class="contact_icon">
@@ -33,21 +33,21 @@
 
                     <li>
                         <div class="contact_icon">
-                            <a class="icon_phone"></a>
+                            <a href="092-270-2115" class="icon_phone"></a>
                         </div>
-                        <p>โทร: 092-270-2115</p>
+                        <p><a href="092-270-2115">โทร: 092-270-2115</a></p>
                     </li>
                     <li>
                         <div class="contact_icon">
-                            <a class="icon_letter"></a>
+                            <a href="mailto:training@cmsk.co.th" class="icon_letter"></a>
                         </div>
                         <p>Email: <a href="mailto:training@cmsk.co.th">training@cmsk.co.th</a></p>
                     </li>
                     <li>
                         <div class="contact_icon">
-                            <a class="icon_pin"></a>
+                            <a href="https://wego.here.com/directions/mylocation/e-eyJuYW1lIjoiQ01TSyBXZWFsdGggQWNhZGVteSIsImFkZHJlc3MiOiIxMjZcLzEwMyBcdTBlMGFcdTBlMzFcdTBlNDlcdTBlMTkgMjYgXHUwZTJkXHUwZTMyXHUwZTA0XHUwZTMyXHUwZTIzXHUwZTQ0XHUwZTE3XHUwZTIyXHUwZTI4XHUwZTIzXHUwZTM1IChcdTBlMGJcdTBlMzUgXHUwZTQwXHUwZTJkXHUwZTQ3XHUwZTIxIFx1MGUxN1x1MGUzMlx1MGUyN1x1MGU0MFx1MGUyN1x1MGUyZFx1MGUyM1x1MGU0YykgXHUwZTE2XHUwZTE5XHUwZTE5XHUwZTAxXHUwZTIzXHUwZTM4XHUwZTA3XHUwZTE4XHUwZTE5XHUwZTFhXHUwZTM4XHUwZTIzXHUwZTM1IFx1MGU0MVx1MGUwMlx1MGUyN1x1MGUwN1x1MGUxYVx1MGUzMlx1MGUwN1x1MGUyNVx1MGUzM1x1MGUyMFx1MGUzOVx1MGUyNVx1MGU0OFx1MGUzMlx1MGUwNyBcdTBlNDBcdTBlMDJcdTBlMTVcdTBlMDRcdTBlMjVcdTBlMmRcdTBlMDdcdTBlMmFcdTBlMzJcdTBlMTksIEJhbmdrb2ssIFRoYWlsYW5kIiwibGF0aXR1ZGUiOjEzLjcyMDQ2NzY3NjMxNSwibG9uZ2l0dWRlIjoxMDAuNTAxMTQwNDY0NTYsInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6NTY2NjU3OTEzNDQ2ODcwfQ==?map=13.720467676315,100.50114046456,17,normal&ref=facebook&link=addresses&fb_locale=en_GB" class="icon_pin"></a>
                         </div>
-                        <p><a href="#">ดูแผนที่</a></p>
+                        <p><a href="https://wego.here.com/directions/mylocation/e-eyJuYW1lIjoiQ01TSyBXZWFsdGggQWNhZGVteSIsImFkZHJlc3MiOiIxMjZcLzEwMyBcdTBlMGFcdTBlMzFcdTBlNDlcdTBlMTkgMjYgXHUwZTJkXHUwZTMyXHUwZTA0XHUwZTMyXHUwZTIzXHUwZTQ0XHUwZTE3XHUwZTIyXHUwZTI4XHUwZTIzXHUwZTM1IChcdTBlMGJcdTBlMzUgXHUwZTQwXHUwZTJkXHUwZTQ3XHUwZTIxIFx1MGUxN1x1MGUzMlx1MGUyN1x1MGU0MFx1MGUyN1x1MGUyZFx1MGUyM1x1MGU0YykgXHUwZTE2XHUwZTE5XHUwZTE5XHUwZTAxXHUwZTIzXHUwZTM4XHUwZTA3XHUwZTE4XHUwZTE5XHUwZTFhXHUwZTM4XHUwZTIzXHUwZTM1IFx1MGU0MVx1MGUwMlx1MGUyN1x1MGUwN1x1MGUxYVx1MGUzMlx1MGUwN1x1MGUyNVx1MGUzM1x1MGUyMFx1MGUzOVx1MGUyNVx1MGU0OFx1MGUzMlx1MGUwNyBcdTBlNDBcdTBlMDJcdTBlMTVcdTBlMDRcdTBlMjVcdTBlMmRcdTBlMDdcdTBlMmFcdTBlMzJcdTBlMTksIEJhbmdrb2ssIFRoYWlsYW5kIiwibGF0aXR1ZGUiOjEzLjcyMDQ2NzY3NjMxNSwibG9uZ2l0dWRlIjoxMDAuNTAxMTQwNDY0NTYsInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6NTY2NjU3OTEzNDQ2ODcwfQ==?map=13.720467676315,100.50114046456,17,normal&ref=facebook&link=addresses&fb_locale=en_GB">ดูแผนที่</a></p>
                     </li>
                 </ul>
             </div>
@@ -69,7 +69,7 @@
             </div>
             <div class="copyright">
                 <p class="text_arial">Copyright ©
-                    <?php echo date('Y'); ?> <span class="">CMSK Co., Ltd.</span> All Rights Reserved. Powered by CMSK Academy.</p>
+                    <?php echo date('Y'); ?> <span class="">CMSK Co., Ltd.</span> All Rights Reserved.<br> Powered by CMSK Academy.</p>
             </div>
         </div>
         <!-- end footer_wrap -->
