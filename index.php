@@ -221,15 +221,15 @@ include('header.php');
                     <li class="card_item">
                         <div class="card">
                             <div class="card-img">
-                                   <a href="./blog_single.php"><img src="https://unsplash.it/1200/850?image=1" alt=""></a>
+                                   <a href="./blog_single01.php"><img src="./img/blog01.jpg" alt=""></a>
                             </div>
                             <div class="card_content">
-                                <p class="card-name"><a href="#">นักวางแผนการเงิน, CEO และผู้ก่อตั้ง บริษัท CMSK Wealth Management จำกัด </a></p>
-                                <p class="card-points blog-date">13 ส.ค. 2559</p>
+                                <p class="card-name"><a href="./blog_single01.php">เคล็ด(ไม่)ลับ เพื่อสอบผ่านในครั้งเดียว </a></p>
+                                <p class="card-points blog-date">06 ก.ย. 2559</p>
                                 <p class="card-detail">
-                                    รากหญ้าการันตีเฮียโปรเจ็คโอเลี้ยง ยูวีโรแมนติกมาร์ชกระดี๊กระด๊าโคโยตี จอหงวนสเตชั่นเปียโน มายองเนสเทป สแตนดาร์ดบัตเตอร์ มอลล์โฮสเตสซีเนียร์ จิตเภทลิมูซีน วิทย์ ราเมนซิ้มสามแยกช็อป ม้าหินอ่อนเอ็นทรานซ์ซิตี
+                                   เมื่อทุกคนเตรียมตัวพร้อมสำหรับการสอบใบอนุญาตฯแล้ว ก่อนไปสอบและระหว่างการสอบนั้น ยังคงมีความสำคัญไม่ยิ่งหย่อนไปกว่าความรู้ที่มี จากประสบการณ์ของผมที่ได้บรรยายให้ผู้ที่เตรียมตัวสอบมาแล้วหลายพันคน ขอแนะนำเคล็ดลับ
                                 </p>
-                                <a href="blog_single.php" class="blog-readmore">อ่านต่อ</a>
+                                <a href="blog_single01.php" class="blog-readmore">อ่านต่อ</a>
                             </div>
                             </a>
                         </div>

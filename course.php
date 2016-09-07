@@ -36,8 +36,8 @@ include('header.php');
                     </div>
                     <div class="module_section">
                         <p class="module_head text_blue">เนื้อหาในหลักสูตรนำมาจากหนังสือ 2 เล่มคือ</p>
-                        <img class="course_bookImg" src="http://placehold.it/320x400" alt="">
-                        <img class="course_bookImg" src="http://placehold.it/320x400" alt="">
+                        <img class="course_bookImg" src="./img/Book1.png" alt="">
+                        <img class="course_bookImg" src="./img/Book2.jpg" alt="">
                     </div>
                     <div class="course_intro_wrap">
                         <p>ซึ่งเป็นหนังสือที่กำหนดโดย ศูนย์ส่งเสริมการพัฒนาความรู้ตลาดทุน (TSI) เพื่อใช้เตรียมตัวสอบใบอนุญาตฯ
@@ -48,7 +48,7 @@ include('header.php');
                     </div>
                     <div class="module_section">
                         <p class="module_head text_blue">เนื้อหาที่สำคัญถูกนำมาย่อรวมกันอยู่ใน หนังสือคู่มือประกอบการเรียน FASTLANE Single License</p>
-                        <img class="course_bookImg" src="http://placehold.it/320x400" alt="">
+                        <img class="course_bookImg" src="./img/Book3.png" alt="">
                         <div class="course_intro_wrap">
                             <p>หนังสือที่คุณจะได้รับเล่มนี้ประกอบไปด้วยโจทย์ที่สอดคล้องกับแนวข้อสอบและมีคำอธิบายเนื้อหาที่สำคัญที่เพียงพอในการทำความเข้าใจ หนังสือคู่มือนี้จะจัดส่งให้ภายใน 3 วัน นับตั้งแต่วันที่มีการชำระเงินเพื่อลงทะเบียน เมื่อได้รับหนังสือแล้ว ผู้ลงทะเบียนสามารถปฏิบัติตาม ขั้นตอนการเตรียมตัวเพื่อสอบ Single License ให้ผ่าน ดังต่อไปนี้
                             </p>
@@ -60,11 +60,12 @@ include('header.php');
                                 <li>ทำโจทย์ข้อสอบจำลอง FSIM ให้ครบ 3 ชุด พร้อมศึกษาเฉลยอย่างละเอียด</li>
                             </ol>
                         </div>
-                        <div class="module_section">
+                   <br>
+         
                             <div class="course_intro_wrap">
                                 <p>เมื่อทำครบถ้วน 5 ขั้นตอน คุณก็จะพร้อมที่จะสอบแล้ว !!! <br>ขั้นตอนการสมัครสอบอ่านได้<a href="#">ที่นี่</a> ก่อนไปสอบจริงต้องอ่าน <a href="#" >เคล็ดลับเพื่อเพิ่มโอกาสสอบผ่านในครั้งเดียว </a>
                             </div>
-                        </div>
+                    
                         <div class="module_section">
                             <p class="module_head text_blue">ชมตัวอย่างการเรียน</p>
                             <br>
