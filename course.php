@@ -78,7 +78,7 @@ include('header.php');
                         </div>
                         <br>
                         <br>
-                        <p class="price_box"><span>หลักสูตร </span>FASTLANE Single License (ติวสอบ 15 ชม.) ราคา 1,990 บาท</p>
+                        <p class="price_box"><span>คอร์ส </span>FASTLANE Single License <span>ราคา 1,990 บาท</span></p>
                         <div class="button_wrap">
                             <a href="register.php" class="btn btn_green btn_regis" href="course_practice.php">
                                 <span>สมัครเรียน</span></a>

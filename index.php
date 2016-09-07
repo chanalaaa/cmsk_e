@@ -19,7 +19,7 @@ include('header.php');
                             <img src="img/Banner-01.jpg" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href="./course.php">
-                                    <span class="">อ่านรายละเอียด</span>
+                                    <span class="">รายละเอียดคอร์ส</span>
                                 </a>
                             </div>
                         </li>
@@ -27,7 +27,7 @@ include('header.php');
                             <img src="img/Banner-02.jpg" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href=" ./register.php">
-                                    <span class="">อ่านรายละเอียด</span>
+                                    <span class="">รู้จักกับวิทยากร</span>
                                 </a>
                             </div>
                         </li>
@@ -35,7 +35,7 @@ include('header.php');
                             <img src="img/Banner-03.jpg" />
                             <div id="seemore">
                                 <a class="btn btn_seemore_white" href=" ./register.php">
-                                    <span class="">อ่านรายละเอียด</span>
+                                    <span class="">สมัครเรียน</span>
                                 </a>
                             </div>
                         </li>
@@ -181,14 +181,14 @@ include('header.php');
                 <br>
                 <br>
                 <ul class="list_cmsk_row_re">
-                    <li><div class="imglist_cmsk_row_re"><img src="img/ico_01.png" alt=""></div>
+                    <li class="plus"><div class="imglist_cmsk_row_re"><img src="img/ico_01.png" alt=""></div>
                         <p>วิดีโอบรรยายโดย วิทยากร Dr.Job</p>
                     </li>
-                    <li><img src="img/ico_02.png" alt="">
-                        <p>หนังสือประกอบการเรียน ที่มีโจทย์และเนื้อหาที่สำคัญ
+                    <li class="plus2"><img src="img/ico_02.png" alt="">
+                        <p>หนังสือประกอบการเรียน <br>ที่มีโจทย์และเนื้อหาที่สำคัญ
                         </p>
-                    </li>
-                    <li><img src="img/ico_03.png" alt="">
+                    </li >
+                    <li class="plus"><img src="img/ico_03.png" alt="">
                         <p>ข้อสอบจำลอง FSIM</p>
                     </li>
                     <li><img src="img/ico_04.png" alt="">
@@ -197,7 +197,10 @@ include('header.php');
                 </ul>
                 <br>
                 <br>
-                <p class="text_description">ให้คุณมั่นใจได้ว่าการสอบผ่าน Single license ไม่ใช่เรื่องยาก</p>
+                <p class="text_description">ให้คุณมั่นใจได้ว่าการสอบผ่านการสอบไม่ใช่เรื่องยาก 
+                   <p class="text_b text_green">FASTLANE Single License</p>
+                       <p class="text_b text_blue">ราคา 1,990 บาท</p>
+                </p>
                 <br>
                 <div class="button_wrap">
                     <!-- <a class="btn btn_black" href="#"><span>ดูต่อทั้งหมด</span></a> -->
@@ -277,14 +280,14 @@ include('header.php');
                 <ul class="card_block">
                     <li class="card_item">
                         <div class="card">
-                            <div class="card-img">
+                         <div class="card-img">
                                 <img src="img/p1.jpg" alt="">
                             </div>
                             <div class="card_content">
-                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-name">คุณวรรณภา ว่องปฏิเวธ</p>
                                 <p class="card-points">คะแนนสอบ: 150</p>
                                 <p class="card-detail">
-                                    แอ็คชั่นเซรามิกแตงกวากีวี แครอทมาร์เก็ต ไฮไลท์เคอร์ฟิวฟลุทมอนสเตอร์คอลัมนิสต์ จุ๊ย เป็นไงอินเตอร์ยอมรับ ซาฟารีเทรนด์ฮองเฮาโค้ก อลซ์พุดดิ้งวาซาบิคอนเทนเนอร์ผ้าห่ม ซิลเวอร์ เห็นด้วย ธรรมากฤษณ์รีสอร์ทแอ็กชั่น คอลเล็กชั่นบอยคอตป๋าวโรกาส
+                                    ไปติวมา 2 วันคะ ตอนแรกก่อนติวจากไม่รู้เลยว่าจะเอาความรู้อะไรเข้าไปสอบ แต่พอติวแล้วรู้สึกมั่นใจมากขึ้น อาจารย์เก่งมากค่ะ ถึงแม้ข้อสอบที่อาจารย์ให้ลองทำ มันจะไม่ค่อยตรงกับข้อสอบซะทีเดียว แต่มันก็ทำให้เรามีแนวทางในการที่จะเลือกคำตอบได้ จนเมื่อวานไปสอบก็สามารถสอบผ่าน ดีใจมากกก ขอบคุณอาจารย์มากๆ นะค่ะ ที่ตั้งใจสอนอย่างเต็มที่ ไม่เสียดายเงินค่าติวเลยคะ
                                 </p>
                             </div>
                         </div>
@@ -295,10 +298,10 @@ include('header.php');
                                 <img src="img/p2.jpg" alt="">
                             </div>
                             <div class="card_content">
-                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                                <p class="card-name">Ratthapon Saetae</p>
                                 <p class="card-points">คะแนนสอบ: 150</p>
                                 <p class="card-detail">
-                                    แอ็คชั่นเซรามิกแตงกวากีวี แครอทมาร์เก็ต ไฮไลท์เคอร์ฟิวฟลุทมอนสเตอร์คอลัมนิสต์ จุ๊ย เป็นไงอินเตอร์ยอมรับ ซาฟารีเทรนด์ฮองเฮาโค้ก
+                                    ไม่เคยเรียน Single License จากที่ไหนมาก่อน อ่านเองก็ไปได้ไม่กี่บท เนื้อหาเยอะมาก จับจุดไม่ถูกว่าควรเน้นตรงไหน แต่อยากสอบ Single License ให้ผ่านเพื่ออนาคตตัวเอง..ถ้าคุณกำลังประสบปัญหาเหล่านี้ผมขอแนนะนำคอร์สติวสอบกับดร.จ๊อบที่ CMSK ที่ไม่ใช่แค่ติวตะลุยโจทย์ แต่สอนเนื้อหาในจุดสำคัญๆด้วย ติวที่เดียว หนังสือเล่มเดียว กับเนื้อหาที่คัดมาเน้นๆ สอบครั้งแรกก็ผ่านละครับ
                                 </p>
                             </div>
                         </div>
@@ -308,21 +311,33 @@ include('header.php');
                             <div class="card-img">
                                 <img src="img/p3.jpg" alt="">
                             </div>
-                            <div class="card_content">
-                                <p class="card-name">อัญชลี ฆ่าหมีด้วยมือเปล่า</p>
+                           <div class="card_content">
+                                <p class="card-name">Ying Pawinee</p>
                                 <p class="card-points">คะแนนสอบ: 150</p>
                                 <p class="card-detail">
-                                    แครกเกอร์โบรกเกอร์เวิร์คกาญจน์ โบ้ยกราวนด์ คอมเมนท์ล้มเหลวเซ็กส์หลวงปู่ โพลล์ฟลุกบริกรโฟน แอคทีฟมายาคติฟินิกซ์เซฟตี้พลานุภาพ ก๊วนเอ๋อวโรกาส ฟลุคสแล็ก ฟอยล์มาร์ตแช่แข็ง มาร์จินซานตาคลอสโยเกิร์ต
+                                    อาจารย์สอนดีมากเลยค่ะ เข้าใจง่ายขึ้นมาก มีเทคนิคต่างๆที่ช่วยให้เข้าใจได้มากขึ้น ขอบคุณอาจารย์มากเลยค่ะ
                                 </p>
                             </div>
                         </div>
                     </li>
                 </ul>
-                <a href="impressions.php" class="blog-readmore all visble_mobile">ดูทั้งหมด</a>
+                <a href="impressions.php" class="blog-readmore all">ูความประทับใจทั้งหมด</a>
             </div>
             <!-- end impressions_wrapper_in -->
         </div>
     </div>
+                  <div class="section simple_couse">
+                   <div class="wrapper">
+                            <p class="module_head">ชมตัวอย่างการเรียน</p>
+                            <br>
+                            <div class="player">
+                                <video>
+                                    <source type="video/webm" src="//stream.flowplayer.org/bauhaus.webm">
+                                    <source type="video/mp4" src="//www.sample-videos.com/video/mp4/480/big_buck_bunny_480p_1mb.mp4">
+                                </video>
+                            </div>
+                            </div>
+                        </div>
     <!-- cmsk_row1_4col -->
     <div class="cmsk_row1_4col bg_gray text_white faq_wrap">
         <!-- wrapper -->
@@ -331,7 +346,7 @@ include('header.php');
             <div class="cmsk_row1_4col_wrap">
                 <!-- cmsk_row1_4col_left -->
                 <div class="cmsk_row1_4col_left">
-                    <p class="text_subhead">FAQ</p>
+                    <p class="text_subhead">คำถามที่พบบ่อย</p>
                 </div>
                 <!-- end cmsk_row1_4col_left -->
                 <!-- cmsk_row1_4col_right -->

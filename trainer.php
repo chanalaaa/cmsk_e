@@ -55,10 +55,27 @@ include('header.php');
                 </div>
             </div>
             <!-- end trainer_wrapper -->
+               <div class="section">
+      <p class="text_headline text_center_desk">
+                <br><span>ภาพบางส่วนของการจัดอบรมที่ผ่านมา</span> </p>
+        <ul class="trainer_listImg">
+            <li><img src="./img/tt1.jpg" alt=""></li>
+            <li><img src="./img/tt2.jpg" alt=""></li>
+            <li><img src="./img/tt3.jpg" alt=""></li>
+            <li><img src="./img/tt4.jpg" alt=""></li>
+            <li><img src="./img/tt5.jpg" alt=""></li>
+            <li><img src="./img/tt6.jpg" alt=""></li>
+            <li><img src="./img/tt7.jpg" alt=""></li>
+            <li><img src="./img/tt8.jpg" alt=""></li>
+            <li><img src="./img/tt9.jpg" alt=""></li>
+        </ul>
+
+        </div>
         </div>
         <!-- end wrapper -->
     </div>
     <!-- end trainer_wrapper -->
+
 </div>
 <!-- end cmsk_main_content -->
 <?php include('footer.php'); ?>

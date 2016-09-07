@@ -11,7 +11,7 @@ include('header.php');
     <div class="headpage_banner">
         <!-- wrapper -->
         <div class="wrapper">
-            <p class="page_topic text_white">ความรู้ที่เกี่ยวข้อง</p>
+            <p class="page_topic text_white">เรื่องราวต้องรู้ก่อนสอบ</p>
         </div>
         <!-- end wrapper -->
     </div>
