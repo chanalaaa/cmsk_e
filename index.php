@@ -197,9 +197,9 @@ include('header.php');
                 </ul>
                 <br>
                 <br>
-                <p class="text_description">ให้คุณมั่นใจได้ว่าการสอบผ่านการสอบไม่ใช่เรื่องยาก 
-                   <p class="text_b text_green">FASTLANE Single License</p>
-                       <p class="text_b text_blue">ราคา 1,990 บาท</p>
+                <div class="blue_box home">
+                <p class="text_description text_blue">ให้คุณมั่นใจได้ว่าการสอบผ่านการสอบไม่ใช่เรื่องยาก 
+                   <p class="text_b ">FASTLANE Single License ราคา 1,990 บาท</p>
                 </p>
                 <br>
                 <div class="button_wrap">
@@ -208,6 +208,8 @@ include('header.php');
                     <span class="btn_regis main btn_next"><a class="btn btn_green btn_regis" href="register.php"><span>สมัครเรียน</span></a>
                     </span>
                 </div>
+                </div>
+                
             </div>
             <!-- end cmsk_row1_text -->
         </div>
@@ -321,13 +323,19 @@ include('header.php');
                         </div>
                     </li>
                 </ul>
-                <a href="impressions.php" class="blog-readmore all">ูความประทับใจทั้งหมด</a>
+                <a href="impressions.php" class="blog-readmore all">ดูความประทับใจทั้งหมด...</a>
             </div>
             <!-- end impressions_wrapper_in -->
         </div>
     </div>
-                  <div class="section simple_couse">
-                   <div class="wrapper">
+                  <div class="section simple_course">
+                   <div class="wrapper ">
+                   <div class="sp_block first">
+                       <p>Video Preview</p>
+                       <p>E-learning Course</p>
+                        <p>FASTLANE Single License</p>
+                   </div>
+                   <div class="sp_block">
                             <p class="module_head">ชมตัวอย่างการเรียน</p>
                             <br>
                             <div class="player">
@@ -337,6 +345,7 @@ include('header.php');
                                 </video>
                             </div>
                             </div>
+                        </div>
                         </div>
     <!-- cmsk_row1_4col -->
     <div class="cmsk_row1_4col bg_gray text_white faq_wrap">
