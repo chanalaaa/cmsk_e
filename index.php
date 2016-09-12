@@ -26,7 +26,7 @@ include('header.php');
                         <li>
                             <img src="img/Banner-02.jpg" />
                             <div id="seemore">
-                                <a class="btn btn_seemore_white" href=" ./register.php">
+                                <a class="btn btn_seemore_white" href=" ./trainer.php">
                                     <span class="">รู้จักกับวิทยากร</span>
                                 </a>
                             </div>
@@ -198,7 +198,7 @@ include('header.php');
                 <br>
                 <br>
                 <div class="blue_box home">
-                <p class="text_description text_blue">ให้คุณมั่นใจได้ว่าการสอบผ่านการสอบไม่ใช่เรื่องยาก 
+                <p class="text_description text_blue">ให้คุณมั่นใจได้ว่าการสอบผ่านไม่ใช่เรื่องยาก 
                    <p class="text_b ">FASTLANE Single License ราคา 1,990 บาท</p>
                 </p>
                 <br>
