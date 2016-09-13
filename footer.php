@@ -9,7 +9,7 @@
             <div class="address_wrap">
                 <address>
                     <h1 class=""><img class="cmsk_white_logo" src="img/cmsk_white_logo.png" alt=""></h1>
-                    <p>126/103 ชั้น 26 อาคารไทยศรี ถนนกรุงธนบุรี แขวงบางลำภูล่างเขตคลองสาน กรุงเทพ 10600 (สถานีรถไฟฟ้ากรุงธนบุรีทางออกที่ 2)</p>
+                    <p>126/103 ชั้น 26 อาคารไทยศรี ถนนกรุงธนบุรี แขวงบางลำภูล่าง <br>เขตคลองสาน กรุงเทพ 10600 (สถานีรถไฟฟ้ากรุงธนบุรีทางออกที่ 2)</p>
                 </address>
             </div>
             <!-- end address_wrap -->
@@ -45,9 +45,9 @@
                     </li>
                     <li>
                         <div class="contact_icon">
-                            <a href="https://wego.here.com/directions/mylocation/e-eyJuYW1lIjoiQ01TSyBXZWFsdGggQWNhZGVteSIsImFkZHJlc3MiOiIxMjZcLzEwMyBcdTBlMGFcdTBlMzFcdTBlNDlcdTBlMTkgMjYgXHUwZTJkXHUwZTMyXHUwZTA0XHUwZTMyXHUwZTIzXHUwZTQ0XHUwZTE3XHUwZTIyXHUwZTI4XHUwZTIzXHUwZTM1IChcdTBlMGJcdTBlMzUgXHUwZTQwXHUwZTJkXHUwZTQ3XHUwZTIxIFx1MGUxN1x1MGUzMlx1MGUyN1x1MGU0MFx1MGUyN1x1MGUyZFx1MGUyM1x1MGU0YykgXHUwZTE2XHUwZTE5XHUwZTE5XHUwZTAxXHUwZTIzXHUwZTM4XHUwZTA3XHUwZTE4XHUwZTE5XHUwZTFhXHUwZTM4XHUwZTIzXHUwZTM1IFx1MGU0MVx1MGUwMlx1MGUyN1x1MGUwN1x1MGUxYVx1MGUzMlx1MGUwN1x1MGUyNVx1MGUzM1x1MGUyMFx1MGUzOVx1MGUyNVx1MGU0OFx1MGUzMlx1MGUwNyBcdTBlNDBcdTBlMDJcdTBlMTVcdTBlMDRcdTBlMjVcdTBlMmRcdTBlMDdcdTBlMmFcdTBlMzJcdTBlMTksIEJhbmdrb2ssIFRoYWlsYW5kIiwibGF0aXR1ZGUiOjEzLjcyMDQ2NzY3NjMxNSwibG9uZ2l0dWRlIjoxMDAuNTAxMTQwNDY0NTYsInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6NTY2NjU3OTEzNDQ2ODcwfQ==?map=13.720467676315,100.50114046456,17,normal&ref=facebook&link=addresses&fb_locale=en_GB" class="icon_pin"></a>
+                            <a href="https://www.google.co.th/maps/place/CMSK/@13.720361,100.4995193,17z/data=!3m1!4b1!4m5!3m4!1s0x30e298e9142f40a5:0x27214a495f5455f!8m2!3d13.720361!4d100.501708?hl=en" class="icon_pin"></a>
                         </div>
-                        <p><a href="https://wego.here.com/directions/mylocation/e-eyJuYW1lIjoiQ01TSyBXZWFsdGggQWNhZGVteSIsImFkZHJlc3MiOiIxMjZcLzEwMyBcdTBlMGFcdTBlMzFcdTBlNDlcdTBlMTkgMjYgXHUwZTJkXHUwZTMyXHUwZTA0XHUwZTMyXHUwZTIzXHUwZTQ0XHUwZTE3XHUwZTIyXHUwZTI4XHUwZTIzXHUwZTM1IChcdTBlMGJcdTBlMzUgXHUwZTQwXHUwZTJkXHUwZTQ3XHUwZTIxIFx1MGUxN1x1MGUzMlx1MGUyN1x1MGU0MFx1MGUyN1x1MGUyZFx1MGUyM1x1MGU0YykgXHUwZTE2XHUwZTE5XHUwZTE5XHUwZTAxXHUwZTIzXHUwZTM4XHUwZTA3XHUwZTE4XHUwZTE5XHUwZTFhXHUwZTM4XHUwZTIzXHUwZTM1IFx1MGU0MVx1MGUwMlx1MGUyN1x1MGUwN1x1MGUxYVx1MGUzMlx1MGUwN1x1MGUyNVx1MGUzM1x1MGUyMFx1MGUzOVx1MGUyNVx1MGU0OFx1MGUzMlx1MGUwNyBcdTBlNDBcdTBlMDJcdTBlMTVcdTBlMDRcdTBlMjVcdTBlMmRcdTBlMDdcdTBlMmFcdTBlMzJcdTBlMTksIEJhbmdrb2ssIFRoYWlsYW5kIiwibGF0aXR1ZGUiOjEzLjcyMDQ2NzY3NjMxNSwibG9uZ2l0dWRlIjoxMDAuNTAxMTQwNDY0NTYsInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6NTY2NjU3OTEzNDQ2ODcwfQ==?map=13.720467676315,100.50114046456,17,normal&ref=facebook&link=addresses&fb_locale=en_GB">ดูแผนที่</a></p>
+                        <p><a href="https://www.google.co.th/maps/place/CMSK/@13.720361,100.4995193,17z/data=!3m1!4b1!4m5!3m4!1s0x30e298e9142f40a5:0x27214a495f5455f!8m2!3d13.720361!4d100.501708?hl=en">ดูแผนที่</a></p>
                     </li>
                 </ul>
             </div>

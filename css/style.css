@@ -75,6 +75,9 @@ strong {
     font-weight: bold !important;
 }
 
+.text_normal{
+    font-weight: normal !important;
+}
 @media (max-width: 500px) {
     .text_center_desk {
         text-align: left;
@@ -1381,7 +1384,13 @@ ul.bullet li {
 }
 
 .cmsk_row_re .cmsk_main_content .cmsk_row1_text p.text_description {
-    font-size: 1.65em;
+    font-size: 1.6em;
+
+}
+
+.cmsk_row_re .cmsk_main_content .cmsk_row1_text p.text_description.main {
+    font-size: 1.8em;
+    font-weight: 600;
 }
 
 .cmsk_row_re .cmsk_main_content .cmsk_row1_text .text_description {
@@ -2482,7 +2491,7 @@ ul.text_list li {
     font-size: 1.4em;
     text-decoration: underline;
     color: #00829a !important;
-    flex: 1;
+    flex: 1 0 auto;
 }
 
 .blog-readmore:hover {
@@ -2720,13 +2729,18 @@ ul.text_list li {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    flex:1;
     flex-direction: column;
     padding-top: 15px;
 }
 
 .card-img {
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;    
+  display: -moz-box;      
+  display: -ms-flexbox;    
+  display: -webkit-flex;  
+  display: flex;  
+  flex:0 0 auto;
     max-height: 190px;
     padding: 15px;
     box-sizing: border-box;
@@ -2748,8 +2762,11 @@ ul.text_list li {
 }
 
 .card_content {
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;    
+  display: -moz-box;      
+  display: -ms-flexbox;    
+  display: -webkit-flex;  
+  display: flex;  
     flex-flow: column;
     flex: 1 1 auto;
     padding: 15px 0;
@@ -3718,8 +3735,11 @@ ul.course_view_sublist li:nth-child(even) {
 }
 
 .blog_card .card-img {
-    display: -webkit-flex;
-    display: flex;
+      display: -webkit-box;    
+  display: -moz-box;      
+  display: -ms-flexbox;    
+  display: -webkit-flex;  
+  display: flex;  
     height: 190px;
     padding: 0px;
     box-sizing: border-box;
@@ -3728,6 +3748,11 @@ ul.course_view_sublist li:nth-child(even) {
 }
 
 .blog_card .card > .card-img img {
+      display: -webkit-box;    
+  display: -moz-box;      
+  display: -ms-flexbox;    
+  display: -webkit-flex;  
+  display: flex;  
     margin: 0 auto;
     width: 100%;
     border-radius: 0;

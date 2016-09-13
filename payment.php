@@ -69,13 +69,13 @@ include('header.php');
                 <!-- course_right -->
                 <div class="course_right">
                     <div class="course_intro_wrap">
-                        <p>วิธีการสมัคร Fast Lane Single License (ติวสอบ 15 ชม.)</p>
+                        <p>วิธีการสมัครคอร๋ส FASTLANE Single License</p>
                     </div>
                     <div class="module_section payment_process">
                         <ul class="module">
-                            <li>กรอกข้อมูลลงในใบสมัคร (download)</li>
+                           <!--  <li>กรอกข้อมูลลงในใบสมัคร (download)</li> -->
                             <li>โอนเงินเข้าบัญชี : บริษัท ซีเอ็มเอสเค จำกัดธนาคารไทยพาณิชย์ สาขาถนนตากสิน ประเภทบัญชีออมทรัพย์ เลขที่บัญชี 055-2-50698-4</li>
-                            <li>ถ่ายรูปหรือสแกนใบสมัคร หลักฐานการโอนเงิน และสำเนาบัตรประชาชนมาที่ E-mail: <a href="mailto:training@cmsk.co.th">training@cmsk.co.th</a> เพื่อยืนยันการลงทะเบียน</li>
+                            <li>ส่งหลักฐานการโอนเงิน และสำเนาบัตรประชาชนมาที่ E-mail: <a href="mailto:training@cmsk.co.th">training@cmsk.co.th</a> เพื่อยืนยันการลงทะเบียน</li>
                         </ul>
                     </div>
                     <div class="cmsk_payment_text ps">
